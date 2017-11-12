@@ -4,10 +4,12 @@
 from myServer import myServer
 from test_01 import test_01 as testcase
 import unittest
-from common.report import report
+import common.report as report
 createReport = report()
 import os
 import sys
+import time
+from common.log import logger
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -17,9 +19,9 @@ class runTest():
         pass
 
     def run(self):
-
         ms = myServer()
         ms.run()
+        time.sleep(5)
         # if ms.isServerStart():
         # ms.quit()
         suite = unittest.TestSuite()
@@ -35,4 +37,6 @@ if __name__ == '__main__':
     test = runTest()
     test.run()
     createReport.getfp().close()
+    log = logger(report.today_report_path).getlog()
+    log.info("test over")
 
