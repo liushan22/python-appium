@@ -1,0 +1,36 @@
+[INFO][setUp][2017-11-14 21:47:22,365]test_02
+[INFO][setUp][2017-11-14 21:48:40,520]test_02
+[INFO][test_passenger][2017-11-14 21:48:51,263]test_passenger
+[INFO][setUp][2017-11-14 21:49:45,769]test_01
+[INFO][test_login][2017-11-14 21:49:52,917]login
+[INFO][get_screenshot][2017-11-14 21:50:24,740]screenshot
+[INFO][get_screenshot][2017-11-14 21:50:24,740]screenshot
+[INFO][get_screenshot][2017-11-14 21:50:24,740]E:\python\testApp\result\20171114
+[INFO][get_screenshot][2017-11-14 21:50:24,740]E:\python\testApp\result\20171114
+[INFO][setUp][2017-11-14 21:50:26,361]test_02
+[INFO][setUp][2017-11-14 21:50:26,361]test_02
+[INFO][setUp][2017-11-14 21:50:26,361]test_02
+[INFO][setUp][2017-11-14 22:49:47,979]test_01
+[INFO][test_login][2017-11-14 22:49:47,979]login
+[INFO][setUp][2017-11-14 22:50:02,982]test_02
+[INFO][setUp][2017-11-14 22:50:02,982]test_02
+[INFO][setUp][2017-11-14 22:52:52,565]test_01
+[INFO][test_login][2017-11-14 22:52:52,565]login
+[INFO][get_screenshot][2017-11-14 22:53:07,566]screenshot
+[INFO][get_screenshot][2017-11-14 22:53:07,566]screenshot
+[INFO][get_screenshot][2017-11-14 22:53:07,566]E:\python\testApp\result\20171114
+[INFO][get_screenshot][2017-11-14 22:53:07,566]E:\python\testApp\result\20171114
+[INFO][setUp][2017-11-14 22:53:07,571]test_02
+[INFO][setUp][2017-11-14 22:53:07,571]test_02
+[INFO][setUp][2017-11-14 22:53:07,571]test_02
+[INFO][setUp][2017-11-14 23:13:36,351]test_02
+[INFO][setUp][2017-11-14 23:15:20,862]test_02
+[INFO][test_passenger][2017-11-14 23:15:20,864]test_passenger
+[INFO][setUp][2017-11-14 23:16:21,239]test_02
+[INFO][test_passenger][2017-11-14 23:16:21,239]test_passenger
+[INFO][setUp][2017-11-14 23:19:11,674]test_02
+[INFO][test_passenger][2017-11-14 23:19:11,674]test_passenger
+[INFO][setUp][2017-11-14 23:21:05,405]test_02
+[INFO][test_passenger][2017-11-14 23:21:05,405]test_passenger
+[INFO][<module>][2017-11-14 23:21:05,407]test over
+[INFO][<module>][2017-11-14 23:21:05,407]test over

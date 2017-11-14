@@ -3,9 +3,10 @@
 import os
 import unittest
 from time import sleep
-from common.driver import driver
+import driver
 from selenium.common.exceptions import WebDriverException
 import subprocess
+import time
 import urllib2
 
 
@@ -13,6 +14,7 @@ import urllib2
 class myServer():
     def __init__(self):
         self.appiumPath = "D:\Appium"
+        self.dr = driver.driver
 
     def run(self):
         print "--------appium server start----------"
@@ -28,18 +30,28 @@ class myServer():
 
     def isServerStart(self):
         try:
-            myDriver = driver()
-            dr = myDriver.driverConnect()
-            if dr:
-                return dr
+            self.dr = driver.driver().driverConnect()
+            if self.dr:
+                return True
             else:
-                return None
+                return False
         except WebDriverException as e:
             raise
 
     def quit(self):
         os.system('taskkill /f /im node.exe')
+        self.dr.quit()
         print "over"
+
+if __name__ == '__main__':
+    myserver = myServer()
+    myserver.run()
+    time.sleep(5)
+    if myserver.isServerStart():
+        print "ok"
+    else:
+        print "no"
+    myserver.quit()
 
 
 
