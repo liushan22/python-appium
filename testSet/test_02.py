@@ -5,14 +5,13 @@ from common.sreenshot import ScreenShot
 from selenium.common.exceptions import WebDriverException
 from common.log import logger
 import common.report as report
-import common.driver as driver
-dr = driver.driver
+from common.driver import driver
 
 
 class test_02(unittest.TestCase):
     def setUp(self):
-        global dr
-        self.driver = dr
+        self.dr = driver.__new__(driver)
+        self.driver = self.dr.getDriver()
         self.log = logger(report.today_report_path).getlog()
         self.log.info("test_02")
 

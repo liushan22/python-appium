@@ -4,8 +4,8 @@
 import unittest
 
 import common.report as report
-from testApp.testSet.common.myServer import myServer
-from test_01 import test_01 as testcase1
+from common.myServer import myServer
+# from test_01 import test_01 as testcase1
 from test_02 import test_02 as testcase2
 
 createReport = report.report()
@@ -19,23 +19,27 @@ sys.setdefaultencoding('utf8')
 
 class runTest():
     def __init__(self):
-        self.ms = myServer()
+        pass
 
     def run(self):
-        self.ms.run()
+        ms = myServer()
+        ms.run()
         time.sleep(5)
-        if self.ms.isServerStart():
+        driver = ms.isServerStart()
+        if driver:
             suite = unittest.TestSuite()
+            self.getDriver(driver)
             # suite.addTest(testcase1("test_login"))
             suite.addTest(testcase2("test_passenger"))
             runner = createReport.getReportConfig()
             # runner = unittest.TextTestRunner(verbosity=2)
             runner.run(suite)
+            ms.quit()
        # else:
            #  print "appium is not start"
 
-    def driverquit(self):
-        self.ms.quit()
+    def getDriver(self, driver):
+        return driver
 
 if __name__ == '__main__':
     test = runTest()

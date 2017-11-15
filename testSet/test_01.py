@@ -2,20 +2,19 @@
 from appium import webdriver
 import time
 import unittest
-import common.driver as driver
+from common.driver import driver
 from common.sreenshot import ScreenShot
 from selenium.common.exceptions import WebDriverException
 from common.log import logger
 import common.report as report
-dr = driver.driver
 
 class test_01(unittest.TestCase):
 
     def setUp(self):
-        global dr
-        self.driver = dr
         self.log = logger(report.today_report_path).getlog()
         self.log.info("test_01")
+        self.dr = driver.__new__(driver)
+        self.driver = self.dr.getDriver()
 
     def get_size(self):
         x = self.driver.get_window_size()['width']

@@ -2,7 +2,6 @@
 
 from appium import webdriver
 from selenium.common.exceptions import WebDriverException
-driver = ""
 
 
 class driver():
@@ -14,11 +13,8 @@ class driver():
         self.desired_caps['noReset'] = True
         self.desired_caps['appPackage'] = 'com.igola.travel'
         self.desired_caps['appActivity'] = 'com.igola.travel.ui.LaunchActivity'
+        self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', self.desired_caps)
 
-    def driverConnect(self):
-        global driver
-        try:
-            driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', self.desired_caps)
-            return driver
-        except WebDriverException as e:
-            raise
+    def getDriver(self):
+        return self.driver
+
