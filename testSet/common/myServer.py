@@ -13,13 +13,13 @@ import urllib2
 # 启动appium
 class myServer():
     def __init__(self):
-        # self.appiumPath = "D:\Appium"
-        self.appiumPath = "F:\\Appium"
+        self.appiumPath = "D:\Appium"
+        # self.appiumPath = "F:\\Appium"
 
     def run(self):
         print "--------appium server start----------"
-        # startCMD = "node C:\\Program Files (x86)\\Appium\\node_modules\\bin\\appium.js"
-        startCMD = "node Appium\\node_modules\\appium\\bin\\appium.js"
+        startCMD = "node D:\\Appium\\node_modules\\appium\\bin\\appium.js"
+        # startCMD = "node Appium\\node_modules\\appium\\bin\\appium.js"
         rootDirection = self.appiumPath[:2]
         # 启动appium
         # os.system(rootDirection + "&" + "cd" + self.appiumPath + "&" + startCMD)

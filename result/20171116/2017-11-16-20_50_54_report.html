@@ -189,8 +189,8 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>appium自动测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-11-16 19:37:52</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:45.457000</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-11-16 20:50:54</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:38.502000</p>
 <p class='attribute'><strong>Status:</strong> Error 1</p>
 
 <p class='description'>用例执行结果：</p>
@@ -245,29 +245,20 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-ft1.1: Traceback (most recent call last):
-  File "G:/gitwork/gitwork/python-appium/testSet\test_02.py", line 14, in setUp
-    self.driver = driver().getDriver()
-  File "G:/gitwork/gitwork/python-appium/testSet\common\driver.py", line 16, in __init__
-    self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', self.desired_caps)
-  File "C:\Python27\lib\site-packages\appium\webdriver\webdriver.py", line 36, in __init__
-    super(WebDriver, self).__init__(command_executor, desired_capabilities, browser_profile, proxy, keep_alive)
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 92, in __init__
-    self.start_session(desired_capabilities, browser_profile)
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 179, in start_session
-    response = self.execute(Command.NEW_SESSION, capabilities)
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+ft1.1: test_02
+test_passenger
+Traceback (most recent call last):
+  File "E:\python\testApp\testSet\test_02.py", line 26, in test_passenger
+    element = self.driver.find_element_by_class_name("android.support.v7.widget.RecyclerView")
+  File "D:\Ñ¸À×ÏÂÔØ\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 474, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "D:\Ñ¸À×ÏÂÔØ\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 832, in find_element
+    'value': value})['value']
+  File "D:\Ñ¸À×ÏÂÔØ\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 297, in execute
     self.error_handler.check_response(response)
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 192, in check_response
-    raise exception_class(message, screen, stacktrace)
-WebDriverException: Message: A new session could not be created. (Original error: Command failed: "F:\Android SDK\platform-tools\adb.exe" -s adb server version (31) doesn't match this client (39); killing... wait-for-device
-error: could not install *smartsocket* listener: cannot bind to 127.0.0.1:5037: éå¸¸æ¯ä¸ªå¥æ¥å­å°å(åè®®/ç½ç»å°å/ç«¯å£)åªåè®¸ä½¿ç¨ä¸æ¬¡ã (10048)
-
-This application has requested the Runtime to terminate it in an unusual way.
-Please contact the application's support team for more information.
-could not read ok from ADB Server
-* could not start server *
-)
+  File "D:\Ñ¸À×ÏÂÔØ\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
 
 
 
