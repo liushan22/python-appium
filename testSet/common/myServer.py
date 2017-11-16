@@ -15,7 +15,6 @@ class myServer():
     def __init__(self):
         # self.appiumPath = "D:\Appium"
         self.appiumPath = "F:\\Appium"
-        self.dr = driver().getDriver()
 
     def run(self):
         print "--------appium server start----------"
@@ -41,7 +40,7 @@ class myServer():
 
     def quit(self):
         os.system('taskkill /f /im node.exe')
-        self.dr.quit()
+
         print "over"
 
 if __name__ == '__main__':

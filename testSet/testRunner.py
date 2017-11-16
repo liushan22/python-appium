@@ -5,7 +5,7 @@ import unittest
 
 import common.report as report
 from common.myServer import myServer
-# from test_01 import test_01 as testcase1
+from test_01 import test_01 as testcase1
 from test_02 import test_02 as testcase2
 
 createReport = report.report()
@@ -25,16 +25,16 @@ class runTest():
         ms = myServer()
         ms.run()
         time.sleep(5)
-        driver = ms.isServerStart()
-        if driver:
-            suite = unittest.TestSuite()
-            self.getDriver(driver)
-            # suite.addTest(testcase1("test_login"))
-            suite.addTest(testcase2("test_passenger"))
-            runner = createReport.getReportConfig()
-            # runner = unittest.TextTestRunner(verbosity=2)
-            runner.run(suite)
-            ms.quit()
+        # driver = ms.isServerStart()
+        # if driver:
+        suite = unittest.TestSuite()
+        # self.getDriver(driver)
+        # suite.addTest(testcase1("test_login"))
+        suite.addTest(testcase2("test_passenger"))
+        runner = createReport.getReportConfig()
+        # runner = unittest.TextTestRunner(verbosity=2)
+        runner.run(suite)
+        ms.quit()
        # else:
            #  print "appium is not start"
 

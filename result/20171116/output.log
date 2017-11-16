@@ -1,0 +1,50 @@
+[INFO][<module>][2017-11-16 10:51:40,007]test over
+[INFO][<module>][2017-11-16 11:35:51,292]test over
+[INFO][<module>][2017-11-16 11:36:17,627]test over
+[INFO][setUp][2017-11-16 11:36:52,690]test_02
+[INFO][test_passenger][2017-11-16 11:36:52,690]test_passenger
+[INFO][<module>][2017-11-16 11:36:59,296]test over
+[INFO][<module>][2017-11-16 11:36:59,296]test over
+[INFO][<module>][2017-11-16 11:38:28,680]test over
+[INFO][setUp][2017-11-16 11:39:00,138]test_02
+[INFO][test_passenger][2017-11-16 11:39:05,151]test_passenger
+[INFO][test_passenger][2017-11-16 11:39:25,157]未登录
+[INFO][<module>][2017-11-16 11:39:26,030]test over
+[INFO][<module>][2017-11-16 11:39:26,030]test over
+[INFO][<module>][2017-11-16 11:40:55,775]test over
+[INFO][setUp][2017-11-16 11:41:59,546]test_02
+[INFO][test_passenger][2017-11-16 11:42:04,561]test_passenger
+[INFO][<module>][2017-11-16 11:42:10,206]test over
+[INFO][<module>][2017-11-16 11:42:10,206]test over
+[INFO][setUp][2017-11-16 11:42:56,598]test_02
+[INFO][test_passenger][2017-11-16 11:43:01,601]test_passenger
+[INFO][setUp][2017-11-16 11:44:29,589]test_02
+[INFO][test_passenger][2017-11-16 11:44:34,595]test_passenger
+[INFO][<module>][2017-11-16 11:44:45,697]test over
+[INFO][<module>][2017-11-16 11:44:45,697]test over
+[INFO][setUp][2017-11-16 11:45:51,480]test_02
+[INFO][test_passenger][2017-11-16 11:45:56,486]test_passenger
+[INFO][<module>][2017-11-16 11:46:37,388]test over
+[INFO][<module>][2017-11-16 11:46:37,388]test over
+[INFO][setUp][2017-11-16 11:59:37,529]test_02
+[INFO][test_passenger][2017-11-16 11:59:42,536]test_passenger
+[INFO][<module>][2017-11-16 11:59:56,404]test over
+[INFO][<module>][2017-11-16 11:59:56,404]test over
+[INFO][<module>][2017-11-16 14:51:26,198]test over
+[INFO][<module>][2017-11-16 14:52:13,905]test over
+[INFO][<module>][2017-11-16 14:53:20,134]test over
+[INFO][setUp][2017-11-16 14:54:14,637]test_02
+[INFO][test_passenger][2017-11-16 14:54:19,647]test_passenger
+[INFO][<module>][2017-11-16 14:54:34,894]test over
+[INFO][<module>][2017-11-16 14:54:34,894]test over
+[INFO][<module>][2017-11-16 19:33:46,007]test over
+[INFO][<module>][2017-11-16 19:34:40,250]test over
+[INFO][<module>][2017-11-16 19:35:31,463]test over
+[INFO][<module>][2017-11-16 19:37:07,779]test over
+[INFO][<module>][2017-11-16 19:38:38,569]test over
+[INFO][setUp][2017-11-16 19:38:56,802]test_02
+[INFO][test_passenger][2017-11-16 19:39:01,802]test_passenger
+[INFO][<module>][2017-11-16 19:39:15,437]test over
+[INFO][<module>][2017-11-16 19:39:15,437]test over
+[INFO][setUp][2017-11-16 19:45:22,345]test_02
+[INFO][test_passenger][2017-11-16 19:45:30,029]test_passenger

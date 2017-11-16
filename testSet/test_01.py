@@ -8,13 +8,13 @@ from selenium.common.exceptions import WebDriverException
 from common.log import logger
 import common.report as report
 
+
 class test_01(unittest.TestCase):
 
     def setUp(self):
         self.log = logger(report.today_report_path).getlog()
         self.log.info("test_01")
-        self.dr = driver.__new__(driver)
-        self.driver = self.dr.getDriver()
+        self.driver = driver().getDriver()
 
     def get_size(self):
         x = self.driver.get_window_size()['width']
@@ -56,6 +56,7 @@ class test_01(unittest.TestCase):
             ScreenShot(self.driver).get_screenshot()
 
     def tearDown(self):
+        self.driver.quit()
         print "test over"
 
 
