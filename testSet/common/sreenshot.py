@@ -19,7 +19,7 @@ class ScreenShot(object):
         self.log.info("screenshot")
         self.log.info(today_report_path)
         global c
-        self.driver.get_screenshot_as_file(today_report_path + "\\" +str(c) + ".png")
+        self.driver.get_screenshot_as_file(today_report_path + "\\" + str(c) + ".png")
         c += 1
 
 if __name__ == "__main__":

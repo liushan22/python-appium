@@ -7,6 +7,7 @@ import common.report as report
 from common.myServer import myServer
 from test_01 import test_01 as testcase1
 from test_02 import test_02 as testcase2
+from test_03 import test_03 as testcase3
 
 createReport = report.report()
 import os
@@ -24,13 +25,14 @@ class runTest():
     def run(self):
         ms = myServer()
         ms.run()
-        time.sleep(5)
+        time.sleep(8)
         # driver = ms.isServerStart()
         # if driver:
         suite = unittest.TestSuite()
         # self.getDriver(driver)
         # suite.addTest(testcase1("test_login"))
-        suite.addTest(testcase2("test_passenger"))
+        # suite.addTest(testcase2("test_passenger"))
+        suite.addTest(testcase3("test_passenger"))
         runner = createReport.getReportConfig()
         # runner = unittest.TextTestRunner(verbosity=2)
         runner.run(suite)

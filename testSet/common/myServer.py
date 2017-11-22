@@ -13,13 +13,17 @@ import urllib2
 # 启动appium
 class myServer():
     def __init__(self):
-        self.appiumPath = "D:\Appium"
-        # self.appiumPath = "F:\\Appium"
+        # self.appiumPath = "D:\Appium"
+        self.appiumPath = "F:\\Appium"
 
     def run(self):
+        """
+        启动appium服务
+        :return: null
+        """
         print "--------appium server start----------"
-        startCMD = "node D:\\Appium\\node_modules\\appium\\bin\\appium.js"
-        # startCMD = "node Appium\\node_modules\\appium\\bin\\appium.js"
+        # startCMD = "node D:\\Appium\\node_modules\\appium\\bin\\appium.js"
+        startCMD = "node Appium\\node_modules\\appium\\bin\\appium.js"
         rootDirection = self.appiumPath[:2]
         # 启动appium
         # os.system(rootDirection + "&" + "cd" + self.appiumPath + "&" + startCMD)
@@ -39,8 +43,11 @@ class myServer():
             raise
 
     def quit(self):
+        """
+        退出appium服务
+        :return:
+        """
         os.system('taskkill /f /im node.exe')
-
         print "over"
 
 if __name__ == '__main__':
