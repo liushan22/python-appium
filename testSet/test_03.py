@@ -5,6 +5,8 @@ from common.log import logger
 import common.report as report
 import time
 from selenium.webdriver.support.ui import WebDriverWait
+from page.passengerListPage import passengerListPage
+import page.elementConfig as point
 finalclick = 0  # 最后点击的乘机人索引
 
 
@@ -16,6 +18,7 @@ class test_03(unittest.TestCase):
         self.driver = driver().getDriver()
         self.log = logger(report.today_report_path).getlog()
         self.log.info("test_02")
+        self.passengerListPage = passengerListPage()
 
     def get_size(self):
         """
@@ -46,18 +49,16 @@ class test_03(unittest.TestCase):
         """
         global finalclick
         for ele in elements:
-            try:
-                ele.click()
-                WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_id("com.igola.travel:id/submit_cv")).click()
-                # self.driver.find_element_by_id("com.igola.travel:id/submit_cv").click()
+            ele.click()
+            WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_id("com.igola.travel:id/submit_cv")).click()
+            # self.driver.find_element_by_id("com.igola.travel:id/submit_cv").click()
+            time.sleep(2)
+            issubmit = self.driver.find_elements_by_id("com.igola.travel:id/passenger_recycler_view")
+            if not issubmit:
                 time.sleep(2)
-                issubmit = self.driver.find_elements_by_id("com.igola.travel:id/passenger_recycler_view")
-                if not issubmit:
-                    time.sleep(2)
-                    self.driver.keyevent(4)  # 4代表返回具体查看http://www.cnblogs.com/zoro-robin/p/5640557.html
-                time.sleep(3)
-                finalclick += 1
-            except 
+                self.driver.keyevent(4)  # 4代表返回具体查看http://www.cnblogs.com/zoro-robin/p/5640557.html
+            time.sleep(3)
+            finalclick += 1
         return finalclick
 
     def getElementList(self):
@@ -71,11 +72,9 @@ class test_03(unittest.TestCase):
 
     def test_passenger(self):
         global finalclick
-        totalelement = 300
-        # self.driver.find_element_by_id("com.igola.travel:id/find_flight_btn").click()
-        WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_id("com.igola.travel:id/find_flight_btn")).click()
-        WebDriverWait(self.driver, 3).until(
-            lambda x: x.find_element_by_id("com.igola.travel:id/search_btn")).click()
+        totalelement = 300  # 乘机人总数
+        passengerListPage.find_elements(point.HOMEPAGE["find_flight"]).click()  # 进入找飞机页面
+        passengerListPage.find_elements(point.FLIGHTPAGE["search"]).click()  #搜索
         #self.driver.find_element_by_id("com.igola.travel:id/search_btn").click()
         flight_result = WebDriverWait(self.driver, 5).until(
             lambda x: x.find_element_by_id("com.igola.travel:id/results_recycler_view")).click()
