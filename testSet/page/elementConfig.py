@@ -24,6 +24,11 @@ BOOKING = {
 }
 MEMBER_PASSENGER = {
     "passenger_list": (By.ID, "com.igola.travel:id/passenger_recycler_view"),
-    "passenger":(By.ID, "com.igola.travel:id/user_layout"),
+    "passenger": (By.ID, "com.igola.travel:id/user_layout"),
+    "submit_passenger": (By.ID, "com.igola.travel:id/submit_cv")
+}
+BOOKING_PASSENGER = {
+    "passenger_list": (By.ID, "com.igola.travel:id/passenger_recycler_view"),
+    "passenger": (By.ID, "com.igola.travel:id/user_layout"),
     "submit_passenger": (By.ID, "com.igola.travel:id/submit_cv")
 }

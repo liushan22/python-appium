@@ -15,94 +15,37 @@ class test_03(unittest.TestCase):
     遍历booking中的乘机人列表，并提交
     """
     def setUp(self):
-        self.driver = driver().getDriver()
         self.log = logger(report.today_report_path).getlog()
-        self.log.info("test_02")
+        self.log.info("test_03")
         self.passengerListPage = passengerListPage()
 
-    def get_size(self):
-        """
-        获取手机屏幕的大小
-        :return: 手机屏幕的宽高
-        """
-        x = self.driver.get_window_size()['width']
-        y = self.driver.get_window_size()['height']
-        return (x,y)
-
-    def swipedown(self, t):
-        """
-        下滑方法
-        :param t:滑动需要的时间，以毫秒为单位
-        :return: null
-        """
-        l = self.get_size()
-        x1 = int(l[0]*0.5)
-        y1 = int(l[1]*0.85)
-        y2 = int(l[1]*0.05)
-        self.driver.swipe(x1, y1, x1, y2, t)
-
-    def clickElements(self, elements):
-        """
-        点击每个乘机人栏方法
-        :param elements: 当前页面的乘机人列表
-        :return: 最后点击的乘机人索引
-        """
-        global finalclick
-        for ele in elements:
-            ele.click()
-            WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_id("com.igola.travel:id/submit_cv")).click()
-            # self.driver.find_element_by_id("com.igola.travel:id/submit_cv").click()
-            time.sleep(2)
-            issubmit = self.driver.find_elements_by_id("com.igola.travel:id/passenger_recycler_view")
-            if not issubmit:
-                time.sleep(2)
-                self.driver.keyevent(4)  # 4代表返回具体查看http://www.cnblogs.com/zoro-robin/p/5640557.html
-            time.sleep(3)
-            finalclick += 1
-        return finalclick
-
-    def getElementList(self):
-        """
-        获取乘机人列表
-        :return: 乘机人列表
-        """
-        element = self.driver.find_element_by_id("com.igola.travel:id/passenger_recycler_view")
-        elements = element.find_elements_by_id("com.igola.travel:id/user_layout")
-        return elements
-
     def test_passenger(self):
+        time.sleep(5)
         global finalclick
         totalelement = 300  # 乘机人总数
         passengerListPage.find_elements(point.HOMEPAGE["find_flight"]).click()  # 进入找飞机页面
-        passengerListPage.find_elements(point.FLIGHTPAGE["search"]).click()  #搜索
-        #self.driver.find_element_by_id("com.igola.travel:id/search_btn").click()
-        flight_result = WebDriverWait(self.driver, 5).until(
-            lambda x: x.find_element_by_id("com.igola.travel:id/results_recycler_view")).click()
-        # flight_result = self.driver.find_element_by_id("com.igola.travel:id/results_recycler_view")
-        if flight_result:
-            flight_results = flight_result.find_elements_by_class_name("android.widget.RelativeLayout")
-            flight_results[0].click()
-            # OTA_list = self.driver.find_element_by_id("com.igola.travel:id/book_list")
-            OTA_list = WebDriverWait(self.driver, 5).until(
-                lambda x: x.find_element_by_id("com.igola.travel:id/book_list")).click()
-            OTAs = OTA_list.find_elements_by_class_name("android.widget.RelativeLayout")
-            OTAs[0].click()
-            # self.driver.find_element_by_id("com.igola.travel:id/add_passenger_layout").click()
-            WebDriverWait(self.driver, 5).until(
-                lambda x: x.find_element_by_id("com.igola.travel:id/add_passenger_layout")).click()
-            element = self.getElementList()
-            finalclick = self.clickElements(element)
-            while finalclick < totalelement:  # 如果最后点击的乘机人索引小于总共有的乘机人，则下滑
-                self.swipedown(1000)
-                elements = self.getElementList()
-                thisclick = (totalelement - finalclick) % 10  # 计算剩下未点击的乘机人数量 % 一页展示的数量
-                if thisclick != 0:  # 剩下的未点击的乘机人数量不足一页时
-                    self.clickElements(elements[-thisclick:])
-                else:
-                    self.clickElements(elements)
-            self.log.info("本次共检查%s条乘机人数据" % finalclick)
+        passengerListPage.find_elements(point.FLIGHTPAGE["search"]).click()  # 搜索
+        flight_results = passengerListPage.getElementlist(point.TIMELINE["flight_list"], point.TIMELINE["flight"])
+        # 获得timeline航班列表
+        flight_results[0].click()  # 点击第一条航班
+        OTAs = passengerListPage.getElementlist(point.SUMMARY["OTA_list"], point.SUMMARY["OTA"])
+
+        OTAs[0].click()
+        # self.driver.find_element_by_id("com.igola.travel:id/add_passenger_layout").click()
+        passengerListPage.find_elements(point.BOOKING["add_passenger"]).click()
+        element = passengerListPage.getElementlist(point.BOOKING["passenger_list"], point.BOOKING["passenger"])
+        finalclick = passengerListPage.clickElements(element, finalclick, point.BOOKING_PASSENGER["passenger"])
+        while finalclick < totalelement:  # 如果最后点击的乘机人索引小于总共有的乘机人，则下滑
+            passengerListPage.swipedown(1000)
+            elements = passengerListPage.getElementlist(point.BOOKING["passenger_list"], point.BOOKING["passenger"])
+            thisclick = (totalelement - finalclick) % 10  # 计算剩下未点击的乘机人数量 % 一页展示的数量
+            if thisclick != 0:  # 剩下的未点击的乘机人数量不足一页时
+                passengerListPage.clickElements(elements[-thisclick:], finalclick, point.BOOKING_PASSENGER["passenger"])
+            else:
+                passengerListPage.clickElements(element, finalclick, point.BOOKING_PASSENGER["passenger"])
+        self.log.info("本次共检查%s条乘机人数据" % finalclick)
 
     def tearDown(self):
-        self.driver.quit()
+        passengerListPage.quit(super(passengerListPage))
 
 

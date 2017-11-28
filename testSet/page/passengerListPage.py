@@ -2,17 +2,17 @@
 from basePage import basePage
 import time
 
+
 class passengerListPage(basePage):
     def __init__(self):
-        pass
+        super(passengerListPage, self).__init__()
 
-    def clickElements(self, elements, *loc):
+    def clickElements(self, elements, finalclick, *loc):
         """
         点击每个乘机人栏方法
         :param elements: 当前页面的乘机人列表
         :return: 最后点击的乘机人索引
         """
-        global finalclick
         for ele in elements:
             ele.click()
             self.find_element(*loc).click()
@@ -24,11 +24,4 @@ class passengerListPage(basePage):
             finalclick += 1
         return finalclick
 
-    def getElementList(self, *loc1,*loc2):
-        """
-        获取乘机人列表
-        :return: 乘机人列表
-        """
-        element = self.find_element(*loc1)
-        elements = element.find_elements(*loc2)
-        return elements
+

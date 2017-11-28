@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-from testApp.testSet.common.driver import driver
+from testSet.common.driver import driver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from testApp.testSet.common.log import logger
-import testApp.testSet.common.report as report
+from testSet.common.log import logger
+import testSet.common.report as report
 
 
 class basePage(object):
@@ -63,3 +63,15 @@ class basePage(object):
 
     def click(self, element):
         element.click()
+
+    def getElementlist(self, *loc, **loc2):
+        """
+        获取乘机人列表
+        :return: 乘机人列表
+        """
+        element = self.find_element(*loc)
+        elements = element.find_elements(*loc2)
+        return elements
+
+    def quit(self):
+        return self.driver
