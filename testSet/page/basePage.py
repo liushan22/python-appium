@@ -1,16 +1,21 @@
 # -*- coding: utf-8 -*-
-from testSet.common.driver import driver
+from testApp.testSet.common.driver import driver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from testSet.common.log import logger
-import testSet.common.report as report
-from selenium.webdriver.common.by import By
+from testApp.testSet.common.log import logger
+import testApp.testSet.common.report as report
+from testApp.testSet.common.sreenshot import ScreenShot
+from appium import webdriver
+testdriver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', driver.desired_caps)
 
 
 class basePage(object):
     def __init__(self):
-        self.driver = driver().getDriver()
+        global testdriver
+        self.driver = testdriver
+        # self.dr.connect()
+        # self.driver = self.dr.getDriver()
         self.log = logger(report.today_report_path).getlog()
 
     def get_size(self):
@@ -48,9 +53,8 @@ class basePage(object):
     def back(self):
         self.driver.keyevent(4)  # 4代表返回具体查看http://www.cnblogs.com/zoro-robin/p/5640557.html
 
+    @ScreenShot(testdriver)
     def find_element(self, *loc):
-        loc2 = (By.ID, "com.igola.travel:id/find_flight_btn")
-        loc1 = loc
         try:
             self.log.debug(*loc)
             element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
@@ -60,6 +64,7 @@ class basePage(object):
         except:
             self.log.info("%s 页面没有找到%s元素" % (self, loc))
 
+    @ScreenShot(testdriver)
     def find_elements(self, *loc):
         try:
             WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(*loc))
@@ -67,6 +72,7 @@ class basePage(object):
         except:
             self.log.info("%s 页面没有找到%s元素" % (self, loc))
 
+    @ScreenShot(testdriver)
     def getElementlist(self, **loc):
         """
         获取乘机人列表

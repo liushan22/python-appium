@@ -50,3 +50,46 @@
 [INFO][<module>][2017-11-28 18:46:11,181]test over
 [INFO][find_element][2017-11-28 18:47:28,546]<page.passengerListPage.passengerListPage object at 0x0000000003D2B160> 页面没有找到('id', 'com.igola.travel:id/user_layout')元素
 [INFO][<module>][2017-11-28 18:47:28,769]test over
+[INFO][find_element][2017-11-28 20:11:39,161]<page.passengerListPage.passengerListPage object at 0x000000000302D710> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][<module>][2017-11-28 20:11:39,440]test over
+[INFO][find_element][2017-11-28 20:13:03,723]<page.passengerListPage.passengerListPage object at 0x0000000002EA9748> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][<module>][2017-11-28 20:13:04,138]test over
+[INFO][find_element][2017-11-28 20:24:19,842]<page.passengerListPage.passengerListPage object at 0x0000000002EE7A90> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][find_element][2017-11-28 20:25:57,105]<page.passengerListPage.passengerListPage object at 0x000000000300AA90> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][<module>][2017-11-28 20:26:23,615]test over
+[INFO][find_element][2017-11-28 20:31:40,970]<page.passengerListPage.passengerListPage object at 0x0000000002C8F080> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][get_screenshot][2017-11-28 20:31:40,971]screenshot
+[INFO][get_screenshot][2017-11-28 20:31:40,971]E:\python\testApp\result\20171128
+[INFO][<module>][2017-11-28 20:31:41,470]test over
+[INFO][find_element][2017-11-28 20:55:40,210]<page.passengerListPage.passengerListPage object at 0x0000000002D3A748> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][get_screenshot][2017-11-28 20:55:40,210]screenshot
+[INFO][get_screenshot][2017-11-28 20:55:40,210]E:\python\testApp\result\20171128
+[INFO][<module>][2017-11-28 20:55:40,697]test over
+[INFO][find_element][2017-11-28 20:58:34,555]<page.passengerListPage.passengerListPage object at 0x0000000002F49D68> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][<module>][2017-11-28 20:58:34,834]test over
+[INFO][find_element][2017-11-28 21:00:43,457]<page.passengerListPage.passengerListPage object at 0x0000000002C9D358> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][<module>][2017-11-28 21:00:43,819]test over
+[INFO][find_element][2017-11-28 21:02:21,115]<page.passengerListPage.passengerListPage object at 0x0000000002ED8CF8> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][<module>][2017-11-28 21:02:21,374]test over
+[INFO][find_element][2017-11-28 21:04:50,795]<page.passengerListPage.passengerListPage object at 0x0000000002EC5CF8> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][<module>][2017-11-28 21:04:51,173]test over
+[INFO][find_element][2017-11-28 21:05:48,213]<page.passengerListPage.passengerListPage object at 0x0000000002ABC7F0> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][get_screenshot][2017-11-28 21:05:48,214]screenshot
+[INFO][get_screenshot][2017-11-28 21:05:48,216]E:\python\testApp\result\20171128
+[INFO][<module>][2017-11-28 21:05:48,500]test over
+[INFO][find_element][2017-11-28 21:21:41,533]<page.passengerListPage.passengerListPage object at 0x0000000002B1C828> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][get_screenshot][2017-11-28 21:21:41,536]screenshot
+[INFO][get_screenshot][2017-11-28 21:21:41,536]E:\python\testApp\result\20171128
+[INFO][<module>][2017-11-28 21:21:41,917]test over
+[INFO][find_element][2017-11-28 21:38:53,371]<page.passengerListPage.passengerListPage object at 0x0000000002BBB7F0> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][get_screenshot][2017-11-28 21:38:53,371]screenshot
+[INFO][get_screenshot][2017-11-28 21:38:53,372]E:\python\testApp\result\20171128
+[INFO][<module>][2017-11-28 21:38:53,828]test over
+[INFO][find_element][2017-11-28 21:42:20,095]<page.passengerListPage.passengerListPage object at 0x0000000002D8B7F0> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][get_screenshot][2017-11-28 21:42:20,096]screenshot
+[INFO][get_screenshot][2017-11-28 21:42:20,098]E:\python\testApp\result\20171128
+[INFO][<module>][2017-11-28 21:42:20,517]test over
+[INFO][find_element][2017-11-28 23:15:57,996]<page.passengerListPage.passengerListPage object at 0x0000000002DF5828> 页面没有找到('id', 'com.igola.travel:id/results_recycler_view')元素
+[INFO][get_screenshot][2017-11-28 23:15:57,996]screenshot
+[INFO][get_screenshot][2017-11-28 23:15:57,996]E:\python\testApp\result\20171128
+[INFO][<module>][2017-11-28 23:15:58,467]test over

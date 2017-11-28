@@ -22,6 +22,15 @@ class ScreenShot(object):
         self.driver.get_screenshot_as_file(today_report_path + "\\" + str(c) + ".png")
         c += 1
 
+    def __call__(self, func):
+        def inner(*args, **kwargs):
+            try:
+                f = func(*args, **kwargs)
+                return f
+            except Exception:
+                self.get_screenshot()  # 失败后截图
+        return inner
+
 if __name__ == "__main__":
 
     re = ScreenShot()
