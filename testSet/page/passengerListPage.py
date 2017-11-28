@@ -4,10 +4,8 @@ import time
 
 
 class passengerListPage(basePage):
-    def __init__(self):
-        super(passengerListPage, self).__init__()
 
-    def clickElements(self, elements, finalclick, *loc):
+    def clickEachElements(self, elements, finalclick, *loc):
         """
         点击每个乘机人栏方法
         :param elements: 当前页面的乘机人列表
@@ -23,5 +21,6 @@ class passengerListPage(basePage):
             time.sleep(3)
             finalclick += 1
         return finalclick
+
 
 

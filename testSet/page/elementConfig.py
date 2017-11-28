@@ -9,26 +9,31 @@ FLIGHTPAGE = {
     "search": (By.ID, "com.igola.travel:id/search_btn")
 }
 TIMELINE = {
-    "flight_list": (By.ID, "com.igola.travel:id/results_recycler_view"),
-    "flight": (By.CLASS_NAME, "android.widget.RelativeLayout")
+    "flight_container": {
+        "flight_list": (By.ID, "com.igola.travel:id/results_recycler_view"),
+        "flight": (By.CLASS_NAME, "android.widget.RelativeLayout")
+    }
 }
 SUMMARY = {
-    "OTA_list": (By.ID, "com.igola.travel:id/book_list"),
-    "OTA": (By.CLASS_NAME, "android.widget.RelativeLayout")
+    "OTA_container":{
+        "OTA_list": (By.ID, "com.igola.travel:id/book_list"),
+        "OTA": (By.CLASS_NAME, "android.widget.RelativeLayout")
+    }
 }
 BOOKING = {
-    "passenger_list": (By.ID, "com.igola.travel:id/passenger_recycler_view"),
-    "passenger":(By.ID, "com.igola.travel:id/user_layout"),
-    "add_passenger": (By.ID, "com.igola.travel:id/add_passenger_layout"),
-    "submit_passenger": (By.ID, "com.igola.travel:id/submit_cv")
+    "add_passenger": (By.ID, "com.igola.travel:id/add_passenger_layout")
 }
 MEMBER_PASSENGER = {
-    "passenger_list": (By.ID, "com.igola.travel:id/passenger_recycler_view"),
-    "passenger": (By.ID, "com.igola.travel:id/user_layout"),
+    "passenger_container":{
+        "passenger_list": (By.ID, "com.igola.travel:id/passenger_recycler_view"),
+        "passenger": (By.ID, "com.igola.travel:id/user_layout"),
+    },
     "submit_passenger": (By.ID, "com.igola.travel:id/submit_cv")
 }
 BOOKING_PASSENGER = {
-    "passenger_list": (By.ID, "com.igola.travel:id/passenger_recycler_view"),
-    "passenger": (By.ID, "com.igola.travel:id/user_layout"),
+    "passenger_container":{
+        "passenger_list": (By.ID, "com.igola.travel:id/passenger_recycler_view"),
+        "passenger": (By.ID, "com.igola.travel:id/user_layout"),
+    },
     "submit_passenger": (By.ID, "com.igola.travel:id/submit_cv")
 }

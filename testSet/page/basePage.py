@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from testSet.common.log import logger
 import testSet.common.report as report
+from selenium.webdriver.common.by import By
 
 
 class basePage(object):
@@ -48,28 +49,33 @@ class basePage(object):
         self.driver.keyevent(4)  # 4代表返回具体查看http://www.cnblogs.com/zoro-robin/p/5640557.html
 
     def find_element(self, *loc):
+        loc2 = (By.ID, "com.igola.travel:id/find_flight_btn")
+        loc1 = loc
         try:
-            WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
-            return self.driver.find_element(*loc)
+            self.log.debug(*loc)
+            element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
+            # element = self.driver.find_element(*loc)
+
+            return element
         except:
             self.log.info("%s 页面没有找到%s元素" % (self, loc))
 
     def find_elements(self, *loc):
         try:
-            WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
+            WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(*loc))
             return self.driver.find_elements(*loc)
         except:
             self.log.info("%s 页面没有找到%s元素" % (self, loc))
 
-    def click(self, element):
-        element.click()
-
-    def getElementlist(self, *loc, **loc2):
+    def getElementlist(self, **loc):
         """
         获取乘机人列表
         :return: 乘机人列表
         """
-        element = self.find_element(*loc)
+        loc1 = loc.items()[0][1]
+        loc2 = loc.items()[1][1]
+        self.log.debug(loc1, loc2)
+        element = self.find_element(*loc1)
         elements = element.find_elements(*loc2)
         return elements
 
