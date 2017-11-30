@@ -13,8 +13,8 @@ import urllib2
 # 启动appium
 class myServer():
     def __init__(self):
-        self.appiumPath = "D:\Appium"
-        # self.appiumPath = "F:\\Appium"
+        # self.appiumPath = "D:\Appium"
+        self.appiumPath = "F:\\Appium"
 
     def run(self):
         """
@@ -22,8 +22,8 @@ class myServer():
         :return: null
         """
         print "--------appium server start----------"
-        startCMD = "node D:\\Appium\\node_modules\\appium\\bin\\appium.js"
-        # startCMD = "node Appium\\node_modules\\appium\\bin\\appium.js"
+        # startCMD = "node D:\\Appium\\node_modules\\appium\\bin\\appium.js"
+        startCMD = "node Appium\\node_modules\\appium\\bin\\appium.js"
         rootDirection = self.appiumPath[:2]
         # 启动appium
         # os.system(rootDirection + "&" + "cd" + self.appiumPath + "&" + startCMD)

@@ -1,0 +1,71 @@
+[INFO][setUp][2017-11-30 14:44:05,703]test_01
+[INFO][<module>][2017-11-30 14:44:13,678]test over
+[INFO][<module>][2017-11-30 14:44:13,678]test over
+[INFO][setUp][2017-11-30 14:46:52,670]test_01
+[INFO][<module>][2017-11-30 14:46:56,342]test over
+[INFO][<module>][2017-11-30 14:46:56,342]test over
+[INFO][setUp][2017-11-30 14:47:15,104]test_01
+[INFO][<module>][2017-11-30 14:47:38,828]test over
+[INFO][<module>][2017-11-30 14:47:38,828]test over
+[INFO][setUp][2017-11-30 14:47:58,917]test_01
+[INFO][getlogin][2017-11-30 14:48:05,051]login
+[INFO][find_element][2017-11-30 14:48:33,121]<page.loginPage.loginPage object at 0x0000000003FADF28> 页面没有找到('id', 'com.igola.travel:id/login_btn')元素
+[INFO][<module>][2017-11-30 14:48:33,272]test over
+[INFO][<module>][2017-11-30 14:48:33,272]test over
+[INFO][setUp][2017-11-30 14:48:46,086]test_01
+[INFO][getlogin][2017-11-30 14:48:51,444]login
+[INFO][<module>][2017-11-30 14:49:08,723]test over
+[INFO][<module>][2017-11-30 14:49:08,723]test over
+[INFO][setUp][2017-11-30 15:06:06,954]test_01
+[INFO][<module>][2017-11-30 15:06:15,137]test over
+[INFO][<module>][2017-11-30 15:06:15,137]test over
+[INFO][setUp][2017-11-30 15:06:27,213]test_01
+[INFO][<module>][2017-11-30 15:06:29,391]test over
+[INFO][<module>][2017-11-30 15:06:29,391]test over
+[INFO][setUp][2017-11-30 15:06:45,599]test_01
+[INFO][getlogin][2017-11-30 15:07:10,355]login
+[INFO][<module>][2017-11-30 15:07:35,191]test over
+[INFO][<module>][2017-11-30 15:07:35,191]test over
+[INFO][setUp][2017-11-30 15:12:29,229]test_01
+[INFO][getlogin][2017-11-30 15:12:42,265]login
+[INFO][setUp][2017-11-30 15:14:42,440]test_01
+[INFO][<module>][2017-11-30 15:14:44,898]test over
+[INFO][<module>][2017-11-30 15:14:44,898]test over
+[INFO][setUp][2017-11-30 15:14:59,581]test_01
+[INFO][getlogin][2017-11-30 15:16:17,187]login
+[INFO][<module>][2017-11-30 15:16:56,769]test over
+[INFO][<module>][2017-11-30 15:16:56,769]test over
+[INFO][setUp][2017-11-30 15:46:33,299]test_01
+[INFO][<module>][2017-11-30 15:46:36,907]test over
+[INFO][<module>][2017-11-30 15:46:36,907]test over
+[INFO][setUp][2017-11-30 15:46:49,075]test_01
+[INFO][<module>][2017-11-30 15:46:54,766]test over
+[INFO][<module>][2017-11-30 15:46:54,766]test over
+[INFO][setUp][2017-11-30 15:47:20,339]test_01
+[INFO][getlogin][2017-11-30 15:47:26,716]login
+[INFO][<module>][2017-11-30 15:48:08,226]test over
+[INFO][<module>][2017-11-30 15:48:08,226]test over
+[INFO][setUp][2017-11-30 15:50:45,993]test_01
+[INFO][getlogin][2017-11-30 15:50:51,591]login
+[INFO][<module>][2017-11-30 15:51:44,197]test over
+[INFO][<module>][2017-11-30 15:51:44,197]test over
+[INFO][setUp][2017-11-30 15:57:50,782]test_01
+[INFO][getlogin][2017-11-30 15:57:55,961]login
+[INFO][<module>][2017-11-30 15:58:38,924]test over
+[INFO][<module>][2017-11-30 15:58:38,924]test over
+[INFO][setUp][2017-11-30 19:06:30,410]test_01
+[INFO][<module>][2017-11-30 19:06:34,769]test over
+[INFO][<module>][2017-11-30 19:06:34,769]test over
+[INFO][setUp][2017-11-30 19:06:45,546]test_01
+[INFO][getlogin][2017-11-30 19:06:55,168]login
+[INFO][<module>][2017-11-30 19:07:37,279]test over
+[INFO][<module>][2017-11-30 19:07:37,279]test over
+[INFO][setUp][2017-11-30 19:10:57,523]test_01
+[INFO][getlogin][2017-11-30 19:11:06,301]login
+[INFO][setUp][2017-11-30 19:11:47,779]test_01
+[INFO][setUp][2017-11-30 19:11:47,779]test_01
+[INFO][getlogin][2017-11-30 19:11:59,549]login
+[INFO][getlogin][2017-11-30 19:11:59,549]login
+[INFO][<module>][2017-11-30 19:12:44,345]test over
+[INFO][<module>][2017-11-30 19:12:44,345]test over
+[INFO][<module>][2017-11-30 19:12:44,345]test over

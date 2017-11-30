@@ -1,21 +1,22 @@
 # -*- coding: utf-8 -*-
-from testApp.testSet.common.driver import driver
+from testSet.common.driver import driver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from testApp.testSet.common.log import logger
-import testApp.testSet.common.report as report
-from testApp.testSet.common.sreenshot import ScreenShot
+from testSet.common.log import logger
+import testSet.common.report as report
+from testSet.common.sreenshot import ScreenShot
 from appium import webdriver
-testdriver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', driver.desired_caps)
+# testdriver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', driver.desired_caps)
 
 
 class basePage(object):
     def __init__(self):
-        global testdriver
-        self.driver = testdriver
-        # self.dr.connect()
-        # self.driver = self.dr.getDriver()
+        #global testdriver
+        #self.driver = testdriver
+        self.dr = driver()
+        self.dr.connect()
+        self.driver = self.dr.getDriver()
         self.log = logger(report.today_report_path).getlog()
 
     def get_size(self):
@@ -39,9 +40,10 @@ class basePage(object):
         y2 = int(l[1]*0.05)
         self.driver.swipe(x1, y1, x1, y2, t)
 
-    def send_keys(self, loc, value, clear_first=True, click_first=True):
+    def send_keys(self, value, clear_first=True, click_first=True, *loc):
         try:
-            loc = getattr(self, "_%s" % loc)  # getattr相当于实现self.loc
+            # loc = getattr(self, "_%s" % loc)  # getattr相当于实现self.loc
+            value = str(int(value))
             if click_first:
                 self.find_element(*loc).click()
             if clear_first:
@@ -53,7 +55,7 @@ class basePage(object):
     def back(self):
         self.driver.keyevent(4)  # 4代表返回具体查看http://www.cnblogs.com/zoro-robin/p/5640557.html
 
-    @ScreenShot(testdriver)
+    # @ScreenShot(driver)
     def find_element(self, *loc):
         try:
             self.log.debug(*loc)
@@ -64,7 +66,7 @@ class basePage(object):
         except:
             self.log.info("%s 页面没有找到%s元素" % (self, loc))
 
-    @ScreenShot(testdriver)
+    # @ScreenShot(driver)
     def find_elements(self, *loc):
         try:
             WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(*loc))
@@ -72,7 +74,7 @@ class basePage(object):
         except:
             self.log.info("%s 页面没有找到%s元素" % (self, loc))
 
-    @ScreenShot(testdriver)
+    # @ScreenShot(driver)
     def getElementlist(self, **loc):
         """
         获取乘机人列表
@@ -86,4 +88,4 @@ class basePage(object):
         return elements
 
     def quit(self):
-        return self.driver
+        self.driver.quit()
