@@ -16,6 +16,9 @@ from xlrd import open_workbook
 class test_01(unittest.TestCase):
 
     def setUp(self):
+        # global port, device
+        # self.driver = driver(device).connect(port)
+        # self.driver = self.driver.getDriver()
         self.log = logger(report.today_report_path).getlog()
         self.log.info("test_01")
         self.loginPage = loginPage()

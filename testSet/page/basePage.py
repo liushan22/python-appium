@@ -1,23 +1,36 @@
 # -*- coding: utf-8 -*-
-from testSet.common.driver import driver
+from testApp.testSet.common.driver import driver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from testSet.common.log import logger
-import testSet.common.report as report
-from testSet.common.sreenshot import ScreenShot
+from testApp.testSet.common.log import logger
+import testApp.testSet.common.report as report
+from testApp.testSet.common.sreenshot import ScreenShot
 from appium import webdriver
 # testdriver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', driver.desired_caps)
+port = ""
+dev = ""
+
+
+def setconfig(config, device):
+    global port, dev
+    port = config
+    dev = device
 
 
 class basePage(object):
     def __init__(self):
         #global testdriver
         #self.driver = testdriver
-        self.dr = driver()
-        self.dr.connect()
+        # self.dr = driver()
+        # self.dr.connect()
+        # self.driver = self.dr.getDriver()
+        global port, dev
+        self.dr = driver(dev)
+        self.dr.connect(port)
         self.driver = self.dr.getDriver()
         self.log = logger(report.today_report_path).getlog()
+
 
     def get_size(self):
         """
@@ -47,10 +60,9 @@ class basePage(object):
             if click_first:
                 self.find_element(*loc).click()
             if clear_first:
-                self.find_element(*loc).clear()
                 self.find_element(*loc).send_keys(value)
         except AttributeError:
-            print u"%s 页面中未能找到 %s 元素" % (self, loc)
+            self.log.error("%s 页面中未能找到 %s 元素" % (self, loc))
 
     def back(self):
         self.driver.keyevent(4)  # 4代表返回具体查看http://www.cnblogs.com/zoro-robin/p/5640557.html
