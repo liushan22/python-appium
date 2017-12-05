@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from appium import webdriver
+from log import logger
+import report
 import appium
 from selenium.common.exceptions import WebDriverException
 
@@ -24,6 +26,7 @@ class driver(object):
         self.desired_caps['noReset'] = True
         self.desired_caps['appPackage'] = 'com.igola.travel'
         self.desired_caps['appActivity'] = 'com.igola.travel.ui.LaunchActivity'
+        self.log = logger(report.today_report_path).getlog()
 
     def connect(self, port):
         url = 'http://localhost:%s/wd/hub' % str(port)

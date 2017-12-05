@@ -244,3 +244,128 @@
 [INFO][find_element][2017-12-03 21:00:20,342]<page.loginPage.loginPage object at 0x000000000300A048> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
 [INFO][find_element][2017-12-03 21:00:20,342]<page.loginPage.loginPage object at 0x000000000300A048> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
 [INFO][find_element][2017-12-03 21:00:20,342]<page.loginPage.loginPage object at 0x000000000300A048> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[DEBUG][connect][2017-12-05 18:56:21,276]48618885dc17
+[INFO][getlogin][2017-12-05 18:56:21,298]login
+[INFO][getlogin][2017-12-05 18:56:21,298]login
+[INFO][setUp][2017-12-05 18:56:22,140]test_01
+[INFO][setUp][2017-12-05 18:56:22,140]test_01
+[DEBUG][connect][2017-12-05 18:56:25,762]480233fd33df
+[DEBUG][connect][2017-12-05 18:56:25,762]480233fd33df
+[DEBUG][connect][2017-12-05 18:56:25,762]480233fd33df
+[INFO][getlogin][2017-12-05 18:56:25,763]login
+[INFO][getlogin][2017-12-05 18:56:25,763]login
+[INFO][getlogin][2017-12-05 18:56:25,763]login
+[INFO][getlogin][2017-12-05 18:56:25,763]login
+[INFO][find_element][2017-12-05 18:56:46,819]<page.loginPage.loginPage object at 0x0000000003DC4C88> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][find_element][2017-12-05 18:56:46,819]<page.loginPage.loginPage object at 0x0000000003DC4C88> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][find_element][2017-12-05 18:56:46,819]<page.loginPage.loginPage object at 0x0000000003DC4C88> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][find_element][2017-12-05 18:56:46,819]<page.loginPage.loginPage object at 0x0000000003DC4C88> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][setUp][2017-12-05 18:56:47,805]test_01
+[INFO][setUp][2017-12-05 18:56:47,805]test_01
+[INFO][setUp][2017-12-05 18:56:47,805]test_01
+[INFO][setUp][2017-12-05 18:56:47,805]test_01
+[INFO][find_element][2017-12-05 18:56:48,869]<page.loginPage.loginPage object at 0x0000000003DD0BA8> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][find_element][2017-12-05 18:56:48,869]<page.loginPage.loginPage object at 0x0000000003DD0BA8> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][find_element][2017-12-05 18:56:48,869]<page.loginPage.loginPage object at 0x0000000003DD0BA8> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][find_element][2017-12-05 18:56:48,869]<page.loginPage.loginPage object at 0x0000000003DD0BA8> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][find_element][2017-12-05 18:56:48,869]<page.loginPage.loginPage object at 0x0000000003DD0BA8> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][setUp][2017-12-05 18:56:48,892]test_01
+[INFO][setUp][2017-12-05 18:56:48,892]test_01
+[INFO][setUp][2017-12-05 18:56:48,892]test_01
+[INFO][setUp][2017-12-05 18:56:48,892]test_01
+[INFO][setUp][2017-12-05 18:56:48,892]test_01
+[INFO][run][2017-12-05 18:56:52,216]test over
+[INFO][run][2017-12-05 18:56:52,216]test over
+[INFO][run][2017-12-05 18:56:52,216]test over
+[INFO][run][2017-12-05 18:56:52,216]test over
+[INFO][run][2017-12-05 18:56:52,216]test over
+[INFO][run][2017-12-05 18:56:52,216]test over
+[INFO][run][2017-12-05 18:56:52,332]test over
+[INFO][run][2017-12-05 18:56:52,332]test over
+[INFO][run][2017-12-05 18:56:52,332]test over
+[INFO][run][2017-12-05 18:56:52,332]test over
+[INFO][run][2017-12-05 18:56:52,332]test over
+[INFO][run][2017-12-05 18:56:52,332]test over
+[DEBUG][connect][2017-12-05 18:57:47,049]47448885dc17
+[INFO][getlogin][2017-12-05 18:57:47,051]login
+[INFO][getlogin][2017-12-05 18:57:47,051]login
+[INFO][setUp][2017-12-05 18:57:48,289]test_01
+[INFO][setUp][2017-12-05 18:57:48,289]test_01
+[DEBUG][connect][2017-12-05 18:57:51,989]473533fd33df
+[DEBUG][connect][2017-12-05 18:57:51,989]473533fd33df
+[DEBUG][connect][2017-12-05 18:57:51,989]473533fd33df
+[INFO][getlogin][2017-12-05 18:57:51,990]login
+[INFO][getlogin][2017-12-05 18:57:51,990]login
+[INFO][getlogin][2017-12-05 18:57:51,990]login
+[INFO][getlogin][2017-12-05 18:57:51,990]login
+[INFO][find_element][2017-12-05 18:58:12,430]<page.loginPage.loginPage object at 0x0000000003EE1C88> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][find_element][2017-12-05 18:58:12,430]<page.loginPage.loginPage object at 0x0000000003EE1C88> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][find_element][2017-12-05 18:58:12,430]<page.loginPage.loginPage object at 0x0000000003EE1C88> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][find_element][2017-12-05 18:58:12,430]<page.loginPage.loginPage object at 0x0000000003EE1C88> 页面没有找到('id', 'com.igola.travel:id/account_btn')元素
+[INFO][setUp][2017-12-05 18:58:13,278]test_01
+[INFO][setUp][2017-12-05 18:58:13,278]test_01
+[INFO][setUp][2017-12-05 18:58:13,278]test_01
+[INFO][setUp][2017-12-05 18:58:13,278]test_01
+[INFO][run][2017-12-05 18:58:33,927]test over
+[INFO][run][2017-12-05 18:58:33,927]test over
+[INFO][run][2017-12-05 18:58:33,927]test over
+[INFO][run][2017-12-05 18:58:33,927]test over
+[INFO][run][2017-12-05 18:58:33,927]test over
+[INFO][setUp][2017-12-05 18:58:34,438]test_01
+[INFO][setUp][2017-12-05 18:58:34,438]test_01
+[INFO][setUp][2017-12-05 18:58:34,438]test_01
+[INFO][setUp][2017-12-05 18:58:34,438]test_01
+[INFO][setUp][2017-12-05 18:58:34,438]test_01
+[DEBUG][connect][2017-12-05 18:59:01,207]48678885dc17
+[INFO][getlogin][2017-12-05 18:59:01,207]login
+[INFO][getlogin][2017-12-05 18:59:01,207]login
+[INFO][setUp][2017-12-05 18:59:02,467]test_01
+[INFO][setUp][2017-12-05 18:59:02,467]test_01
+[DEBUG][connect][2017-12-05 18:59:06,407]475433fd33df
+[DEBUG][connect][2017-12-05 18:59:06,407]475433fd33df
+[DEBUG][connect][2017-12-05 18:59:06,407]475433fd33df
+[INFO][getlogin][2017-12-05 18:59:06,407]login
+[INFO][getlogin][2017-12-05 18:59:06,407]login
+[INFO][getlogin][2017-12-05 18:59:06,407]login
+[INFO][getlogin][2017-12-05 18:59:06,407]login
+[INFO][setUp][2017-12-05 18:59:38,885]test_01
+[INFO][setUp][2017-12-05 18:59:38,885]test_01
+[INFO][setUp][2017-12-05 18:59:38,885]test_01
+[INFO][setUp][2017-12-05 18:59:38,885]test_01
+[INFO][find_element][2017-12-05 18:59:42,513]<page.loginPage.loginPage object at 0x00000000036CDBA8> 页面没有找到('id', 'com.igola.travel:id/password_error_tv')元素
+[INFO][find_element][2017-12-05 18:59:42,513]<page.loginPage.loginPage object at 0x00000000036CDBA8> 页面没有找到('id', 'com.igola.travel:id/password_error_tv')元素
+[INFO][find_element][2017-12-05 18:59:42,513]<page.loginPage.loginPage object at 0x00000000036CDBA8> 页面没有找到('id', 'com.igola.travel:id/password_error_tv')元素
+[INFO][find_element][2017-12-05 18:59:42,513]<page.loginPage.loginPage object at 0x00000000036CDBA8> 页面没有找到('id', 'com.igola.travel:id/password_error_tv')元素
+[INFO][find_element][2017-12-05 18:59:42,513]<page.loginPage.loginPage object at 0x00000000036CDBA8> 页面没有找到('id', 'com.igola.travel:id/password_error_tv')元素
+[INFO][setUp][2017-12-05 18:59:42,528]test_01
+[INFO][setUp][2017-12-05 18:59:42,528]test_01
+[INFO][setUp][2017-12-05 18:59:42,528]test_01
+[INFO][setUp][2017-12-05 18:59:42,528]test_01
+[INFO][setUp][2017-12-05 18:59:42,528]test_01
+[DEBUG][connect][2017-12-05 18:59:46,927]475433fd33df
+[DEBUG][connect][2017-12-05 18:59:46,927]475433fd33df
+[DEBUG][connect][2017-12-05 18:59:46,927]475433fd33df
+[DEBUG][connect][2017-12-05 18:59:46,927]475433fd33df
+[DEBUG][connect][2017-12-05 18:59:46,927]475433fd33df
+[DEBUG][connect][2017-12-05 18:59:46,927]475433fd33df
+[INFO][getlogin][2017-12-05 18:59:46,927]login
+[INFO][getlogin][2017-12-05 18:59:46,927]login
+[INFO][getlogin][2017-12-05 18:59:46,927]login
+[INFO][getlogin][2017-12-05 18:59:46,927]login
+[INFO][getlogin][2017-12-05 18:59:46,927]login
+[INFO][getlogin][2017-12-05 18:59:46,927]login
+[INFO][getlogin][2017-12-05 18:59:46,927]login
+[INFO][run][2017-12-05 19:00:25,750]test over
+[INFO][run][2017-12-05 19:00:25,750]test over
+[INFO][run][2017-12-05 19:00:25,750]test over
+[INFO][run][2017-12-05 19:00:25,750]test over
+[INFO][run][2017-12-05 19:00:25,750]test over
+[INFO][run][2017-12-05 19:00:25,750]test over
+[INFO][run][2017-12-05 19:00:25,750]test over
+[INFO][run][2017-12-05 19:00:25,885]test over
+[INFO][run][2017-12-05 19:00:25,885]test over
+[INFO][run][2017-12-05 19:00:25,885]test over
+[INFO][run][2017-12-05 19:00:25,885]test over
+[INFO][run][2017-12-05 19:00:25,885]test over
+[INFO][run][2017-12-05 19:00:25,885]test over
+[INFO][run][2017-12-05 19:00:25,885]test over

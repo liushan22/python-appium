@@ -13,6 +13,7 @@ import subprocess as sp
 import os
 import sys
 import time
+import re
 # add one
 
 
@@ -66,12 +67,12 @@ def main():
             #         conn_info = os.popen(cmd_conn % ip).read().strip()
             #         print((cmd_conn % ip), conn_info)
             cfg = cfg_info[2]
-            iter_cfg = cfg.strip()
-            ips = iter_cfg.split("    ")[-3]
-            ip = ips[4:ips.index(':')]
-            print("ip-->" , ip)
-            conn_info = os.popen(cmd_conn % ip).read().strip()
-            print((cmd_conn % ip), conn_info)
+            pattern = re.compile("((?:(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d)))\.){3}(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d))))")
+            ip = re.findall(pattern, cfg)
+            # ip = cfg[(cfg.index(" 1")-1):cfg.index(':')].strip()
+            print("ip-->", ip[0][0])
+            conn_info = os.popen(cmd_conn % ip[0][0]).read().strip()
+            print((cmd_conn % ip[0][0]), conn_info)
                     # pass
 
                     # print(cfg_info)

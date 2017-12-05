@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-from testApp.testSet.common.driver import driver
+from testSet.common.driver import driver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from testApp.testSet.common.log import logger
-import testApp.testSet.common.report as report
-from testApp.testSet.common.sreenshot import ScreenShot
+from testSet.common.log import logger
+import testSet.common.report as report
+from testSet.common.sreenshot import ScreenShot
 from appium import webdriver
 # testdriver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', driver.desired_caps)
 port = ""
