@@ -1,0 +1,41 @@
+---
+-
+  test_name: 进入找飞机
+  test_id: 0001
+  test_control_page: HOMEPAGE
+  test_action: click
+  test_control_id: find_flight
+-
+  test_name: 选择航程类型
+  test_id: 0002
+  test_control_page: HOMEPAGE
+  test_action: click
+  test_control_id:
+-
+  test_name: 选择目的地
+  test_id: 0003
+  test_control_page:
+  test_action: click
+  test_control_id:
+  test_after:
+-
+  test_name: 选择出发地
+  test_id: 0004
+  test_control_page: FLIGHTPAGE
+  test_action: click
+  test_control_id:
+  test_after:
+-
+  test_name: 选择舱位
+  test_id: 0005
+  test_control_page: FLIGHTPAGE
+  test_action: click
+  test_control_id:
+  test_after:
+-
+  test_name: 点击搜索
+  test_id: 0006
+  test_control_page: FLIGHTPAGE
+  test_action: click
+  test_control_id: search
+---
