@@ -8,6 +8,7 @@ from common.myServer import myServer
 from test_01 import test_01 as testcase1
 from test_02 import test_02 as testcase2
 from test_03 import test_03 as testcase3
+from generateTestcase import GenerateTestcase as case
 import threading
 import xlrd  #excel驱动程序
 from xlrd import open_workbook
@@ -34,8 +35,9 @@ class runTest():
         # if driver:
         basePage.setconfig(config, device)
         suite = unittest.TestSuite()
-        for case in casename:
-            suite.addTest(testcase1(case))
+        # for case in casename:
+        # suite.addTest(testcase1(case))
+        suite.addTest(case("test_mainflow"))
         # suite.addTest(testcase2("test_passenger"))
         # suite.addTest(testcase3("test_passenger"))
         runner = createReport.getReportConfig()
@@ -87,7 +89,7 @@ class myThread(threading.Thread):
 
 if __name__ == '__main__':
     try:
-        devices = ["8885dc17", "33fd33df"]
+        devices = ["33fd33df"]
         theading_pool = []
         for device in devices:
             ms = myServer(device)

@@ -1,0 +1,75 @@
+[INFO][setUp][2017-11-29 11:43:19,480]test_03
+[INFO][setUp][2017-11-29 11:43:19,480]test_03
+[INFO][setUp][2017-11-29 11:43:19,480]test_03
+[INFO][setUp][2017-11-29 11:43:19,480]test_03
+[INFO][setUp][2017-11-29 16:48:03,911]test_03
+[INFO][setUp][2017-11-29 16:48:03,911]test_03
+[INFO][setUp][2017-11-29 16:48:03,911]test_03
+[INFO][setUp][2017-11-29 16:48:03,911]test_03
+[INFO][<module>][2017-11-29 16:48:07,322]test over
+[INFO][<module>][2017-11-29 16:48:07,322]test over
+[INFO][<module>][2017-11-29 16:48:07,322]test over
+[INFO][<module>][2017-11-29 16:48:07,322]test over
+[INFO][<module>][2017-11-29 16:48:07,322]test over
+[INFO][setUp][2017-11-29 16:48:23,401]test_03
+[INFO][setUp][2017-11-29 16:48:23,401]test_03
+[INFO][setUp][2017-11-29 16:48:23,401]test_03
+[INFO][setUp][2017-11-29 16:48:23,401]test_03
+[INFO][<module>][2017-11-29 16:48:25,535]test over
+[INFO][<module>][2017-11-29 16:48:25,535]test over
+[INFO][<module>][2017-11-29 16:48:25,535]test over
+[INFO][<module>][2017-11-29 16:48:25,535]test over
+[INFO][<module>][2017-11-29 16:48:25,535]test over
+[INFO][setUp][2017-11-29 16:48:43,012]test_03
+[INFO][setUp][2017-11-29 16:48:43,012]test_03
+[INFO][setUp][2017-11-29 16:48:43,012]test_03
+[INFO][setUp][2017-11-29 16:48:43,012]test_03
+[INFO][<module>][2017-11-29 16:48:45,140]test over
+[INFO][<module>][2017-11-29 16:48:45,140]test over
+[INFO][<module>][2017-11-29 16:48:45,140]test over
+[INFO][<module>][2017-11-29 16:48:45,140]test over
+[INFO][<module>][2017-11-29 16:48:45,140]test over
+[INFO][setUp][2017-11-29 16:49:12,799]test_03
+[INFO][setUp][2017-11-29 16:49:12,799]test_03
+[INFO][setUp][2017-11-29 16:49:12,799]test_03
+[INFO][setUp][2017-11-29 16:49:12,799]test_03
+[INFO][<module>][2017-11-29 16:49:22,234]test over
+[INFO][<module>][2017-11-29 16:49:22,234]test over
+[INFO][<module>][2017-11-29 16:49:22,234]test over
+[INFO][<module>][2017-11-29 16:49:22,234]test over
+[INFO][<module>][2017-11-29 16:49:22,234]test over
+[INFO][setUp][2017-11-29 16:57:57,970]test_03
+[INFO][<module>][2017-11-29 16:58:04,654]test over
+[INFO][<module>][2017-11-29 16:58:04,654]test over
+[INFO][setUp][2017-11-29 16:59:13,640]test_03
+[INFO][<module>][2017-11-29 16:59:18,947]test over
+[INFO][<module>][2017-11-29 16:59:18,947]test over
+[INFO][setUp][2017-11-29 17:00:14,174]test_03
+[INFO][<module>][2017-11-29 17:00:19,551]test over
+[INFO][<module>][2017-11-29 17:00:19,551]test over
+[INFO][setUp][2017-11-29 17:01:06,493]test_03
+[INFO][<module>][2017-11-29 17:01:10,966]test over
+[INFO][<module>][2017-11-29 17:01:10,966]test over
+[INFO][setUp][2017-11-29 17:01:29,884]test_03
+[INFO][setUp][2017-11-29 17:02:07,075]test_03
+[INFO][setUp][2017-11-29 17:04:28,181]test_03
+[INFO][<module>][2017-11-29 17:04:32,434]test over
+[INFO][<module>][2017-11-29 17:04:32,434]test over
+[INFO][setUp][2017-11-29 17:05:26,105]test_03
+[INFO][find_element][2017-11-29 17:06:12,250]<page.passengerListPage.passengerListPage object at 0x00000000041C9F60> 页面没有找到('id', 'com.igola.travel:id/search_btn')元素
+[INFO][<module>][2017-11-29 17:06:24,470]test over
+[INFO][<module>][2017-11-29 17:06:24,470]test over
+[INFO][setUp][2017-11-29 17:07:02,443]test_03
+[INFO][find_element][2017-11-29 17:07:22,017]<page.passengerListPage.passengerListPage object at 0x000000000382B7B8> 页面没有找到('id', 'com.igola.travel:id/search_btn')元素
+[INFO][<module>][2017-11-29 17:07:22,161]test over
+[INFO][<module>][2017-11-29 17:07:22,161]test over
+[INFO][setUp][2017-11-29 17:10:17,522]test_03
+[INFO][find_element][2017-11-29 17:10:37,207]<page.passengerListPage.passengerListPage object at 0x00000000032E8438> 页面没有找到('id', 'com.igola.travel:id/search_btn')元素
+[INFO][<module>][2017-11-29 17:10:37,398]test over
+[INFO][<module>][2017-11-29 17:10:37,398]test over
+[INFO][setUp][2017-11-29 17:12:03,506]test_03
+[INFO][setUp][2017-11-29 17:13:45,631]test_03
+[INFO][find_element][2017-11-29 17:14:09,660]<page.passengerListPage.passengerListPage object at 0x0000000004020BE0> 页面没有找到('id', 'com.igola.travel:id/search_btn')元素
+[INFO][<module>][2017-11-29 17:14:09,869]test over
+[INFO][<module>][2017-11-29 17:14:09,869]test over
+[INFO][setUp][2017-11-29 17:14:44,224]test_03
