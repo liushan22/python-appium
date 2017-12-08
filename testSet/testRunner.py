@@ -37,9 +37,9 @@ class runTest():
         suite = unittest.TestSuite()
         # for case in casename:
         # suite.addTest(testcase1(case))
-        suite.addTest(case("test_mainflow"))
+        # suite.addTest(case("test_mainflow"))
         # suite.addTest(testcase2("test_passenger"))
-        # suite.addTest(testcase3("test_passenger"))
+        suite.addTest(testcase3("test_passenger"))
         runner = createReport.getReportConfig()
         runner.run(suite)
         ms.quit()

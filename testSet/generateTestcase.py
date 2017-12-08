@@ -57,7 +57,7 @@ class GenerateTestcase(unittest.TestCase):
                         file_dic[filename] = path
         return file_dic
 
-    def test_mainflow(self, path_yaml):
+    def test_mainflow(self):
         """
         测试用例解释器
         :param path_yaml: 测试用例地址
@@ -67,6 +67,7 @@ class GenerateTestcase(unittest.TestCase):
         # package_name = ini.get_ini('test_package_name', 'package_name')
         cpu_list = []
         mem_list = []
+        path_yaml = "E:\\python\\testApp\python-appium\\testSet\caselist\mainflow.yaml"
         for dic in self.get_all_case(path_yaml):
             self.log.success(str(dic))
             if isinstance(dic, dict):
@@ -170,4 +171,4 @@ class GenerateTestcase(unittest.TestCase):
 
 if __name__ == '__main__':
     case = GenerateTestcase()
-    case.test_mainflow("E:\\python\\testApp\python-appium\\testSet\caselist\mainflow.yaml")
+    case.test_mainflow()

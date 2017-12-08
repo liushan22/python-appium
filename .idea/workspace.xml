@@ -2,7 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28ea3c8-f509-487c-b5cc-67f927e8bb93" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/.idea/python-appium.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/cofig.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/readCofig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-11_43_11_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-16_47_55_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-16_48_15_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-16_48_34_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-16_49_04_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-16_57_49_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-16_59_05_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_00_06_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_00_58_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_01_21_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_01_59_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_04_20_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_05_18_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_06_54_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_10_09_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_11_55_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_13_37_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/2017-11-29-17_14_36_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171129/output.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171130/2017-11-30-14_47_05_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171130/output.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171203/2017-12-03-19_42_11_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171203/2017-12-03-19_43_25_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171203/2017-12-03-19_49_26_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171203/2017-12-03-20_53_33_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171203/2017-12-03-20_54_37_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171203/2017-12-03-20_57_05_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171203/2017-12-03-20_58_34_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171203/2017-12-03-21_08_19_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171203/output.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171205/2017-12-05-18_50_44_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171205/2017-12-05-18_51_13_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171205/2017-12-05-18_52_58_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171205/2017-12-05-18_56_05_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171205/2017-12-05-18_57_31_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171205/2017-12-05-18_58_45_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171205/2017-12-05-19_11_31_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/result/20171205/output.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/caselist/login.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/caselist/mainflow.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/common/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/common/device.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/common/driver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/common/log.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/common/myServer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/common/report.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/common/sreenshot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/generateTestcase.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/output.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/page/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/page/basePage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/page/elementConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/page/flightPage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/page/loginPage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/page/passengerListPage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/testRunner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/test_01.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/test_02.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python-appium/testSet/test_03.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testSet/generateTestcase.py" afterPath="$PROJECT_DIR$/testSet/generateTestcase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testSet/page/basePage.py" afterPath="$PROJECT_DIR$/testSet/page/basePage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testSet/testRunner.py" afterPath="$PROJECT_DIR$/testSet/testRunner.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +89,7 @@
       <file leaf-file-name="test_03.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSet/test_03.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
+            <state relative-caret-position="-109">
               <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
@@ -29,7 +101,7 @@
       <file leaf-file-name="test_01.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSet/test_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276">
+            <state relative-caret-position="368">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#15#43#0" expanded="true" />
@@ -63,8 +135,8 @@
       <file leaf-file-name="testRunner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSet/testRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="-764">
+              <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
                 <element signature="e#26#41#0" expanded="true" />
               </folding>
@@ -72,31 +144,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="report.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testSet/common/report.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sreenshot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSet/common/sreenshot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="253">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basePage.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="basePage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testSet/page/basePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="85" column="42" lean-forward="false" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+            <state relative-caret-position="345">
+              <caret line="78" column="15" lean-forward="true" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
               <folding>
                 <element signature="e#24#64#0" expanded="true" />
               </folding>
@@ -104,11 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="driver.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testSet/common/driver.py">
+      <file leaf-file-name="generateTestcase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testSet/generateTestcase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="835">
+              <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,19 +198,20 @@
         <option value="$PROJECT_DIR$/testSet/common/myServer.py" />
         <option value="$PROJECT_DIR$/testSet/test_03.py" />
         <option value="$PROJECT_DIR$/testSet/page/loginPage.py" />
-        <option value="$PROJECT_DIR$/testSet/page/basePage.py" />
         <option value="$PROJECT_DIR$/testSet/test_01.py" />
         <option value="$PROJECT_DIR$/testSet/page/elementConfig.py" />
-        <option value="$PROJECT_DIR$/testSet/testRunner.py" />
         <option value="F:/Appium/node_modules/appium/node_modules/appium-adb/lib/adb.js" />
         <option value="F:/Appium/node_modules/appium/lib/devices/android/android.js" />
         <option value="$PROJECT_DIR$/testSet/common/driver.py" />
+        <option value="$PROJECT_DIR$/testSet/generateTestcase.py" />
+        <option value="$PROJECT_DIR$/testSet/testRunner.py" />
+        <option value="$PROJECT_DIR$/testSet/page/basePage.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="178" />
-    <option name="y" value="77" />
+    <option name="x" value="249" />
+    <option name="y" value="121" />
     <option name="width" value="1524" />
     <option name="height" value="911" />
   </component>
@@ -170,35 +233,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-appium" />
+              <option name="myItemId" value="gitwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-appium" />
+              <option name="myItemId" value="gitwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-appium" />
+              <option name="myItemId" value="gitwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-appium" />
+              <option name="myItemId" value="gitwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -208,11 +263,29 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-appium" />
+              <option name="myItemId" value="gitwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-appium" />
+              <option name="myItemId" value="gitwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testSet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gitwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gitwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -224,28 +297,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="result" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="F:/Appium/node_modules/appium/lib/devices/android/android.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -365,7 +422,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="178" y="77" width="1524" height="911" extended-state="1" />
+    <frame x="249" y="121" width="1524" height="911" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17639257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -416,7 +473,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/testSet/page/basePage.py</url>
-          <line>83</line>
+          <line>84</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -433,7 +490,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -442,14 +499,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testSet/common/driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testSet/test_01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -672,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSet/test_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1912">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testSet/output.log" />
     <entry file="file://$PROJECT_DIR$/testSet/common/log.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -734,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,24 +784,6 @@
         <state relative-caret-position="69">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="66" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSet/common/sreenshot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSet/page/basePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="85" column="42" lean-forward="false" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
-          <folding>
-            <element signature="e#24#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,31 +805,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSet/test_03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSet/testRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Appium/node_modules/appium/node_modules/appium-adb/lib/adb.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="1037" column="2" lean-forward="true" selection-start-line="1037" selection-start-column="2" selection-end-line="1037" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,13 +816,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="111" column="32" lean-forward="true" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSet/common/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSet/test_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1288">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testSet/test_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
+        <state relative-caret-position="368">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#15#43#0" expanded="true" />
@@ -828,11 +845,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSet/common/driver.py">
+    <entry file="file://$PROJECT_DIR$/testSet/test_03.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="-109">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSet/generateTestcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSet/common/sreenshot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSet/testRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-764">
+          <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <element signature="e#26#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSet/page/basePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="78" column="15" lean-forward="true" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+          <folding>
+            <element signature="e#24#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
