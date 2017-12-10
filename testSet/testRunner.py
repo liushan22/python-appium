@@ -104,4 +104,5 @@ if __name__ == '__main__':
             t.join()
     except:
         print "线程运行失败"
+        raise
 

@@ -7,7 +7,7 @@ import time
 from page.passengerListPage import passengerListPage
 import page.elementConfig as point
 from selenium.common.exceptions import WebDriverException
-from common.sreenshot import ScreenShot
+from common.sreenshot import screenshot
 from common.driver import driver
 finalclick = 0  # 最后点击的乘机人索引
 
@@ -23,6 +23,7 @@ class test_03(unittest.TestCase):
         self.log.info("test_03")
         self.passengerListPage = passengerListPage()
 
+    @screenshot
     def test_passenger(self):
         time.sleep(5)
         global finalclick
@@ -38,15 +39,16 @@ class test_03(unittest.TestCase):
         self.passengerListPage.find_element(*point.BOOKING["add_passenger"]).click()
 
         element = self.passengerListPage.getElementlist(**point.BOOKING_PASSENGER["passenger_container"])
-        finalclick = self.passengerListPage.clickEachElements(element, finalclick, *point.BOOKING_PASSENGER["passenger"])
+        self.assertNotEqual(len(element), 0, "no passenger")
+        finalclick = self.passengerListPage.clickEachElements(element, finalclick, *point.BOOKING_PASSENGER["passenger_container"]["edit"])
         while finalclick < totalelement:  # 如果最后点击的乘机人索引小于总共有的乘机人，则下滑
             self.passengerListPage.swipedown(1000)
             elements = self.passengerListPage.getElementlist(**point.BOOKING_PASSENGER["passenger_container"])
             thisclick = (totalelement - finalclick) % 10  # 计算剩下未点击的乘机人数量 % 一页展示的数量
             if thisclick != 0:  # 剩下的未点击的乘机人数量不足一页时
-                self.passengerListPage.clickEachElements(elements[-thisclick:], finalclick, *point.BOOKING_PASSENGER["passenger"])
+                self.passengerListPage.clickEachElements(elements[-thisclick:], finalclick, *point.BOOKING_PASSENGER["passenger_container"]["edit"])
             else:
-                self.passengerListPage.clickEachElements(element, finalclick, *point.BOOKING_PASSENGER["passenger"])
+                self.passengerListPage.clickEachElements(element, finalclick, *point.BOOKING_PASSENGER["passenger_container"]["edit"])
         self.log.info("本次共检查%s条乘机人数据" % finalclick)
 
     def tearDown(self):

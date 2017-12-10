@@ -1,0 +1,107 @@
+[INFO][setUp][2017-12-10 10:35:05,734]test_03
+[DEBUG][connect][2017-12-10 10:35:17,503]478233fd33df
+[ERROR][inner][2017-12-10 10:35:40,424]断言错误
+[INFO][adb_screenshot][2017-12-10 10:35:40,424]E:\python\testApp\result\image
+[INFO][adb_screenshot][2017-12-10 10:35:42,354]screenshot:2017-12-10-10_34_55.png 
+[INFO][run][2017-12-10 10:35:45,450]test over
+[INFO][setUp][2017-12-10 10:37:58,671]test_03
+[INFO][setUp][2017-12-10 10:37:58,671]test_03
+[DEBUG][connect][2017-12-10 10:38:08,987]473033fd33df
+[DEBUG][connect][2017-12-10 10:38:08,987]473033fd33df
+[ERROR][inner][2017-12-10 10:38:33,582]断言错误
+[ERROR][inner][2017-12-10 10:38:33,582]断言错误
+[INFO][adb_screenshot][2017-12-10 10:38:33,584]E:\python\testApp\result\image
+[INFO][adb_screenshot][2017-12-10 10:38:33,584]E:\python\testApp\result\image
+[INFO][adb_screenshot][2017-12-10 10:38:39,150]screenshot:2017-12-10-10_37_48.png 
+[INFO][adb_screenshot][2017-12-10 10:38:39,150]screenshot:2017-12-10-10_37_48.png 
+[INFO][run][2017-12-10 10:38:47,036]test over
+[INFO][run][2017-12-10 10:38:47,036]test over
+[INFO][run][2017-12-10 10:38:47,036]test over
+[INFO][setUp][2017-12-10 10:47:01,549]test_03
+[DEBUG][connect][2017-12-10 10:47:10,085]470533fd33df
+[ERROR][inner][2017-12-10 10:47:34,601]断言错误
+[INFO][adb_screenshot][2017-12-10 10:47:34,601]E:\python\testApp\result\image
+[INFO][adb_screenshot][2017-12-10 10:47:36,036]screenshot:2017-12-10-10_46_51.png 
+[INFO][run][2017-12-10 10:47:38,749]test over
+[2017-12-10 11:13:03,933][8148:5544][setUp][INFO] test_03
+[2017-12-10 11:13:03,954][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "5.0.2", "appPackage": "com.igola.travel", "platformName": "Android", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
+[2017-12-10 11:13:12,242][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:12,242][8148:5544][connect][DEBUG] 487833fd33df
+[2017-12-10 11:13:17,242][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element {"using": "id", "sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "value": "com.igola.travel:id/find_flight_btn"}
+[2017-12-10 11:13:17,365][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:17,365][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element/1/click {"sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "id": "1"}
+[2017-12-10 11:13:17,653][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:17,654][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element {"using": "id", "sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "value": "com.igola.travel:id/search_btn"}
+[2017-12-10 11:13:18,638][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:18,638][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element/2/click {"sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "id": "2"}
+[2017-12-10 11:13:18,812][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:18,812][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element {"using": "id", "sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "value": "com.igola.travel:id/results_recycler_view"}
+[2017-12-10 11:13:20,684][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:21,184][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element {"using": "id", "sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "value": "com.igola.travel:id/results_recycler_view"}
+[2017-12-10 11:13:21,243][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:21,244][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element/3/elements {"using": "class name", "sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "id": "3", "value": "android.widget.RelativeLayout"}
+[2017-12-10 11:13:25,322][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:25,325][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element/4/click {"sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "id": "4"}
+[2017-12-10 11:13:25,733][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:25,733][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element {"using": "id", "sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "value": "com.igola.travel:id/book_list"}
+[2017-12-10 11:13:26,733][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:26,733][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element/29/elements {"using": "class name", "sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "id": "29", "value": "android.widget.RelativeLayout"}
+[2017-12-10 11:13:32,269][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:32,269][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element/30/click {"sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "id": "30"}
+[2017-12-10 11:13:32,539][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:32,539][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element {"using": "id", "sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "value": "com.igola.travel:id/add_passenger_layout"}
+[2017-12-10 11:13:34,477][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:34,479][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element/59/click {"sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "id": "59"}
+[2017-12-10 11:13:34,832][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:34,834][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element {"using": "id", "sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "value": "com.igola.travel:id/passenger_recycler_view"}
+[2017-12-10 11:13:35,970][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:35,971][8148:5544][_request][DEBUG] POST http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c/element/60/elements {"using": "id", "sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c", "id": "60", "value": "com.igola.travel:id/edit_iv"}
+[2017-12-10 11:13:36,750][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:36,752][8148:5544][inner][ERROR] 断言错误
+[2017-12-10 11:13:36,752][8148:5544][adb_screenshot][INFO] E:\python\testApp\result\image
+[2017-12-10 11:13:38,142][8148:5544][adb_screenshot][INFO] screenshot:2017-12-10-11_12_53.png 
+[2017-12-10 11:13:38,299][8148:5544][_request][DEBUG] DELETE http://127.0.0.1:4878/wd/hub/session/723a9469-73df-4811-b0d2-5d4e7925096c {"sessionId": "723a9469-73df-4811-b0d2-5d4e7925096c"}
+[2017-12-10 11:13:40,532][8148:5544][_request][DEBUG] Finished Request
+[2017-12-10 11:13:41,095][8148:5544][run][INFO] test over
+[2017-12-10 11:21:47,213][9260:9928][setUp][INFO] test_03
+[2017-12-10 11:21:47,240][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "5.0.2", "appPackage": "com.igola.travel", "platformName": "Android", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
+[2017-12-10 11:21:55,069][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:21:55,069][9260:9928][connect][DEBUG] 478733fd33df
+[2017-12-10 11:22:00,069][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element {"using": "id", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "value": "com.igola.travel:id/find_flight_btn"}
+[2017-12-10 11:22:00,163][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:00,163][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element/1/click {"sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "id": "1"}
+[2017-12-10 11:22:00,555][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:00,555][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element {"using": "id", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "value": "com.igola.travel:id/search_btn"}
+[2017-12-10 11:22:01,973][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:01,973][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element/2/click {"sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "id": "2"}
+[2017-12-10 11:22:02,201][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:02,203][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element {"using": "id", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "value": "com.igola.travel:id/results_recycler_view"}
+[2017-12-10 11:22:03,045][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:03,545][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element {"using": "id", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "value": "com.igola.travel:id/results_recycler_view"}
+[2017-12-10 11:22:03,944][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:04,444][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element {"using": "id", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "value": "com.igola.travel:id/results_recycler_view"}
+[2017-12-10 11:22:04,710][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:04,711][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element/3/elements {"using": "class name", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "id": "3", "value": "android.widget.RelativeLayout"}
+[2017-12-10 11:22:10,026][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:10,026][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element/4/click {"sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "id": "4"}
+[2017-12-10 11:22:10,384][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:10,385][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element {"using": "id", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "value": "com.igola.travel:id/book_list"}
+[2017-12-10 11:22:11,767][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:11,767][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element/29/elements {"using": "class name", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "id": "29", "value": "android.widget.RelativeLayout"}
+[2017-12-10 11:22:15,282][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:15,283][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element/30/click {"sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "id": "30"}
+[2017-12-10 11:22:15,487][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:15,487][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element {"using": "id", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "value": "com.igola.travel:id/add_passenger_layout"}
+[2017-12-10 11:22:17,466][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:17,467][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element/59/click {"sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "id": "59"}
+[2017-12-10 11:22:17,776][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:17,776][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element {"using": "id", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "value": "com.igola.travel:id/passenger_recycler_view"}
+[2017-12-10 11:22:19,013][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:19,013][9260:9928][_request][DEBUG] POST http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346/element/60/elements {"using": "id", "sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346", "id": "60", "value": "com.igola.travel:id/edit_iv"}
+[2017-12-10 11:22:22,049][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:22,049][9260:9928][inner][ERROR] 断言错误
+[2017-12-10 11:22:22,049][9260:9928][adb_screenshot][INFO] E:\python\testApp\result\image
+[2017-12-10 11:22:23,318][9260:9928][adb_screenshot][INFO] screenshot:2017-12-10-11_21_37.png 
+[2017-12-10 11:22:23,437][9260:9928][_request][DEBUG] DELETE http://127.0.0.1:4787/wd/hub/session/64e7c7d0-1c65-4ede-9e57-3921dd554346 {"sessionId": "64e7c7d0-1c65-4ede-9e57-3921dd554346"}
+[2017-12-10 11:22:25,484][9260:9928][_request][DEBUG] Finished Request
+[2017-12-10 11:22:25,759][9260:9928][run][INFO] test over

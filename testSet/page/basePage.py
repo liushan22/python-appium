@@ -1,21 +1,43 @@
 # -*- coding: utf-8 -*-
-from testSet.common.driver import driver
+from testApp.testSet.common.driver import driver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from testSet.common.log import logger
-import testSet.common.report as report
-from testSet.common.sreenshot import ScreenShot
+from testApp.testSet.common.log import logger
+import testApp.testSet.common.report as report
+import os
+from testApp.testSet.common.sreenshot import screenshot
 from appium import webdriver
 # testdriver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', driver.desired_caps)
+parent_path=os.path.abspath(os.path.dirname(os.path.realpath(__file__))+os.path.sep+"..")
+report_path = os.path.join(os.path.dirname(parent_path), 'result')
+today = time.strftime("%Y%m%d", time.localtime(time.time()))
+today_report_path = report_path + "\\" + today
 port = ""
 dev = ""
+c = 0
 
 
 def setconfig(config, device):
     global port, dev
     port = config
     dev = device
+
+
+# def sreenshot(func):
+#     def inner(self, *args, **kwargs):
+#         global c
+#         try:
+#             f = func(self, *args, **kwargs)
+#             return f
+#         except Exception:
+#             self.log.info("screenshot")
+#             self.log.info(report.today_report_path)
+#             pngname = func.__name__ + str(c) + ".png"
+#             self.driver.get_screenshot_as_file(today_report_path + "\\" + pngname)
+#             print today_report_path + "\\" + pngname
+#             c += 1 # 失败后截图
+#     return inner
 
 
 class basePage(object):
@@ -31,7 +53,6 @@ class basePage(object):
         self.driver = self.dr.getDriver()
         # self.driver = basePage.testdriver
         self.log = logger(report.today_report_path).getlog()
-
 
     def get_size(self):
         """
@@ -68,10 +89,10 @@ class basePage(object):
     def back(self):
         self.driver.keyevent(4)  # 4代表返回具体查看http://www.cnblogs.com/zoro-robin/p/5640557.html
 
-    @ScreenShot(driver)
+    @screenshot
     def find_element(self, *loc):
         try:
-            self.log.debug(*loc)
+            # self.log.debug(*loc)
             element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
             # element = self.driver.find_element(*loc)
 
@@ -79,7 +100,7 @@ class basePage(object):
         except:
             self.log.info("%s 页面没有找到%s元素" % (self, loc))
 
-    # @ScreenShot(driver)
+    @screenshot
     def find_elements(self, *loc):
         try:
             WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(*loc))
@@ -87,31 +108,19 @@ class basePage(object):
         except:
             self.log.info("%s 页面没有找到%s元素" % (self, loc))
 
-    # @ScreenShot(driver)
+    @screenshot
     def getElementlist(self, **loc):
         """
         获取乘机人列表
         :return: 乘机人列表
         """
-        loc1 = loc.items()[0][1]
-        loc2 = loc.items()[1][1]
-        self.log.debug(loc1, loc2)
+        dict = sorted(loc.items(), key=lambda d: d[0])
+        loc1 = dict[1][1]
+        loc2 = dict[0][1]
+        # self.log.debug(loc1, loc2)
         element = self.find_element(*loc1)
         elements = element.find_elements(*loc2)
         return elements
-
-    def sreenshot(self, func):
-        def inner(*args, **kwargs):
-            try:
-                f = func(*args, **kwargs)
-                return f
-            except Exception:
-                self.log.info("screenshot")
-                # self.log.info(today_report_path)
-                global c
-                self.driver.get_screenshot_as_file(report.today_report_path + "\\" + str(c) + ".png")
-                c += 1  # 失败后截图
-        return inner
 
     def quit(self):
         self.driver.quit()

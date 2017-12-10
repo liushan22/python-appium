@@ -3,7 +3,7 @@ from appium import webdriver
 import time
 import unittest
 from common.driver import driver
-from common.sreenshot import ScreenShot
+# from common.sreenshot import ScreenShot
 from selenium.common.exceptions import WebDriverException
 from common.log import logger
 import common.report as report

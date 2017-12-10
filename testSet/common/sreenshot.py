@@ -1,37 +1,48 @@
 # -*- coding: utf-8 -*-
 import os
 import time
-from log import logger
+import log
+from driver import driver
 parent_path=os.path.abspath(os.path.dirname(os.path.realpath(__file__))+os.path.sep+"..")
 report_path = os.path.join(os.path.dirname(parent_path), 'result')
-today = time.strftime("%Y%m%d", time.localtime(time.time()))
-today_report_path = report_path + "\\" + today
+today = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+today_report_path = report_path + "\\image"
 # TEMP_FILE = PATH(tempfile.gettempdir() + "/temp.png")
-c = 0
 
 
-class ScreenShot(object):
-    def __init__(self, driver):
-        self.driver = driver
-        self.log = logger(today_report_path).getlog()
+    # def __init__(self, func):
+    #     # self.driver = driver
+    #     self.func = func
+    #     self.log = logger(today_report_path).getlog()
+def adb_screenshot(self):
+    self.log.info(today_report_path)
+    picname = today + ".png"
+    PATH = lambda p: os.path.abspath(p)
+    os.popen("adb wait-for-device")
+    os.popen("adb shell screencap -p /data/local/tmp/tmp.png")
+    os.popen("adb pull /data/local/tmp/tmp.png " + PATH(today_report_path + "/" + picname))
+    self.log.info("screenshot:" + picname + " ")
+    os.popen("adb shell rm /data/local/tmp/tmp.png")
 
-    def get_screenshot(self):
-        self.log.info("screenshot")
-        self.log.info(today_report_path)
-        global c
-        self.driver.get_screenshot_as_file(today_report_path + "\\" + str(c) + ".png")
-        c += 1
 
-    def __call__(self, func):
-        def inner(*args, **kwargs):
-            try:
-                f = func(*args, **kwargs)
-                return f
-            except Exception:
-                self.get_screenshot()  # 失败后截图
-        return inner
+def screenshot(func):
+    def inner(self, *args, **kwargs):
+        try:
+            #f = func(self, *args, **kwargs)
+            return func(self, *args, **kwargs)
+        except AssertionError as e:
+            self.log.error("断言错误")
+            adb_screenshot(self)
+        except Exception:
+            self.log.error("其他出错")
+            adb_screenshot(self)
+            raise
+    return inner
 
-if __name__ == "__main__":
 
-    re = ScreenShot()
-    re.get_screenshot()
+
+
+# if __name__ == "__main__":
+#
+#     re = ScreenShot()
+    # re.get_screenshot()

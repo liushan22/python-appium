@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import unittest
-from common.sreenshot import ScreenShot
+# from common.sreenshot import ScreenShot
 from selenium.common.exceptions import WebDriverException
 from common.log import logger
 import common.report as report
