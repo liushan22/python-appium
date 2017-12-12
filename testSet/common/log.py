@@ -27,8 +27,6 @@ class logger(object):
             filename=log_file,
             filemode='a+')
         self.logger = logging.getLogger('loggingmodule.NomalLogger')
-        #if not self.logger.handlers:
-
         ch = logging.StreamHandler()
         ch.setLevel(log_level)
         # formatter1 = logging.Formatter('[%(asctime)s][%(process)d:%(thread)d][%(levelname)s] %(message)s')

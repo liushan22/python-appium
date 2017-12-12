@@ -27,7 +27,7 @@ class test_03(unittest.TestCase):
     def test_passenger(self):
         time.sleep(5)
         global finalclick
-        totalelement = 300  # 乘机人总数
+        totalelement = 2  # 乘机人总数
         self.passengerListPage.find_element(*point.HOMEPAGE["find_flight"]).click()  # 进入找飞机页面
         self.passengerListPage.find_element(*point.FLIGHTPAGE["search"]).click()  # 搜索
         flight_results = self.passengerListPage.getElementlist(**point.TIMELINE["flight_container"])

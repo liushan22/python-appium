@@ -33,8 +33,12 @@ def screenshot(func):
         except AssertionError as e:
             self.log.error("断言错误")
             adb_screenshot(self)
-        except Exception:
-            self.log.error("其他出错")
+            raise
+        except AttributeError:
+            adb_screenshot(self)
+            self.log.info("%s 页面没有找到%s元素" % (self, loc))
+        except Exception, msg:
+            self.log.error("其他出错:%s" % msg)
             adb_screenshot(self)
             raise
     return inner

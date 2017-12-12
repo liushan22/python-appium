@@ -30,7 +30,6 @@ class myServer(object):
             # print '%d is ok' % port
             return True
         except Exception, e:
-            print e
             return False
 
     def getport(self):
@@ -47,7 +46,7 @@ class myServer(object):
         """
         aport = self.getport()
         bport = self.getport()
-        print "--------appium server start----------"
+        self.log.info("--------appium server start----------")
         # startCMD = "node D:\\Appium\\node_modules\\appium\\bin\\appium.js"
         # startCMD = "node Appium\\node_modules\\appium\\bin\\appium.js"
         cmd = 'appium' + ' -p ' + str(aport) + ' --bootstrap-port ' + str(bport) + ' -U ' + str(self.device) + " --session-override"
@@ -76,7 +75,7 @@ class myServer(object):
         :return:
         """
         os.system('taskkill /f /im node.exe')
-        print "over"
+        self.log.info("----------------appium close---------------------")
 
 if __name__ == '__main__':
     myserver = myServer()

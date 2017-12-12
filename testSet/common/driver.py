@@ -5,6 +5,7 @@ from log import logger
 import report
 import appium
 from selenium.common.exceptions import WebDriverException
+dr = webdriver.Remote
 
 
 class driver(object):
@@ -30,10 +31,15 @@ class driver(object):
 
     def connect(self, port):
         url = 'http://localhost:%s/wd/hub' % str(port)
-        print url
-        self.driver = webdriver.Remote(url, self.desired_caps)
-        self.log.debug(str(port) + self.device)
+        self.log.debug(url)
+        try:
+            global dr
+            dr = webdriver.Remote(url, self.desired_caps)
+            self.log.debug("启动接口为：%s,手机ID为：%s" % (str(port), self.device))
+        except Exception:
+            self.log.info("appium 启动失败")
+            raise
 
     def getDriver(self):
-        return self.driver
+        return dr
 

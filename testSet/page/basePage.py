@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-from testApp.testSet.common.driver import driver
+from testSet.common.driver import driver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from testApp.testSet.common.log import logger
-import testApp.testSet.common.report as report
+from testSet.common.log import logger
+import testSet.common.report as report
 import os
-from testApp.testSet.common.sreenshot import screenshot
+from testSet.common.sreenshot import screenshot
 from appium import webdriver
 # testdriver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', driver.desired_caps)
 parent_path=os.path.abspath(os.path.dirname(os.path.realpath(__file__))+os.path.sep+"..")
@@ -16,28 +16,13 @@ today_report_path = report_path + "\\" + today
 port = ""
 dev = ""
 c = 0
+isinit = False
 
 
 def setconfig(config, device):
     global port, dev
     port = config
     dev = device
-
-
-# def sreenshot(func):
-#     def inner(self, *args, **kwargs):
-#         global c
-#         try:
-#             f = func(self, *args, **kwargs)
-#             return f
-#         except Exception:
-#             self.log.info("screenshot")
-#             self.log.info(report.today_report_path)
-#             pngname = func.__name__ + str(c) + ".png"
-#             self.driver.get_screenshot_as_file(today_report_path + "\\" + pngname)
-#             print today_report_path + "\\" + pngname
-#             c += 1 # 失败后截图
-#     return inner
 
 
 class basePage(object):
@@ -47,10 +32,14 @@ class basePage(object):
         # self.dr = driver()
         # self.dr.connect()
         # self.driver = self.dr.getDriver()
-        global port, dev
-        self.dr = driver(dev)
-        self.dr.connect(port)
-        self.driver = self.dr.getDriver()
+        global port, dev, isinit
+        if not isinit:
+            self.dr = driver(dev)
+            self.dr.connect(port)
+            isinit = True
+            self.driver = self.dr.getDriver()
+        else:
+            self.driver = driver(dev).getDriver()
         # self.driver = basePage.testdriver
         self.log = logger(report.today_report_path).getlog()
 
@@ -61,7 +50,7 @@ class basePage(object):
         """
         x = self.driver.get_window_size()['width']
         y = self.driver.get_window_size()['height']
-        return (x,y)
+        return x, y
 
     def swipedown(self, t):
         """
@@ -91,22 +80,15 @@ class basePage(object):
 
     @screenshot
     def find_element(self, *loc):
-        try:
-            # self.log.debug(*loc)
-            element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
-            # element = self.driver.find_element(*loc)
-
-            return element
-        except:
+        element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
+        return element
+        except AttributeError:
             self.log.info("%s 页面没有找到%s元素" % (self, loc))
 
     @screenshot
     def find_elements(self, *loc):
-        try:
-            WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(*loc))
-            return self.driver.find_elements(*loc)
-        except:
-            self.log.info("%s 页面没有找到%s元素" % (self, loc))
+        WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(*loc))
+        return self.driver.find_elements(*loc)
 
     @screenshot
     def getElementlist(self, **loc):

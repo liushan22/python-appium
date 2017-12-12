@@ -2,6 +2,7 @@
 from basePage import basePage
 import time
 import elementConfig as point
+from testSet.common.sreenshot import screenshot
 
 
 class passengerListPage(basePage):
@@ -22,6 +23,32 @@ class passengerListPage(basePage):
                 self.back()
             finalclick += 1
         return finalclick
+
+    @screenshot
+    def select_passenger(self, *passenger_type):
+        elements = self.getElementlist(**point.BOOKING_PASSENGER["passenger_container"])
+        for passenger in passenger_type:
+            for ele in elements:
+                self.log.debug(ele.text)
+                if cmp(ele.text, passenger):
+                    ele.click()
+                    break
+        self.find_element(*point.BOOKING_PASSENGER["submit_passenger"]).click()
+
+    @screenshot
+    def getElementlist(self, **loc):
+        """
+        获取乘机人列表
+        :return: 乘机人列表
+        """
+        dict = sorted(loc.items(), key=lambda d: d[0])
+        loc1 = dict[1][1]
+        loc2 = dict[2][1]
+        # self.log.debug(loc1, loc2)
+        element = self.find_element(*loc1)
+        elements = element.find_elements(*loc2)
+        return elements
+
 
 
 
