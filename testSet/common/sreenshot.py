@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 import os
 import time
+from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import NoSuchElementException
+import traceback
 import log
 from driver import driver
 parent_path=os.path.abspath(os.path.dirname(os.path.realpath(__file__))+os.path.sep+"..")
@@ -33,13 +36,20 @@ def screenshot(func):
         except AssertionError as e:
             self.log.error("断言错误")
             adb_screenshot(self)
+            s = traceback.format_exc()
+            self.log.error(s)
             raise
-        except AttributeError:
+        except (NoSuchElementException, TimeoutException), msg:
             adb_screenshot(self)
-            self.log.info("%s 页面没有找到%s元素" % (self, loc))
+            self.log.info("页面没有找到元素%s" % msg)
+            s = traceback.format_exc()
+            self.log.error(s)
+            raise
         except Exception, msg:
             self.log.error("其他出错:%s" % msg)
             adb_screenshot(self)
+            s = traceback.format_exc()
+            self.log.error(s)
             raise
     return inner
 

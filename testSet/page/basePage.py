@@ -7,6 +7,8 @@ from testSet.common.log import logger
 import testSet.common.report as report
 import os
 from testSet.common.sreenshot import screenshot
+from testSet.public.tran_type import TranType
+from selenium.common.exceptions import NoSuchElementException
 from appium import webdriver
 # testdriver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', driver.desired_caps)
 parent_path=os.path.abspath(os.path.dirname(os.path.realpath(__file__))+os.path.sep+"..")
@@ -40,8 +42,9 @@ class basePage(object):
             self.driver = self.dr.getDriver()
         else:
             self.driver = driver(dev).getDriver()
-        # self.driver = basePage.testdriver
-        self.log = logger(report.today_report_path).getlog()
+        l = logger(report.today_report_path)
+        self.log = l.getlog()
+        self.tran_type = TranType()
 
     def get_size(self):
         """
@@ -60,20 +63,19 @@ class basePage(object):
         """
         l = self.get_size()
         x1 = int(l[0]*0.5)
-        y1 = int(l[1]*0.85)
+        y1 = int(l[1]*0.75)
         y2 = int(l[1]*0.05)
         self.driver.swipe(x1, y1, x1, y2, t)
 
+    @screenshot
     def send_keys(self, value, clear_first=True, click_first=True, *loc):
-        try:
-            # loc = getattr(self, "_%s" % loc)  # getattr相当于实现self.loc
-            value = str(int(value))
-            if click_first:
-                self.find_element(*loc).click()
-            if clear_first:
-                self.find_element(*loc).send_keys(value)
-        except AttributeError:
-            self.log.error("%s 页面中未能找到 %s 元素" % (self, loc))
+        # loc = getattr(self, "_%s" % loc)  # getattr相当于实现self.loc
+        value = self.tran_type.tran_type(value)
+        if click_first:
+            self.find_element(*loc).click()
+            self.hide_keyboard()
+        if clear_first:
+            self.find_element(*loc).send_keys(value)
 
     def back(self):
         self.driver.keyevent(4)  # 4代表返回具体查看http://www.cnblogs.com/zoro-robin/p/5640557.html
@@ -82,8 +84,6 @@ class basePage(object):
     def find_element(self, *loc):
         element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
         return element
-        except AttributeError:
-            self.log.info("%s 页面没有找到%s元素" % (self, loc))
 
     @screenshot
     def find_elements(self, *loc):
@@ -104,5 +104,20 @@ class basePage(object):
         elements = element.find_elements(*loc2)
         return elements
 
+    def hide_keyboard(self):
+        self.driver.hide_keyboard()
+
+    def tap(self):
+        self.driver.tap([(584, 68), (704, 128)], 500)
+
+    def isElement_exist(self, *loc):
+        try:
+            WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
+            return True
+        except:
+            return False
+
     def quit(self):
+        global isinit
+        isinit = False
         self.driver.quit()

@@ -26,14 +26,25 @@ class passengerListPage(basePage):
 
     @screenshot
     def select_passenger(self, *passenger_type):
-        elements = self.getElementlist(**point.BOOKING_PASSENGER["passenger_container"])
+        self.log.info("选择乘机人")
+        isclick = False
         for passenger in passenger_type:
-            for ele in elements:
-                self.log.debug(ele.text)
-                if cmp(ele.text, passenger):
-                    ele.click()
-                    break
-        self.find_element(*point.BOOKING_PASSENGER["submit_passenger"]).click()
+            while not isclick:
+                elements = self.getElementlist(**point.BOOKING_PASSENGER["passenger_container"])
+                for ele in elements:
+                    self.log.debug(ele.text)
+                    if ele.text == passenger:
+                        ele.click()
+                        isclick = True
+                        break
+                if not isclick:
+                    self.swipedown(500)
+        time.sleep(1)
+        self.sumbit_passenger()
+
+    def sumbit_passenger(self):
+        self.log.info("提交乘机人")
+        self.tap()
 
     @screenshot
     def getElementlist(self, **loc):
@@ -47,6 +58,7 @@ class passengerListPage(basePage):
         # self.log.debug(loc1, loc2)
         element = self.find_element(*loc1)
         elements = element.find_elements(*loc2)
+        assert len(elements) != 0, "页面异常"
         return elements
 
 

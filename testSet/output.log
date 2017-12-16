@@ -761,3 +761,259 @@
 [INFO][adb_screenshot][2017-12-10 10:38:39,150]screenshot:2017-12-10-10_37_48.png 
 [INFO][run][2017-12-10 10:38:47,036]test over
 [INFO][run][2017-12-10 10:38:47,036]test over
+[2017-12-15 19:17:22,997][12196:9864][go_flightPage][INFO] 进入找飞机页面
+[2017-12-15 19:17:23,023][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/find_flight_btn"}
+[2017-12-15 19:17:30,576][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:30,578][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element/1/click {"sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "id": "1"}
+[2017-12-15 19:17:32,022][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:32,022][12196:9864][select_ways][INFO] 选择航程类型
+[2017-12-15 19:17:32,022][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/trip_type_view"}
+[2017-12-15 19:17:33,608][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:33,608][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element/2/elements {"using": "class name", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "id": "2", "value": "android.widget.RelativeLayout"}
+[2017-12-15 19:17:34,782][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:34,783][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element/3/click {"sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "id": "3"}
+[2017-12-15 19:17:36,232][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:36,233][12196:9864][go_citypage][INFO] 选择depart_city地
+[2017-12-15 19:17:36,233][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/from_city_view"}
+[2017-12-15 19:17:37,549][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:37,549][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element/6/click {"sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "id": "6"}
+[2017-12-15 19:17:38,831][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:38,831][12196:9864][search_city][INFO] 选择CAN城市
+[2017-12-15 19:17:38,832][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/search_city_area"}
+[2017-12-15 19:17:40,525][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:40,526][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element/7/click {"sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "id": "7"}
+[2017-12-15 19:17:44,744][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:44,746][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/appium/device/hide_keyboard {"sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "strategy": "tapOutside"}
+[2017-12-15 19:17:46,986][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:46,986][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/search_city_area"}
+[2017-12-15 19:17:48,069][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:48,069][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element/8/value {"sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "id": "8", "value": ["CAN"]}
+[2017-12-15 19:17:55,436][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:55,437][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:17:57,255][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:57,756][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:17:59,163][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:17:59,664][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:18:00,859][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:18:01,361][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:18:02,861][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:18:03,362][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:18:04,555][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:18:05,058][12196:9864][_request][DEBUG] POST http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a/element {"using": "id", "sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:18:06,308][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:18:06,809][12196:9864][inner][ERROR] 其他出错:Message: 
+
+[2017-12-15 19:18:06,809][12196:9864][adb_screenshot][INFO] G:\gitwork\gitwork\result\image
+[2017-12-15 19:18:07,686][12196:9864][adb_screenshot][INFO] screenshot:2017-12-15-19_17_04.png 
+[2017-12-15 19:18:07,747][12196:9864][inner][ERROR] Traceback (most recent call last):
+  File "G:\gitwork\gitwork\testSet\common\sreenshot.py", line 34, in inner
+    return func(self, *args, **kwargs)
+  File "G:\gitwork\gitwork\testSet\page\basePage.py", line 87, in find_element
+    element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+[2017-12-15 19:18:07,747][12196:9864][inner][ERROR] 其他出错:Message: 
+
+[2017-12-15 19:18:07,747][12196:9864][adb_screenshot][INFO] G:\gitwork\gitwork\result\image
+[2017-12-15 19:18:08,575][12196:9864][adb_screenshot][INFO] screenshot:2017-12-15-19_17_04.png 
+[2017-12-15 19:18:08,628][12196:9864][inner][ERROR] Traceback (most recent call last):
+  File "G:\gitwork\gitwork\testSet\common\sreenshot.py", line 34, in inner
+    return func(self, *args, **kwargs)
+  File "G:\gitwork\gitwork\testSet\page\basePage.py", line 105, in getElementlist
+    element = self.find_element(*loc1)
+  File "G:\gitwork\gitwork\testSet\common\sreenshot.py", line 34, in inner
+    return func(self, *args, **kwargs)
+  File "G:\gitwork\gitwork\testSet\page\basePage.py", line 87, in find_element
+    element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+[2017-12-15 19:18:08,630][12196:9864][_request][DEBUG] DELETE http://localhost:4766/wd/hub/session/f4a742f7-8d52-449c-a12f-7840f3861d1a {"sessionId": "f4a742f7-8d52-449c-a12f-7840f3861d1a"}
+[2017-12-15 19:18:10,525][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:18:10,525][12196:9864][setUp][INFO] test_mainflow
+[2017-12-15 19:18:10,526][12196:9864][connect][DEBUG] http://localhost:4766/wd/hub
+[2017-12-15 19:18:11,529][12196:9864][_request][DEBUG] POST http://127.0.0.1:4766/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "8885dc17", "noReset": true, "platformVersion": "5.0.2", "appPackage": "com.igola.travel", "platformName": "Android", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
+[2017-12-15 19:18:14,372][12196:9864][_request][DEBUG] Finished Request
+[2017-12-15 19:18:14,372][12196:9864][connect][DEBUG] 启动接口为：4766,手机ID为：8885dc17
+[2017-12-15 19:18:14,374][12196:9864][go_flightPage][INFO] 进入找飞机页面
+[2017-12-15 19:18:14,374][12196:9864][_request][DEBUG] POST http://127.0.0.1:4766/wd/hub/session/89197244-9113-4df6-9980-83b7abf649e9/element {"using": "id", "sessionId": "89197244-9113-4df6-9980-83b7abf649e9", "value": "com.igola.travel:id/find_flight_btn"}
+[2017-12-15 19:21:09,743][9444:2056][go_flightPage][INFO] 进入找飞机页面
+[2017-12-15 19:21:09,743][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/find_flight_btn"}
+[2017-12-15 19:21:26,451][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:26,451][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element/1/click {"sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "id": "1"}
+[2017-12-15 19:21:28,046][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:28,046][9444:2056][select_ways][INFO] 选择航程类型
+[2017-12-15 19:21:28,048][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/trip_type_view"}
+[2017-12-15 19:21:28,680][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:28,681][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element/2/elements {"using": "class name", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "id": "2", "value": "android.widget.RelativeLayout"}
+[2017-12-15 19:21:28,878][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:28,880][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element/3/click {"sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "id": "3"}
+[2017-12-15 19:21:29,250][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:29,250][9444:2056][go_citypage][INFO] 选择depart_city地
+[2017-12-15 19:21:29,253][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/from_city_view"}
+[2017-12-15 19:21:30,052][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:30,052][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element/6/click {"sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "id": "6"}
+[2017-12-15 19:21:30,776][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:30,776][9444:2056][search_city][INFO] 选择CAN城市
+[2017-12-15 19:21:30,779][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/search_city_area"}
+[2017-12-15 19:21:32,012][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:32,012][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element/7/click {"sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "id": "7"}
+[2017-12-15 19:21:35,680][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:35,680][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/appium/device/hide_keyboard {"sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "strategy": "tapOutside"}
+[2017-12-15 19:21:36,881][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:36,882][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/search_city_area"}
+[2017-12-15 19:21:36,960][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:36,961][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element/8/value {"sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "id": "8", "value": ["CAN"]}
+[2017-12-15 19:21:42,749][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:42,749][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:44,418][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:44,921][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:45,407][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:45,908][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:46,461][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:46,963][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:47,171][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:47,674][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:47,904][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:48,407][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:48,836][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:49,338][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:49,569][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:50,071][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:50,558][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:51,059][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:51,490][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:51,992][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:52,236][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:52,736][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609/element {"using": "id", "sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:21:52,950][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:53,453][9444:2056][inner][ERROR] 其他出错:Message: 
+
+[2017-12-15 19:21:53,454][9444:2056][adb_screenshot][INFO] G:\gitwork\gitwork\result\image
+[2017-12-15 19:21:54,384][9444:2056][adb_screenshot][INFO] screenshot:2017-12-15-19_20_55.png 
+[2017-12-15 19:21:54,457][9444:2056][inner][ERROR] Traceback (most recent call last):
+  File "G:\gitwork\gitwork\testSet\common\sreenshot.py", line 34, in inner
+    return func(self, *args, **kwargs)
+  File "G:\gitwork\gitwork\testSet\page\basePage.py", line 87, in find_element
+    element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+[2017-12-15 19:21:54,457][9444:2056][inner][ERROR] 其他出错:Message: 
+
+[2017-12-15 19:21:54,457][9444:2056][adb_screenshot][INFO] G:\gitwork\gitwork\result\image
+[2017-12-15 19:21:55,336][9444:2056][adb_screenshot][INFO] screenshot:2017-12-15-19_20_55.png 
+[2017-12-15 19:21:55,384][9444:2056][inner][ERROR] Traceback (most recent call last):
+  File "G:\gitwork\gitwork\testSet\common\sreenshot.py", line 34, in inner
+    return func(self, *args, **kwargs)
+  File "G:\gitwork\gitwork\testSet\page\basePage.py", line 105, in getElementlist
+    element = self.find_element(*loc1)
+  File "G:\gitwork\gitwork\testSet\common\sreenshot.py", line 34, in inner
+    return func(self, *args, **kwargs)
+  File "G:\gitwork\gitwork\testSet\page\basePage.py", line 87, in find_element
+    element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+[2017-12-15 19:21:55,385][9444:2056][_request][DEBUG] DELETE http://127.0.0.1:4830/wd/hub/session/405e3c0b-8e93-48d4-aabf-17561ebca609 {"sessionId": "405e3c0b-8e93-48d4-aabf-17561ebca609"}
+[2017-12-15 19:21:56,230][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:56,230][9444:2056][setUp][INFO] test_mainflow
+[2017-12-15 19:21:56,232][9444:2056][connect][DEBUG] http://localhost:4830/wd/hub
+[2017-12-15 19:21:57,233][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "8885dc17", "noReset": true, "platformVersion": "5.0.2", "appPackage": "com.igola.travel", "platformName": "Android", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
+[2017-12-15 19:21:59,982][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:21:59,983][9444:2056][connect][DEBUG] 启动接口为：4830,手机ID为：8885dc17
+[2017-12-15 19:21:59,983][9444:2056][go_flightPage][INFO] 进入找飞机页面
+[2017-12-15 19:21:59,983][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/find_flight_btn"}
+[2017-12-15 19:22:19,500][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:19,500][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element/1/click {"sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "id": "1"}
+[2017-12-15 19:22:21,114][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:21,115][9444:2056][select_ways][INFO] 选择航程类型
+[2017-12-15 19:22:21,117][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/trip_type_view"}
+[2017-12-15 19:22:21,318][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:21,319][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element/2/elements {"using": "class name", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "id": "2", "value": "android.widget.RelativeLayout"}
+[2017-12-15 19:22:21,644][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:21,644][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element/3/click {"sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "id": "3"}
+[2017-12-15 19:22:24,822][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:24,822][9444:2056][go_citypage][INFO] 选择depart_city地
+[2017-12-15 19:22:24,825][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/from_city_view"}
+[2017-12-15 19:22:24,900][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:24,900][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element/6/click {"sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "id": "6"}
+[2017-12-15 19:22:26,762][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:26,763][9444:2056][search_city][INFO] 选择CAN城市
+[2017-12-15 19:22:26,765][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/search_city_area"}
+[2017-12-15 19:22:26,822][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:26,823][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element/7/click {"sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "id": "7"}
+[2017-12-15 19:22:30,066][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:30,068][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/appium/device/hide_keyboard {"sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "strategy": "tapOutside"}
+[2017-12-15 19:22:31,275][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:31,276][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/search_city_area"}
+[2017-12-15 19:22:31,342][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:31,342][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element/8/value {"sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "id": "8", "value": ["CAN"]}
+[2017-12-15 19:22:37,388][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:37,391][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:39,128][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:39,631][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:39,818][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:40,319][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:40,790][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:41,295][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:41,749][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:42,250][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:42,716][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:43,217][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:43,388][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:43,891][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:44,365][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:44,865][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:45,125][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:45,625][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:45,864][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:46,365][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:46,605][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:47,107][9444:2056][_request][DEBUG] POST http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806/element {"using": "id", "sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806", "value": "com.igola.travel:id/hot_city_rv"}
+[2017-12-15 19:22:47,312][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:47,813][9444:2056][inner][ERROR] 其他出错:Message: 
+
+[2017-12-15 19:22:47,813][9444:2056][adb_screenshot][INFO] G:\gitwork\gitwork\result\image
+[2017-12-15 19:22:48,653][9444:2056][adb_screenshot][INFO] screenshot:2017-12-15-19_20_55.png 
+[2017-12-15 19:22:48,701][9444:2056][inner][ERROR] Traceback (most recent call last):
+  File "G:\gitwork\gitwork\testSet\common\sreenshot.py", line 34, in inner
+    return func(self, *args, **kwargs)
+  File "G:\gitwork\gitwork\testSet\page\basePage.py", line 87, in find_element
+    element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+[2017-12-15 19:22:48,701][9444:2056][inner][ERROR] 其他出错:Message: 
+
+[2017-12-15 19:22:48,701][9444:2056][adb_screenshot][INFO] G:\gitwork\gitwork\result\image
+[2017-12-15 19:22:49,602][9444:2056][adb_screenshot][INFO] screenshot:2017-12-15-19_20_55.png 
+[2017-12-15 19:22:49,651][9444:2056][inner][ERROR] Traceback (most recent call last):
+  File "G:\gitwork\gitwork\testSet\common\sreenshot.py", line 34, in inner
+    return func(self, *args, **kwargs)
+  File "G:\gitwork\gitwork\testSet\page\basePage.py", line 105, in getElementlist
+    element = self.find_element(*loc1)
+  File "G:\gitwork\gitwork\testSet\common\sreenshot.py", line 34, in inner
+    return func(self, *args, **kwargs)
+  File "G:\gitwork\gitwork\testSet\page\basePage.py", line 87, in find_element
+    element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*loc))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+[2017-12-15 19:22:49,651][9444:2056][_request][DEBUG] DELETE http://127.0.0.1:4830/wd/hub/session/d5431f87-6036-4a60-9910-cea9b5a62806 {"sessionId": "d5431f87-6036-4a60-9910-cea9b5a62806"}
+[2017-12-15 19:22:50,486][9444:2056][_request][DEBUG] Finished Request
+[2017-12-15 19:22:50,697][9444:2056][quit][INFO] ----------------appium close---------------------
+[2017-12-15 19:22:50,697][9444:2056][run][INFO] test over
