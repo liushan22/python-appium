@@ -13,7 +13,7 @@ class logger(object):
 
     def config(self):
         log_file = os.path.join(self.logfile_path, "output.log")
-        log_level = logging.DEBUG
+        log_level = logging.INFO
         logging.basicConfig(
             level=logging.DEBUG,
             format='[%(asctime)s][%(process)d:%(thread)d][%(funcName)s][%(levelname)s] %(message)s',

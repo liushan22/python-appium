@@ -3,6 +3,7 @@ from basePage import basePage
 import time
 import elementConfig as point
 from testSet.common.sreenshot import screenshot
+from testSet.common.sreenshot import testcase_exception
 
 
 class passengerListPage(basePage):
@@ -24,16 +25,36 @@ class passengerListPage(basePage):
             finalclick += 1
         return finalclick
 
-    @screenshot
+    @testcase_exception
+    def go_passengerpage(self, passenger):
+        self.log.info("进入乘机人编辑页")
+        isclick = False
+        while not isclick:
+            elements = self.getElementlist(0, 2, **point.BOOKING_PASSENGER["passenger_container"])
+            for ele in elements:
+                name = ele.find_elements(*point.BOOKING_PASSENGER["passenger_container"]["passenger_name"])
+                if name[0].text == passenger:
+                    edit = ele.find_elements(*point.BOOKING_PASSENGER["passenger_container"]["passenger_edit"])
+                    if len(edit) != 0:
+                        self.log.info(name[0].text)
+                        edit[0].click()
+                        isclick = True
+                        break
+                elif name[0].text == "HOME ISSUEATMOEA":
+                    self.log.info("没有找到该乘机人")
+                    return
+            if not isclick:
+                self.swipedown(500)
+
     def select_passenger(self, *passenger_type):
         self.log.info("选择乘机人")
         isclick = False
         for passenger in passenger_type:
             while not isclick:
-                elements = self.getElementlist(**point.BOOKING_PASSENGER["passenger_container"])
+                elements = self.getElementlist(3, 2, **point.BOOKING_PASSENGER["passenger_container"])
                 for ele in elements:
-                    self.log.debug(ele.text)
                     if ele.text == passenger:
+                        self.log.info(ele.text)
                         ele.click()
                         isclick = True
                         break
@@ -44,22 +65,27 @@ class passengerListPage(basePage):
 
     def sumbit_passenger(self):
         self.log.info("提交乘机人")
-        self.tap()
+        self.tap("123")
 
     @screenshot
-    def getElementlist(self, **loc):
+    def find_title(self):
+        assert not self.isElement_exist(*point.PASSENGER["title"])
+
+    @screenshot
+    def getElementlist(self, x, y, **loc):
         """
         获取乘机人列表
         :return: 乘机人列表
         """
         dict = sorted(loc.items(), key=lambda d: d[0])
-        loc1 = dict[1][1]
-        loc2 = dict[2][1]
+        loc1 = dict[y][1]
+        loc2 = dict[x][1]
         # self.log.debug(loc1, loc2)
         element = self.find_element(*loc1)
         elements = element.find_elements(*loc2)
-        assert len(elements) != 0, "页面异常"
+        assert len(elements) != 0, "乘机人列表页为空"
         return elements
+
 
 
 

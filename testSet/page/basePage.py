@@ -8,6 +8,7 @@ import testSet.common.report as report
 import os
 from testSet.common.sreenshot import screenshot
 from testSet.public.tran_type import TranType
+import elementConfig as point
 from selenium.common.exceptions import NoSuchElementException
 from appium import webdriver
 # testdriver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', driver.desired_caps)
@@ -63,7 +64,7 @@ class basePage(object):
         """
         l = self.get_size()
         x1 = int(l[0]*0.5)
-        y1 = int(l[1]*0.75)
+        y1 = int(l[1]*0.60)
         y2 = int(l[1]*0.05)
         self.driver.swipe(x1, y1, x1, y2, t)
 
@@ -88,7 +89,9 @@ class basePage(object):
     @screenshot
     def find_elements(self, *loc):
         WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(*loc))
-        return self.driver.find_elements(*loc)
+        elements = self.driver.find_elements(*loc)
+        assert len(elements) != 0
+        return elements
 
     @screenshot
     def getElementlist(self, **loc):
@@ -107,8 +110,9 @@ class basePage(object):
     def hide_keyboard(self):
         self.driver.hide_keyboard()
 
-    def tap(self):
-        self.driver.tap([(584, 68), (704, 128)], 500)
+    def tap(self, loc):
+        if self.isElement_exist(*point.BOOKING_PASSENGER["submit_passenger"]):
+            self.driver.tap([(584, 68), (704, 128)], 500)
 
     def isElement_exist(self, *loc):
         try:
@@ -116,6 +120,10 @@ class basePage(object):
             return True
         except:
             return False
+
+    def isElement_clickable(self, *loc):
+        element = self.find_element(*loc)
+        return element.clickable
 
     def quit(self):
         global isinit

@@ -2,11 +2,11 @@
 import HTMLTestRunner
 import time
 import os
+import sys
 parent_path=os.path.abspath(os.path.dirname(os.path.realpath(__file__))+os.path.sep+"..")
 report_path = os.path.join(os.path.dirname(parent_path), 'result')
 today_report_path = ""
 print report_path
-import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 

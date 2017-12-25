@@ -3,6 +3,7 @@
 from appium import webdriver
 from log import logger
 import report
+import os
 import appium
 from selenium.common.exceptions import WebDriverException
 dr = webdriver.Remote
@@ -38,6 +39,7 @@ class driver(object):
             self.log.debug("启动接口为：%s,手机ID为：%s" % (str(port), self.device))
         except Exception:
             self.log.info("appium 启动失败")
+            os.popen("taskkill /f /im adb.exe")
             raise
 
     def getDriver(self):

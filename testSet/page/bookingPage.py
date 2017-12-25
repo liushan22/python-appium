@@ -27,5 +27,20 @@ class BookingPage(basePage):
 
     @screenshot
     def find_title(self):
-        assert self.isElement_exist(*point.BOOKING["add_passenger"])
+        if not self.isElement_exist(*point.BOOKING["add_passenger"]):
+            if self.isElement_exist(*point.BOOKING["search_other_fight"]):
+                self.log.info("验价失败，出现打包验价弹框")
+                self.find_element(*point.BOOKING["search_other_fight"]).click()
+            elif self.isElement_exist(*point.BOOKING["error"]):
+                self.log.info("验价失败")
+                self.find_element(*point.BOOKING["error"]).click()
+                self.find_element(*point.SUMMARY["retry"]).click()
+            return False
+        else:
+            return True
+
+    def check_sumitbtn_clickable(self):
+        self.log.info("检查提交按钮是否可点击")
+        self.isElement_clickable(*point.BOOKING["submit_order"])
+
 

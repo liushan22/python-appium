@@ -15,6 +15,7 @@ from page.insurancePage import InsurancePage
 from page.couponPage import CouponPage
 from common.sreenshot import screenshot
 from page.paymentPage import PaymentPage
+import page.elementConfig as point
 
 
 class Test_Mainfolw(unittest.TestCase):
@@ -54,28 +55,34 @@ class Test_Mainfolw(unittest.TestCase):
         self.flightpage.go_citypage("destination_city")
         self.citypage.search_city(destination_city)
         self.flightpage.search()
-        for i in range(0, trip_type+1):
-            self.timeline.select_flight()
-        self.summary.select_ota()
-        time.sleep(1)
+        while True:
+            for i in range(0, trip_type + 1):
+                self.timeline.select_flight()
+            self.summary.select_ota()
+            time.sleep(1)
+            if not self.booking.find_title():
+                continue
+            self.booking.go_passengerPage()
+            self.passengerlist.select_passenger(*passenger_type)
+            if not self.booking.find_title():
+                continue
+            self.booking.go_contactPage()
+            self.contactlist.select_contact()
+            if not self.booking.find_title():
+                continue
 
-        self.booking.find_title()
-        self.booking.go_passengerPage()
-        self.passengerlist.select_passenger(*passenger_type)
+            if insurance == "1":
+                self.booking.go_insurance()
+                self.insurancepage.select_insur()
+            if not self.booking.find_title():
+                continue
 
-        self.booking.find_title()
-        self.booking.go_contactPage()
-        self.contactlist.select_contact()
-        self.booking.find_title()
-
-        if insurance == "1":
-            self.booking.go_insurance()
-            self.insurancepage.select_insur()
-        self.booking.find_title()
-
-        if coupon == "1":
-            self.booking.go_couponPage()
-            self.couponpage.select_coupon()
+            if coupon == "1":
+                self.booking.go_couponPage()
+                self.couponpage.select_coupon()
+            if not self.booking.isElement_clickable(*point.BOOKING["submit_order"]):
+                continue
+            break
         self.booking.submit_order()
         self.paymentpage.select_payment()
 

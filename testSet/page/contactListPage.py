@@ -10,4 +10,4 @@ class ContactListPage(basePage):
         self.log.info("选择联系人")
         elements = self.getElementlist(**point.BOOKING_CONTACT["contact_container"])
         elements[0].click()
-        self.tap()
+        self.tap("123")

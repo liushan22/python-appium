@@ -16,12 +16,9 @@ from public.tran_type import TranType
 
 createReport = report.report()
 import os
-import sys
 import time
 from common.log import logger
 import common.report
-reload(sys)
-sys.setdefaultencoding('utf8')
 
 
 class runTest():

@@ -15,6 +15,9 @@ from page.insurancePage import InsurancePage
 from page.couponPage import CouponPage
 from common.sreenshot import screenshot
 from page.paymentPage import PaymentPage
+from page.passengerPage import PassengerPage
+from page.orderDetailPage import OrderDetailPage
+from page.paymentCompletedPage import PaymentCompletedPage
 import page.elementConfig as point
 isinit = False
 
@@ -39,35 +42,52 @@ class Test_Passenger(unittest.TestCase):
         self.insurancepage = InsurancePage()
         self.couponpage = CouponPage()
         self.paymentpage = PaymentPage()
+        self.passengerpage = PassengerPage()
+        self.orderdetailpage = OrderDetailPage()
+        self.paymentcompletepage = PaymentCompletedPage()
 
     def passenger(self, *args):
         passenger = args[1]
+        id = args[2]
+        id_type = args[3]
+        nationality = args[4]
+        gender = args[5]
         print passenger
         self.homepage.go_flightPage()
         self.flightpage.select_ways(0)
-        self.flightpage.go_citypage("depart_city")
-        self.citypage.search_city("CAN")
+        # self.flightpage.go_citypage("depart_city")
+        # self.citypage.search_city("CAN")
         time.sleep(1)
-        self.flightpage.go_citypage("destination_city")
-        self.citypage.search_city("LAX")
+        # self.flightpage.go_citypage("destination_city")
+        # self.citypage.search_city("LAX")
         self.flightpage.search()
-        #for i in range(0, trip_type+1):
-        self.timeline.select_flight()
-        self.summary.select_ota()
-        time.sleep(1)
-
-        self.booking.find_title()
-        self.booking.go_passengerPage()
-        # passenger = ["成人"]
-        self.passengerlist.select_passenger(passenger)
-
-        self.booking.find_title()
-        self.booking.go_contactPage()
-        self.contactlist.select_contact()
-        self.booking.find_title()
-
+        while True:
+            self.timeline.select_flight()
+            self.summary.select_ota()
+            if not self.booking.find_title():
+                continue
+            self.booking.go_passengerPage()
+            # passenger = ["成人"]
+            self.passengerlist.go_passengerpage(passenger)
+            self.passengerpage.submit_passenger()
+            time.sleep(3)
+            self.passengerlist.sumbit_passenger()
+            if not self.booking.find_title():
+                continue
+            # self.booking.go_contactPage()
+            # self.contactlist.select_contact()
+            # if not self.booking.find_title():
+            #     continue
+            break
+        self.assertTrue(self.booking.find_title())
         # self.booking.submit_order()
-        # self.assertTrue(self.paymentpage.isElement_exist(*point.PAYMENT["pay"]))
+        # self.assertTrue(self.paymentpage.find_pay(), "支付页面错误")
+        # self.paymentpage.select_payment()
+        # self.assertTrue(self.paymentcompletepage.find_btn())
+        # self.paymentcompletepage.go_orderdetail()
+
+        # self.orderdetailpage.go_passengerDetail()
+        # self.orderdetailpage.check_info(passenger, id_type, id, gender, nationality)
 
     @staticmethod
     def getTestFunc(*args):
