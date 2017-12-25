@@ -2,8 +2,8 @@
 from basePage import basePage
 import time
 import elementConfig as point
-from testSet.common.sreenshot import screenshot
-from testSet.common.sreenshot import testcase_exception
+from testApp.testSet.common.sreenshot import screenshot
+from testApp.testSet.common.sreenshot import testcase_exception
 
 
 class passengerListPage(basePage):
@@ -27,7 +27,7 @@ class passengerListPage(basePage):
 
     @testcase_exception
     def go_passengerpage(self, passenger):
-        self.log.info("进入乘机人编辑页")
+        self.log.info(u"进入乘机人编辑页")
         isclick = False
         while not isclick:
             elements = self.getElementlist(0, 2, **point.BOOKING_PASSENGER["passenger_container"])
@@ -41,7 +41,7 @@ class passengerListPage(basePage):
                         isclick = True
                         break
                 elif name[0].text == "HOME ISSUEATMOEA":
-                    self.log.info("没有找到该乘机人")
+                    self.log.info(u"没有找到该乘机人")
                     return
             if not isclick:
                 self.swipedown(500)
@@ -64,7 +64,7 @@ class passengerListPage(basePage):
         self.sumbit_passenger()
 
     def sumbit_passenger(self):
-        self.log.info("提交乘机人")
+        self.log.info(u"提交乘机人")
         self.tap("123")
 
     @screenshot

@@ -6,6 +6,6 @@ import time
 
 class PassengerPage(basePage):
     def submit_passenger(self):
-        self.log.info("提交乘机人")
+        self.log.info(u"提交乘机人")
         self.tap("123")
         time.sleep(2)

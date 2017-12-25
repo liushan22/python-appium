@@ -13,12 +13,13 @@ import xlrd  #excel驱动程序
 from xlrd import open_workbook
 import page.basePage as basePage
 from public.tran_type import TranType
-
 createReport = report.report()
 import os
 import time
 from common.log import logger
-import common.report
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 
 class runTest():
@@ -91,7 +92,7 @@ class myThread(threading.Thread):
 
 if __name__ == '__main__':
     try:
-        devices = ["8885dc17"]
+        devices = ["33fd33df"]
         theading_pool = []
         for device in devices:
             ms = myServer(device)

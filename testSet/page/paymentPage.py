@@ -2,7 +2,7 @@
 from basePage import basePage
 import elementConfig as point
 import time
-from testSet.common.sreenshot import screenshot
+from testApp.testSet.common.sreenshot import screenshot
 
 
 class PaymentPage(basePage):

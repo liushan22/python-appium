@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-from testSet.common.driver import driver
+from testApp.testSet.common.driver import driver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from testSet.common.log import logger
-import testSet.common.report as report
+from testApp.testSet.common.log import logger
+import testApp.testSet.common.report as report
 import os
-from testSet.common.sreenshot import screenshot
-from testSet.public.tran_type import TranType
+from testApp.testSet.common.sreenshot import screenshot
+from testApp.testSet.public.tran_type import TranType
 import elementConfig as point
 from selenium.common.exceptions import NoSuchElementException
 from appium import webdriver

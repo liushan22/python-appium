@@ -5,7 +5,7 @@ import elementConfig as point
 
 class TimelinePage(basePage):
     def select_flight(self):
-        self.log.info("选择timeline航班")
+        self.log.info(u"选择 timeline 航班")
         flight_results = self.getElementlist(**point.TIMELINE["flight_container"])
         # 获得timeline航班列表
         flight_results[0].click()  # 点击第一条航班
