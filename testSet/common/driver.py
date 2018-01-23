@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 
 from appium import webdriver
-from log import logger
-import report
+from .log import logger
+from . import report
 import os
+import testSet.util.date as date
 import appium
 from selenium.common.exceptions import WebDriverException
 dr = webdriver.Remote
@@ -27,8 +28,11 @@ class driver(object):
         self.desired_caps['deviceName'] = 'hermes'
         self.desired_caps['noReset'] = True
         self.desired_caps['appPackage'] = 'com.igola.travel'
+        # self.desired_caps['appPackage'] = 'com.igola.travel.young'
         self.desired_caps['appActivity'] = 'com.igola.travel.ui.LaunchActivity'
-        self.log = logger(report.today_report_path).getlog()
+        # self.desired_caps['appActivity'] = 'com.igola.travel.young.ui.MainActivity'
+        # self.desired_caps['nativeWebTap'] = True
+        self.log = logger(date.today_report_path).getlog()
 
     def connect(self, port):
         url = 'http://localhost:%s/wd/hub' % str(port)

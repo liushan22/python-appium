@@ -30,7 +30,7 @@ def main():
     # print(info_devices)
     # print("src_outer" , src_outer)
     if not src_outer:
-        print('there is no message out when cmd ' + cmd_devices)
+        print(('there is no message out when cmd ' + cmd_devices))
         sys.exit(0)
     touch_info = 'List of devices attached'
     lists = src_outer[src_outer.index(touch_info) + len(touch_info):]
@@ -49,7 +49,7 @@ def main():
             dev_name = device.split('\t')[0]
             print(dev_name)
             tcpip_info = os.popen(cmd_tcpip % dev_name).read().strip()
-            print((cmd_tcpip % dev_name), tcpip_info)
+            print(((cmd_tcpip % dev_name), tcpip_info))
             time.sleep(3)
             cfg_info = os.popen(cmd_cfg % dev_name).read().strip().split('\n')
             if not cfg_info:
@@ -66,13 +66,14 @@ def main():
             #         # print("ip-->" , ip)
             #         conn_info = os.popen(cmd_conn % ip).read().strip()
             #         print((cmd_conn % ip), conn_info)
-            cfg = cfg_info[2]
-            pattern = re.compile("((?:(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d)))\.){3}(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d))))")
+            cfg = cfg_info[4]
+            pattern = re.compile(
+                "((?:(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d)))\.){3}(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d))))")
             ip = re.findall(pattern, cfg)
             # ip = cfg[(cfg.index(" 1")-1):cfg.index(':')].strip()
-            print("ip-->", ip[0][0])
-            conn_info = os.popen(cmd_conn % ip[0][0]).read().strip()
-            print((cmd_conn % ip[0][0]), conn_info)
+            print(("ip-->", ip[0][0]))
+            conn_info = os.popen(cmd_conn % str(ip[0][0])).read().strip()
+            print(((cmd_conn % ip[0][0]), conn_info))
                     # pass
 
                     # print(cfg_info)

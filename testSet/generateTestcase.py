@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 import yaml
-from page.flightPage import FlightPage
+from .page.flightPage import FlightPage
 import os
-from common.log import logger
-import common.report as report
+from .common.log import logger
+from . import common.report as report
 import unittest
-import page.elementConfig as point
+from . import page.elementConfig as point
 
 
 class GenerateTestcase(unittest.TestCase):
@@ -33,7 +33,7 @@ class GenerateTestcase(unittest.TestCase):
                         if 'test_inherit' in dic:
                             inherit_case_name = dic['test_inherit']
                             inherit_case = inherit_case_name + '.yaml'
-                            if inherit_case in inherit_case_file.keys():
+                            if inherit_case in list(inherit_case_file.keys()):
                                 case_list += case_list + get_case(inherit_case_file[inherit_case])
 
                         else:
@@ -83,7 +83,7 @@ class GenerateTestcase(unittest.TestCase):
                     # todo:打印循环相关的日志
                     range_num = dic['test_range']
 
-                for i in xrange(0, range_num):
+                for i in range(0, range_num):
                     if dic['test_action'] == 'click':
                         # 点击
                         test_control_page = "point." + dic['test_control_page']
@@ -120,7 +120,7 @@ class GenerateTestcase(unittest.TestCase):
                         test_control = dic['test_control']
                         test_control_type = dic['test_control_type']
                         test_text = dic['test_text']
-                        if dic.has_key('test_wait'):
+                        if 'test_wait' in dic:
                             test_wait = int(dic['test_wait'])
 
                             self.log.success('assert {}'.format(test_control))

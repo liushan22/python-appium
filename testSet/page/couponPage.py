@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from basePage import basePage
-import elementConfig as point
+from .basePage import basePage
+from . import elementConfig as point
 
 
 class CouponPage(basePage):

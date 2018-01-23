@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from basePage import basePage
-import elementConfig as point
+from .basePage import basePage
+from . import elementConfig as point
 import time
-from testApp.testSet.common.sreenshot import screenshot
+from testSet.common.sreenshot import screenshot
 
 
 class PaymentPage(basePage):
@@ -39,6 +39,16 @@ class PaymentPage(basePage):
     def tap(self, loc):
         self.driver.tap(loc, 500)
 
-    @screenshot
-    def find_pay(self):
+    def verify_page(self):
         return self.isElement_exist(*point.PAYMENT["pay"])
+
+    def check_cabin(self):
+        cabin = self.find_element(*point.PAYMENT["cabin"]).text
+        return cabin
+
+    def pay_later(self):
+        self.find_element(*point.PAYMENT["pay_later"]).click()
+        # elements = self.getElementlist(0, 1, **point.PAYMENT["confirm_container"])
+        self.find_element(*point.PAYMENT["later_confirm"]).click()
+        # elements[0].click()
+        self.back()

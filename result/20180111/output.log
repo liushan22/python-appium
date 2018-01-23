@@ -1,0 +1,771 @@
+[2018-01-11 10:04:45,467][25440:20804][connect][DEBUG] http://localhost:4822/wd/hub
+[2018-01-11 10:04:47,745][25440:20804][__init__][INFO] Could not get IP address for host: localhost
+[2018-01-11 10:04:47,746][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "8885dc17", "deviceName": "hermes", "noReset": true, "appPackage": "com.igola.travel", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
+[2018-01-11 10:04:49,752][25440:20804][connect][INFO] appium 启动失败
+[2018-01-11 10:04:50,165][25440:20804][connect][DEBUG] http://localhost:4822/wd/hub
+[2018-01-11 10:04:52,169][25440:20804][__init__][INFO] Could not get IP address for host: localhost
+[2018-01-11 10:04:52,169][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "8885dc17", "deviceName": "hermes", "noReset": true, "appPackage": "com.igola.travel", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
+[2018-01-11 10:05:03,624][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:03,624][25440:20804][connect][DEBUG] 启动接口为：4822,手机ID为：8885dc17
+[2018-01-11 10:05:03,625][25440:20804][go_flightPage][INFO] 进入找飞机页面
+[2018-01-11 10:05:03,637][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/find_flight_btn", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:09,961][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:09,962][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/1/click {"id": "1", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:11,550][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:11,551][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/search_btn", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:13,403][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:13,403][25440:20804][select_ways][INFO] 选择航程类型
+[2018-01-11 10:05:13,404][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/trip_type_view", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:14,553][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:14,554][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/3/elements {"using": "class name", "value": "android.widget.RelativeLayout", "id": "3", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:15,729][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:15,729][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/5/click {"id": "5", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:17,665][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:17,666][25440:20804][search][INFO] 搜索
+[2018-01-11 10:05:17,666][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/search_btn", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:18,734][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:18,734][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/7/click {"id": "7", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:20,302][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:20,303][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/flights_result_header", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:22,265][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:22,266][25440:20804][select_flight][INFO] 选择 timeline 航班
+[2018-01-11 10:05:22,266][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/results_recycler_view", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:23,410][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:23,411][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/9/elements {"using": "id", "value": "com.igola.travel:id/price_tv", "id": "9", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:25,483][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:25,483][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/10/text {"id": "10", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:26,604][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:26,605][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/10/click {"id": "10", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:30,873][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:30,874][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/flights_result_header", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:31,953][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:31,953][25440:20804][select_flight][INFO] 选择 timeline 航班
+[2018-01-11 10:05:31,954][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/results_recycler_view", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:33,097][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:33,098][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/16/elements {"using": "id", "value": "com.igola.travel:id/price_tv", "id": "16", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:34,505][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:34,506][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/17/text {"id": "17", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:35,637][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:35,638][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/17/click {"id": "17", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:37,030][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:37,031][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/book_list", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:42,099][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:42,100][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:43,423][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:43,425][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:44,576][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:44,576][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/24/click {"id": "24", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:48,942][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:48,943][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:50,057][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:50,058][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/25/elements {"using": "id", "value": "com.igola.travel:id/flight_detail_rl", "id": "25", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:53,400][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:53,401][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/26/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "26", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:54,512][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:54,512][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/26/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "26", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:55,633][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:55,633][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/29/text {"id": "29", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:56,755][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:56,756][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/26/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "26", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:57,852][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:57,853][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/26/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "26", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:05:59,027][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:05:59,028][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/31/text {"id": "31", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:00,659][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:00,660][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/26/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "26", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:02,971][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:02,972][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/26/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "26", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:04,069][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:04,070][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/26/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "26", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:05,261][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:05,262][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/33/text {"id": "33", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:06,398][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:06,398][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/27/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "27", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:07,496][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:07,497][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/27/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "27", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:08,659][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:08,660][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/35/text {"id": "35", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:09,733][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:09,733][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/27/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "27", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:10,820][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:10,821][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/27/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "27", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:12,682][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:12,684][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/37/text {"id": "37", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:13,804][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:13,805][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/27/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "27", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:16,347][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:16,348][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/27/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "27", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:19,531][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:19,532][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:20,614][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:20,615][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/38/elements {"using": "id", "value": "com.igola.travel:id/transfer_info", "id": "38", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:21,873][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:21,874][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/39/text {"id": "39", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:23,398][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:23,399][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/window/current/size {"windowHandle": "current", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:24,414][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:24,414][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/window/current/size {"windowHandle": "current", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:25,431][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:25,431][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/touch/perform {"actions": [{"action": "press", "options": {"x": 360, "y": 768}}, {"action": "wait", "options": {"ms": 500}}, {"action": "moveTo", "options": {"x": 360, "y": 64}}, {"action": "release", "options": {}}], "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:27,056][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:27,057][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_2", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:28,763][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:28,764][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/40/elements {"using": "id", "value": "com.igola.travel:id/flight_detail_rl", "id": "40", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:29,978][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:29,979][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/41/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "41", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:31,072][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:31,073][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/41/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "41", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:32,161][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:32,162][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/43/text {"id": "43", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:33,944][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:33,945][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/41/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "41", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:35,069][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:35,070][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/41/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "41", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:36,168][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:36,168][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/45/text {"id": "45", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:37,294][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:37,294][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/41/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "41", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:40,398][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:40,399][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/41/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "41", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:43,384][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:43,385][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/class_tv", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:44,554][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:44,555][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/46/text {"id": "46", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:45,663][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:45,664][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/46/text {"id": "46", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:46,810][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:46,810][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:47,890][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:47,891][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:49,729][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:49,730][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/48/click {"id": "48", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:51,057][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:52,059][25440:20804][select_ota][INFO] 选择 ota
+[2018-01-11 10:06:52,059][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/book_list", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:53,206][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:53,207][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/49/elements {"using": "class name", "value": "android.widget.RelativeLayout", "id": "49", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:55,552][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:55,552][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/50/click {"id": "50", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:06:56,853][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:06:56,854][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/add_passenger_layout", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:00,021][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:00,022][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/total_amount_tv", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:01,125][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:01,125][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/56/text {"id": "56", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:02,291][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:02,292][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/flight_rl", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:03,427][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:03,428][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/57/click {"id": "57", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:04,704][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:04,705][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/flights_result_header", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:07,476][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:07,477][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:08,726][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:08,726][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/59/elements {"using": "id", "value": "com.igola.travel:id/flight_detail_rl", "id": "59", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:10,223][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:10,224][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/60/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "60", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:11,425][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:11,426][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/60/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "60", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:12,634][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:12,635][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/63/text {"id": "63", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:13,750][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:13,751][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/60/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "60", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:15,281][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:15,282][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/60/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "60", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:16,850][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:16,851][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/65/text {"id": "65", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:17,964][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:17,965][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/60/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "60", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:21,524][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:21,524][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/60/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "60", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:22,719][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:22,720][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/60/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "60", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:23,846][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:23,846][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/67/text {"id": "67", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:25,019][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:25,020][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/61/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "61", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:26,182][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:26,183][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/61/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "61", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:27,566][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:27,566][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/69/text {"id": "69", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:28,775][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:28,776][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/61/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "61", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:29,930][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:29,931][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/61/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "61", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:31,099][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:31,099][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/71/text {"id": "71", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:32,685][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:32,686][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/61/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "61", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:36,766][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:36,766][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/61/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "61", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:40,504][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:40,504][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:41,713][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:41,713][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/72/elements {"using": "id", "value": "com.igola.travel:id/transfer_info", "id": "72", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:43,367][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:43,368][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/73/text {"id": "73", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:44,473][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:44,474][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/window/current/size {"windowHandle": "current", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:45,493][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:45,493][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/window/current/size {"windowHandle": "current", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:46,511][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:46,512][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/touch/perform {"actions": [{"action": "press", "options": {"x": 360, "y": 768}}, {"action": "wait", "options": {"ms": 500}}, {"action": "moveTo", "options": {"x": 360, "y": 64}}, {"action": "release", "options": {}}], "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:47,803][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:47,803][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_2", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:48,948][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:48,949][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/74/elements {"using": "id", "value": "com.igola.travel:id/flight_detail_rl", "id": "74", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:50,985][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:50,985][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/75/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "75", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:52,099][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:52,099][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/75/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "75", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:53,724][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:53,725][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/77/text {"id": "77", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:54,898][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:54,899][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/75/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "75", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:56,042][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:56,042][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/75/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "75", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:57,214][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:57,215][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/79/text {"id": "79", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:07:59,198][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:07:59,199][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/75/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "75", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:02,341][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:02,342][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/75/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "75", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:06,331][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:06,332][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/appium/device/keyevent {"keycode": 4, "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:07,407][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:07,408][25440:20804][submit_order][INFO] 提交订单
+[2018-01-11 10:08:07,409][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/submit_btn", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:09,221][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:09,222][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/80/click {"id": "80", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:10,477][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:10,478][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/pay_btn", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:14,380][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:14,381][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/seat_class_tv", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:15,573][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:15,574][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/82/text {"id": "82", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:16,692][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:16,693][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/left_options_btn", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:17,862][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:17,862][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/83/click {"id": "83", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:20,801][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:20,825][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "name", "value": "\u7a0d\u540e\u4ed8\u6b3e", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:22,525][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:22,525][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/84/click {"id": "84", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:24,160][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:24,161][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/appium/device/keyevent {"keycode": 4, "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:25,220][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:25,221][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/order_btn", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:26,448][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:26,448][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/85/click {"id": "85", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:28,463][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:28,464][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/expand_lv", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:31,670][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:31,671][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/order_recycler_view", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:32,724][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:32,725][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/87/elements {"using": "id", "value": "com.igola.travel:id/order_btn", "id": "87", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:34,152][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:34,152][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/88/click {"id": "88", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:35,540][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:35,541][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/price_layout", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:38,231][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:38,232][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:39,297][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:39,298][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:40,364][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:40,365][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/94/click {"id": "94", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:41,608][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:41,609][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:43,229][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:43,230][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/95/elements {"using": "id", "value": "com.igola.travel:id/flight_detail_rl", "id": "95", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:44,403][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:44,404][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/96/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "96", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:45,480][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:45,481][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/96/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "96", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:46,559][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:46,560][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/99/text {"id": "99", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:48,088][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:48,089][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/96/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "96", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:49,176][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:49,177][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/96/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "96", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:50,232][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:50,233][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/101/text {"id": "101", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:51,314][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:51,315][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/97/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "97", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:52,368][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:52,369][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/97/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "97", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:53,437][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:53,437][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/103/text {"id": "103", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:54,552][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:54,553][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/97/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "97", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:55,626][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:55,627][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/97/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "97", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:57,160][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:57,161][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/105/text {"id": "105", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:58,240][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:58,241][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:08:59,309][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:08:59,310][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/106/elements {"using": "id", "value": "com.igola.travel:id/transfer_info", "id": "106", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:00,648][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:00,655][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/107/text {"id": "107", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:01,725][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:01,726][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/window/current/size {"windowHandle": "current", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:02,741][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:02,742][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/window/current/size {"windowHandle": "current", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:03,757][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:03,757][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/touch/perform {"actions": [{"action": "press", "options": {"x": 360, "y": 768}}, {"action": "wait", "options": {"ms": 500}}, {"action": "moveTo", "options": {"x": 360, "y": 64}}, {"action": "release", "options": {}}], "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:04,996][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:04,998][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_2", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:06,326][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:06,326][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/108/elements {"using": "id", "value": "com.igola.travel:id/flight_detail_rl", "id": "108", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:07,427][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:07,428][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/109/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "109", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:08,494][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:08,494][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/109/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "109", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:09,556][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:09,557][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/111/text {"id": "111", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:10,620][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:10,621][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/109/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "109", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:11,662][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:11,663][25440:20804][_request][DEBUG] POST http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/109/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "109", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:12,722][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:12,723][25440:20804][_request][DEBUG] GET http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2/element/113/text {"id": "113", "sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:14,308][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:14,309][25440:20804][_request][DEBUG] DELETE http://localhost:4822/wd/hub/session/04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2 {"sessionId": "04d9c1ee-ff50-4baf-a1be-1afa5de2d3a2"}
+[2018-01-11 10:09:16,384][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:16,385][25440:20804][connect][DEBUG] http://localhost:4822/wd/hub
+[2018-01-11 10:09:17,390][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "8885dc17", "deviceName": "hermes", "noReset": true, "appPackage": "com.igola.travel", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
+[2018-01-11 10:09:20,470][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:20,471][25440:20804][connect][DEBUG] 启动接口为：4822,手机ID为：8885dc17
+[2018-01-11 10:09:20,471][25440:20804][go_flightPage][INFO] 进入找飞机页面
+[2018-01-11 10:09:20,471][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/find_flight_btn", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:22,613][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:23,115][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/find_flight_btn", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:27,343][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:27,344][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/1/click {"id": "1", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:29,813][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:29,814][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/search_btn", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:30,042][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:30,043][25440:20804][select_ways][INFO] 选择航程类型
+[2018-01-11 10:09:30,043][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/trip_type_view", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:30,131][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:30,131][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/3/elements {"using": "class name", "value": "android.widget.RelativeLayout", "id": "3", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:30,374][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:30,374][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/4/click {"id": "4", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:31,598][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:31,598][25440:20804][search][INFO] 搜索
+[2018-01-11 10:09:31,599][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/search_btn", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:31,692][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:31,693][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/7/click {"id": "7", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:33,754][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:33,754][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/flights_result_header", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:34,648][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:34,649][25440:20804][select_flight][INFO] 选择 timeline 航班
+[2018-01-11 10:09:34,650][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/results_recycler_view", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:34,732][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:34,732][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/9/elements {"using": "id", "value": "com.igola.travel:id/price_tv", "id": "9", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:35,253][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:35,254][25440:20804][_request][DEBUG] GET http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/10/text {"id": "10", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:35,338][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:35,338][25440:20804][_request][DEBUG] GET http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/11/text {"id": "11", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:35,410][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:35,411][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/11/click {"id": "11", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:38,633][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:38,634][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/book_list", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:39,966][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:39,968][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:41,801][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:42,302][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:44,048][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:44,550][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:44,765][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:44,765][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/16/elements {"using": "id", "value": "com.igola.travel:id/flight_detail_rl", "id": "16", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:45,220][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:45,221][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/17/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "17", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:45,666][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:45,667][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/17/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "17", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:46,037][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:46,037][25440:20804][_request][DEBUG] GET http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/19/text {"id": "19", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:46,168][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:46,168][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/17/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "17", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:46,287][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:46,287][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/17/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "17", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:46,405][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:46,406][25440:20804][_request][DEBUG] GET http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/21/text {"id": "21", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:46,538][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:46,538][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/17/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "17", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:46,781][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:46,781][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/17/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "17", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:48,595][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:48,596][25440:20804][_request][DEBUG] POST http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element {"using": "id", "value": "com.igola.travel:id/class_tv", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:49,029][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:49,030][25440:20804][_request][DEBUG] GET http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/23/text {"id": "23", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:49,159][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:49,159][25440:20804][_request][DEBUG] GET http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886/element/23/text {"id": "23", "sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:49,378][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:49,379][25440:20804][inner][ERROR] 断言错误
+[2018-01-11 10:09:49,394][25440:20804][adb_screenshot][DEBUG] G:\gitwork\gitwork\result\image
+[2018-01-11 10:09:49,453][25440:20804][adb_screenshot][INFO] screenshot:2018-01-11-10_09_49.png 
+[2018-01-11 10:09:50,472][25440:20804][_request][DEBUG] DELETE http://127.0.0.1:4822/wd/hub/session/1ef3ed06-23a7-4577-b7fe-f537dae8f886 {"sessionId": "1ef3ed06-23a7-4577-b7fe-f537dae8f886"}
+[2018-01-11 10:09:51,396][25440:20804][_request][DEBUG] Finished Request
+[2018-01-11 10:09:51,709][25440:20804][quit][INFO] ----------------appium close---------------------
+[2018-01-11 10:09:51,709][25440:20804][run][INFO] 8885dc17test over
+[2018-01-11 10:30:14,530][32564:31152][connect][DEBUG] http://localhost:4818/wd/hub
+[2018-01-11 10:30:16,687][32564:31152][__init__][INFO] Could not get IP address for host: localhost
+[2018-01-11 10:30:16,687][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "8885dc17", "deviceName": "hermes", "noReset": true, "appPackage": "com.igola.travel", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
+[2018-01-11 10:30:22,709][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:22,709][32564:31152][connect][DEBUG] 启动接口为：4818,手机ID为：8885dc17
+[2018-01-11 10:30:22,733][32564:31152][go_flightPage][INFO] 进入找飞机页面
+[2018-01-11 10:30:22,742][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/find_flight_btn", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:31,982][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:31,983][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/1/click {"id": "1", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:33,719][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:33,720][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/search_btn", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:35,529][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:35,529][32564:31152][select_ways][INFO] 选择航程类型
+[2018-01-11 10:30:35,549][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/trip_type_view", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:36,579][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:36,579][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/3/elements {"using": "class name", "value": "android.widget.RelativeLayout", "id": "3", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:37,747][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:37,748][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/4/click {"id": "4", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:39,758][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:39,758][32564:31152][search][INFO] 搜索
+[2018-01-11 10:30:39,759][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/search_btn", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:41,084][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:41,086][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/7/click {"id": "7", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:42,512][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:42,513][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/flights_result_header", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:45,180][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:45,180][32564:31152][select_flight][INFO] 选择 timeline 航班
+[2018-01-11 10:30:45,181][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/results_recycler_view", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:46,319][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:46,320][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/9/elements {"using": "id", "value": "com.igola.travel:id/price_tv", "id": "9", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:47,769][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:47,769][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/10/text {"id": "10", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:48,881][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:48,882][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/10/click {"id": "10", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:53,092][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:53,093][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/book_list", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:55,171][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:55,172][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:56,283][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:56,283][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:30:58,638][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:30:58,638][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/17/click {"id": "17", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:02,941][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:02,941][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:04,030][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:04,031][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/18/elements {"using": "id", "value": "com.igola.travel:id/flight_detail_rl", "id": "18", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:05,317][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:05,317][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/19/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "19", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:06,413][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:06,413][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/19/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "19", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:07,568][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:07,569][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/22/text {"id": "22", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:08,865][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:08,866][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/19/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "19", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:10,217][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:10,217][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/19/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "19", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:11,402][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:11,403][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/24/text {"id": "24", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:12,506][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:12,507][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/19/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "19", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:14,654][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:14,655][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/19/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "19", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:17,528][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:17,529][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/20/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "20", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:18,619][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:18,619][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/20/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "20", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:19,687][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:19,688][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/26/text {"id": "26", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:20,770][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:20,771][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/20/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "20", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:22,152][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:22,153][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/20/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "20", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:23,270][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:23,271][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/28/text {"id": "28", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:24,342][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:24,342][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/20/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "20", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:26,385][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:26,386][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/20/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "20", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:28,528][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:28,528][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:29,644][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:29,645][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/29/elements {"using": "id", "value": "com.igola.travel:id/transfer_info", "id": "29", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:31,289][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:31,290][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/30/text {"id": "30", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:32,762][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:32,763][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/window/current/size {"windowHandle": "current", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:33,793][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:33,794][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/window/current/size {"windowHandle": "current", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:34,813][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:34,813][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/touch/perform {"actions": [{"action": "press", "options": {"x": 360, "y": 768}}, {"action": "wait", "options": {"ms": 500}}, {"action": "moveTo", "options": {"x": 360, "y": 64}}, {"action": "release", "options": {}}], "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:36,354][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:36,354][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/class_tv", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:38,140][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:38,141][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/31/text {"id": "31", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:39,289][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:39,290][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/31/text {"id": "31", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:40,426][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:40,427][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:41,525][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:41,525][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:43,409][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:43,409][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/33/click {"id": "33", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:44,789][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:45,791][32564:31152][select_ota][INFO] 选择 ota
+[2018-01-11 10:31:45,791][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/book_list", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:46,954][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:46,955][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/34/elements {"using": "class name", "value": "android.widget.RelativeLayout", "id": "34", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:49,370][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:49,371][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/35/click {"id": "35", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:50,685][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:50,686][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/add_passenger_layout", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:54,025][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:54,026][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/total_amount_tv", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:55,155][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:55,156][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/41/text {"id": "41", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:56,278][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:56,279][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/flight_rl", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:57,387][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:57,388][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/42/click {"id": "42", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:31:59,554][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:31:59,555][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/flights_result_header", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:01,564][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:01,565][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:02,682][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:02,683][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/44/elements {"using": "id", "value": "com.igola.travel:id/flight_detail_rl", "id": "44", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:04,109][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:04,110][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/45/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "45", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:05,232][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:05,232][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/45/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "45", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:06,363][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:06,364][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/48/text {"id": "48", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:07,519][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:07,520][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/45/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "45", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:08,645][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:08,646][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/45/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "45", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:09,735][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:09,736][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/50/text {"id": "50", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:10,864][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:10,865][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/45/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "45", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:13,625][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:13,626][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/45/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "45", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:16,520][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:16,521][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/46/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "46", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:17,634][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:17,634][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/46/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "46", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:18,728][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:18,728][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/52/text {"id": "52", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:20,207][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:20,208][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/46/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "46", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:21,344][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:21,344][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/46/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "46", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:22,459][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:22,460][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/54/text {"id": "54", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:23,620][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:23,621][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/46/element {"using": "id", "value": "com.igola.travel:id/share_code_iv", "id": "46", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:27,301][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:27,302][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/46/element {"using": "id", "value": "com.igola.travel:id/flight_stop_tv", "id": "46", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:31,286][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:31,287][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:32,450][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:32,451][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/55/elements {"using": "id", "value": "com.igola.travel:id/transfer_info", "id": "55", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:33,670][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:33,671][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/56/text {"id": "56", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:34,790][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:34,791][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/window/current/size {"windowHandle": "current", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:35,812][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:35,812][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/window/current/size {"windowHandle": "current", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:36,836][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:36,837][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/touch/perform {"actions": [{"action": "press", "options": {"x": 360, "y": 768}}, {"action": "wait", "options": {"ms": 500}}, {"action": "moveTo", "options": {"x": 360, "y": 64}}, {"action": "release", "options": {}}], "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:38,472][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:38,473][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/appium/device/keyevent {"keycode": 4, "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:39,525][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:39,526][32564:31152][submit_order][INFO] 提交订单
+[2018-01-11 10:32:39,527][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/submit_btn", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:41,236][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:41,236][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/57/click {"id": "57", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:42,484][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:42,486][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/pay_btn", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:45,572][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:45,573][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/seat_class_tv", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:47,448][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:47,448][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/59/text {"id": "59", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:48,548][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:48,549][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/left_options_btn", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:49,655][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:49,655][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/60/click {"id": "60", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:53,551][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:53,561][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "name", "value": "\u7a0d\u540e\u4ed8\u6b3e", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:54,690][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:54,691][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/61/click {"id": "61", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:56,884][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:56,884][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/appium/device/keyevent {"keycode": 4, "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:57,948][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:57,950][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/order_btn", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:32:59,073][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:32:59,073][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/62/click {"id": "62", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:00,747][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:00,747][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/expand_lv", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:02,415][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:02,417][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/order_recycler_view", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:04,647][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:04,648][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/64/elements {"using": "id", "value": "com.igola.travel:id/order_btn", "id": "64", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:05,896][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:05,897][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/65/click {"id": "65", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:07,270][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:07,271][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/price_layout", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:10,167][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:10,167][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:11,550][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:11,551][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/collapse_tv", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:12,640][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:12,641][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/71/click {"id": "71", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:13,928][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:13,929][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:15,622][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:15,623][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/72/elements {"using": "id", "value": "com.igola.travel:id/flight_detail_rl", "id": "72", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:17,080][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:17,081][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/73/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "73", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:18,163][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:18,164][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/73/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "73", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:19,626][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:19,626][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/76/text {"id": "76", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:20,696][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:20,697][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/73/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "73", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:21,748][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:21,748][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/73/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "73", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:22,807][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:22,808][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/78/text {"id": "78", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:23,874][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:23,875][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/74/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "74", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:24,920][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:24,921][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/74/element {"using": "id", "value": "com.igola.travel:id/flight_class_tv", "id": "74", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:26,732][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:26,732][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/80/text {"id": "80", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:27,799][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:27,800][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/74/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "74", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:28,857][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:28,858][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/74/element {"using": "id", "value": "com.igola.travel:id/dst_airport_tv", "id": "74", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:29,913][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:29,914][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/82/text {"id": "82", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:30,985][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:30,986][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element {"using": "id", "value": "com.igola.travel:id/detail_flight_list_1", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:32,048][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:32,048][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/83/elements {"using": "id", "value": "com.igola.travel:id/transfer_info", "id": "83", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:33,158][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:33,159][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/element/84/text {"id": "84", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:34,193][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:34,193][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/window/current/size {"windowHandle": "current", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:35,211][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:35,212][32564:31152][_request][DEBUG] GET http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/window/current/size {"windowHandle": "current", "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:36,226][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:36,227][32564:31152][_request][DEBUG] POST http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6/touch/perform {"actions": [{"action": "press", "options": {"x": 360, "y": 768}}, {"action": "wait", "options": {"ms": 500}}, {"action": "moveTo", "options": {"x": 360, "y": 64}}, {"action": "release", "options": {}}], "sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:37,496][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:37,497][32564:31152][_request][DEBUG] DELETE http://localhost:4818/wd/hub/session/8323a19f-e2cc-4d89-ba09-5459510a57f6 {"sessionId": "8323a19f-e2cc-4d89-ba09-5459510a57f6"}
+[2018-01-11 10:33:39,648][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:39,649][32564:31152][connect][DEBUG] http://localhost:4818/wd/hub
+[2018-01-11 10:33:40,653][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "8885dc17", "deviceName": "hermes", "noReset": true, "appPackage": "com.igola.travel", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
+[2018-01-11 10:33:43,601][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:43,601][32564:31152][connect][DEBUG] 启动接口为：4818,手机ID为：8885dc17
+[2018-01-11 10:33:43,601][32564:31152][go_flightPage][INFO] 进入找飞机页面
+[2018-01-11 10:33:43,602][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/find_flight_btn", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:51,890][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:51,890][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element/1/click {"id": "1", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:53,819][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:53,820][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/search_btn", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:54,100][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:54,100][32564:31152][select_ways][INFO] 选择航程类型
+[2018-01-11 10:33:54,101][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/trip_type_view", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:54,150][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:54,150][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element/3/elements {"using": "class name", "value": "android.widget.RelativeLayout", "id": "3", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:54,374][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:54,375][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element/5/click {"id": "5", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:55,943][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:55,944][32564:31152][search][INFO] 搜索
+[2018-01-11 10:33:55,945][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/search_btn", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:56,003][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:56,003][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element/7/click {"id": "7", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:57,784][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:57,785][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/flights_result_header", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:58,153][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:58,154][32564:31152][select_flight][INFO] 选择 timeline 航班
+[2018-01-11 10:33:58,154][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/results_recycler_view", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:58,766][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:59,267][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/results_recycler_view", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:33:59,670][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:33:59,671][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element/9/elements {"using": "id", "value": "com.igola.travel:id/price_tv", "id": "9", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:00,532][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:00,532][32564:31152][_request][DEBUG] GET http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element/10/text {"id": "10", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:00,879][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:00,880][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element/10/click {"id": "10", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:04,190][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:04,191][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/flights_result_header", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:04,306][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:04,306][32564:31152][select_flight][INFO] 选择 timeline 航班
+[2018-01-11 10:34:04,306][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/results_recycler_view", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:04,377][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:04,377][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element/16/elements {"using": "id", "value": "com.igola.travel:id/price_tv", "id": "16", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:04,969][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:04,969][32564:31152][_request][DEBUG] GET http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element/17/text {"id": "17", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:05,087][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:05,087][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element/17/click {"id": "17", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:08,316][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:08,317][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/book_list", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:09,646][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:10,148][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7/element {"using": "id", "value": "com.igola.travel:id/book_list", "sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:10,958][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:11,459][32564:31152][inner][ERROR] 断言错误
+[2018-01-11 10:34:11,471][32564:31152][adb_screenshot][DEBUG] G:\gitwork\gitwork\result\image
+[2018-01-11 10:34:11,507][32564:31152][adb_screenshot][INFO] screenshot:2018-01-11-10_34_11.png 
+[2018-01-11 10:34:12,521][32564:31152][_request][DEBUG] DELETE http://127.0.0.1:4818/wd/hub/session/83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7 {"sessionId": "83499d9c-5a16-4a84-9b8d-b0c2bdc9cac7"}
+[2018-01-11 10:34:13,417][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:13,488][32564:31152][connect][DEBUG] http://localhost:4818/wd/hub
+[2018-01-11 10:34:14,493][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "8885dc17", "deviceName": "hermes", "noReset": true, "appPackage": "com.igola.travel", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
+[2018-01-11 10:34:17,344][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:17,344][32564:31152][connect][DEBUG] 启动接口为：4818,手机ID为：8885dc17
+[2018-01-11 10:34:17,344][32564:31152][go_flightPage][INFO] 进入找飞机页面
+[2018-01-11 10:34:17,345][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element {"using": "id", "value": "com.igola.travel:id/find_flight_btn", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:24,582][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:24,583][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element/1/click {"id": "1", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:26,173][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:26,174][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element {"using": "id", "value": "com.igola.travel:id/search_btn", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:26,539][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:26,540][32564:31152][select_ways][INFO] 选择航程类型
+[2018-01-11 10:34:26,541][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element {"using": "id", "value": "com.igola.travel:id/trip_type_view", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:26,633][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:26,634][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element/3/elements {"using": "class name", "value": "android.widget.RelativeLayout", "id": "3", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:26,907][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:26,907][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element/4/click {"id": "4", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:27,794][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:27,794][32564:31152][search][INFO] 搜索
+[2018-01-11 10:34:27,795][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element {"using": "id", "value": "com.igola.travel:id/search_btn", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:27,840][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:27,841][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element/7/click {"id": "7", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:30,261][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:30,262][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element {"using": "id", "value": "com.igola.travel:id/flights_result_header", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:30,752][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:30,752][32564:31152][select_flight][INFO] 选择 timeline 航班
+[2018-01-11 10:34:30,753][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element {"using": "id", "value": "com.igola.travel:id/results_recycler_view", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:31,347][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:31,348][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element/9/elements {"using": "id", "value": "com.igola.travel:id/price_tv", "id": "9", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:31,863][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:31,863][32564:31152][_request][DEBUG] GET http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element/10/text {"id": "10", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:31,927][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:31,927][32564:31152][_request][DEBUG] GET http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element/11/text {"id": "11", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:32,047][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:32,047][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element/11/click {"id": "11", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:34,022][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:34,022][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element {"using": "id", "value": "com.igola.travel:id/book_list", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:34,933][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:35,434][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element {"using": "id", "value": "com.igola.travel:id/book_list", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:36,074][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:36,575][32564:31152][_request][DEBUG] POST http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b/element {"using": "id", "value": "com.igola.travel:id/book_list", "sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:37,212][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:37,714][32564:31152][inner][ERROR] 断言错误
+[2018-01-11 10:34:37,714][32564:31152][adb_screenshot][DEBUG] G:\gitwork\gitwork\result\image
+[2018-01-11 10:34:37,758][32564:31152][adb_screenshot][INFO] screenshot:2018-01-11-10_34_37.png 
+[2018-01-11 10:34:38,782][32564:31152][_request][DEBUG] DELETE http://127.0.0.1:4818/wd/hub/session/dd85aec1-014d-432a-a0a8-3b09c0a59d6b {"sessionId": "dd85aec1-014d-432a-a0a8-3b09c0a59d6b"}
+[2018-01-11 10:34:39,693][32564:31152][_request][DEBUG] Finished Request
+[2018-01-11 10:34:40,129][32564:31152][quit][INFO] ----------------appium close---------------------
+[2018-01-11 10:34:40,130][32564:31152][run][INFO] 8885dc17test over

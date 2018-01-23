@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from basePage import basePage
+from .basePage import basePage
 import time
-import elementConfig as point
+from . import elementConfig as point
 
 
 class ContactListPage(basePage):

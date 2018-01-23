@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from basePage import basePage
+from .basePage import basePage
 import xlrd  #excel驱动程序
 from xlrd import open_workbook
 

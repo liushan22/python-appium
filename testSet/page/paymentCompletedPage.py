@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from basePage import basePage
-import elementConfig as point
-from testApp.testSet.common.sreenshot import screenshot
+from .basePage import basePage
+from . import elementConfig as point
+from testSet.common.sreenshot import screenshot
 
 
 class PaymentCompletedPage(basePage):

@@ -3,15 +3,15 @@
 import os
 import unittest
 from time import sleep
-from driver import driver
+from .driver import driver
 from selenium.common.exceptions import WebDriverException
 import subprocess
 import time
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 import random
 import socket
-from log import logger
-import report
+from .log import logger
+import testSet.util.date as date
 
 
 # 启动appium
@@ -20,7 +20,7 @@ class myServer(object):
         # self.appiumPath = "D:\Appium"
         self.appiumPath = "F:\\Appium"
         self.device = device
-        self.log = logger(report.today_report_path).getlog()
+        self.log = logger(date.today_report_path).getlog()
 
     def isOpen(self, ip, port):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -29,7 +29,7 @@ class myServer(object):
             s.shutdown(2)  # shutdown参数表示后续可否读写
             # print '%d is ok' % port
             return True
-        except Exception, e:
+        except Exception as e:
             return False
 
     def getport(self):
@@ -56,7 +56,7 @@ class myServer(object):
         try:
             subprocess.Popen(rootDirection + "&" + "cd" + self.appiumPath + "&" + cmd, shell=True)
             return aport
-        except Exception, msg:
+        except Exception as msg:
             self.log.error(msg)
             raise
 
@@ -77,15 +77,15 @@ class myServer(object):
         os.system('taskkill /f /im node.exe')
         self.log.info("----------------appium close---------------------")
 
-if __name__ == '__main__':
-    myserver = myServer()
-    myserver.run()
-    time.sleep(5)
-    if myserver.isServerStart():
-        print "ok"
-    else:
-        print "no"
-    myserver.quit()
+# if __name__ == '__main__':
+#     myserver = myServer()
+#     myserver.run()
+#     time.sleep(5)
+#     if myserver.isServerStart():
+#         print("ok")
+#     else:
+#         print("no")
+#     myserver.quit()
 
 
 
