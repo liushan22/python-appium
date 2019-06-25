@@ -1,0 +1,859 @@
+[2019-06-22 14:58:33,140][5268:8040][connect][DEBUG] http://127.0.0.1:4843/wd/hub
+[2019-06-22 14:58:34,141][5268:8040][__init__][INFO] Could not get IP address for host: 127.0.0.1
+[2019-06-22 14:58:34,142][5268:8040][_request][DEBUG] POST http://127.0.0.1:4843/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "1c66d0647d54", "noReset": true, "platformVersion": "5.0.2", "appPackage": "com.imo.android.imoimalpha", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 14:58:35,148][5268:8040][connect][INFO] appium 启动失败
+[2019-06-22 14:58:36,750][5268:8040][quit][INFO] ----------------appium close---------------------
+[2019-06-22 14:58:36,750][5268:8040][run][INFO] 1c66d0647d54test over
+[2019-06-22 15:50:25,986][3516:1612][connect][DEBUG] http://127.0.0.1:4784/wd/hub
+[2019-06-22 15:50:26,986][3516:1612][__init__][INFO] Could not get IP address for host: 127.0.0.1
+[2019-06-22 15:50:26,989][3516:1612][_request][DEBUG] POST http://127.0.0.1:4784/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "1c66d0647d54", "noReset": true, "platformVersion": "5.0.2", "appPackage": "com.imo.android.imoimalpha", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 15:50:28,003][3516:1612][connect][INFO] appium 启动失败
+[2019-06-22 15:50:29,141][3516:1612][quit][INFO] ----------------appium close---------------------
+[2019-06-22 15:50:29,142][3516:1612][run][INFO] 1c66d0647d54test over
+[2019-06-22 15:54:30,594][2624:7900][connect][DEBUG] http://127.0.0.1:4819/wd/hub
+[2019-06-22 15:54:30,596][2624:7900][_request][DEBUG] POST http://127.0.0.1:4819/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 15:54:47,226][2624:7900][_request][DEBUG] Finished Request
+[2019-06-22 15:54:47,226][2624:7900][connect][DEBUG] 启动接口为：4819,手机ID为：33fd33df
+[2019-06-22 15:54:47,226][2624:7900][_request][DEBUG] DELETE http://127.0.0.1:4819/wd/hub/session/0bf2002b-f484-4bcd-a755-b209cb428a95 {"sessionId": "0bf2002b-f484-4bcd-a755-b209cb428a95"}
+[2019-06-22 15:54:49,454][2624:7900][_request][DEBUG] Finished Request
+[2019-06-22 15:54:49,878][2624:7900][quit][INFO] ----------------appium close---------------------
+[2019-06-22 15:54:49,878][2624:7900][run][INFO] 33fd33dftest over
+[2019-06-22 16:30:10,582][7344:3680][connect][DEBUG] http://127.0.0.1:4826/wd/hub
+[2019-06-22 16:30:11,584][7344:3680][__init__][INFO] Could not get IP address for host: 127.0.0.1
+[2019-06-22 16:30:11,585][7344:3680][_request][DEBUG] POST http://127.0.0.1:4826/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:30:12,589][7344:3680][connect][INFO] appium 启动失败
+[2019-06-22 16:30:14,918][7344:3680][quit][INFO] ----------------appium close---------------------
+[2019-06-22 16:30:14,920][7344:3680][run][INFO] 33fd33dftest over
+[2019-06-22 16:31:16,131][2916:6304][connect][DEBUG] http://127.0.0.1:4713/wd/hub
+[2019-06-22 16:31:16,131][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:31:25,367][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:25,367][2916:6304][connect][DEBUG] 启动接口为：4713,手机ID为：33fd33df
+[2019-06-22 16:31:25,368][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:25,387][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:25,888][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:25,907][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:26,408][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:26,430][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:26,930][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:26,943][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:27,443][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:27,459][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:27,959][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:27,971][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:28,473][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:28,490][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:28,990][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:29,003][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:29,503][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:29,519][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:30,019][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:30,035][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:30,535][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:30,549][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:31,049][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:31,075][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:31,575][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:31,588][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:32,088][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:32,108][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:32,608][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:32,624][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:33,125][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:33,144][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:33,644][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:33,674][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:34,174][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:34,190][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:34,690][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:34,713][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:35,214][2916:6304][_request][DEBUG] POST http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218/element {"using": ["xpath", "//*[@text='\u59cb\u7ec8\u5141\u8bb8']"], "sessionId": "79a9410e-4980-495a-be64-8976a7b64218", "value": null}
+[2019-06-22 16:31:35,233][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:35,789][2916:6304][_request][DEBUG] DELETE http://127.0.0.1:4713/wd/hub/session/79a9410e-4980-495a-be64-8976a7b64218 {"sessionId": "79a9410e-4980-495a-be64-8976a7b64218"}
+[2019-06-22 16:31:37,164][2916:6304][_request][DEBUG] Finished Request
+[2019-06-22 16:31:37,430][2916:6304][quit][INFO] ----------------appium close---------------------
+[2019-06-22 16:31:37,430][2916:6304][run][INFO] 33fd33dftest over
+[2019-06-22 16:33:22,680][3680:7404][connect][DEBUG] http://127.0.0.1:4845/wd/hub
+[2019-06-22 16:33:22,683][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:33:30,078][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:30,078][3680:7404][connect][DEBUG] 启动接口为：4845,手机ID为：33fd33df
+[2019-06-22 16:33:30,079][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:30,099][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:30,599][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:30,617][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:31,118][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:31,125][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:31,627][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:31,641][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:32,141][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:32,153][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:32,654][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:32,667][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:33,167][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:33,184][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:33,687][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:33,700][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:34,201][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:34,216][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:34,717][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:34,732][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:35,233][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:35,244][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:35,746][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:35,763][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:36,263][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:36,278][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:36,779][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:36,792][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:37,292][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:37,306][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:37,808][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:37,822][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:38,322][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:38,335][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:38,835][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:38,851][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:39,351][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:39,374][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:39,875][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:39,907][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:40,408][3680:7404][_request][DEBUG] POST http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891/element {"using": "id", "sessionId": "fc227abd-1efd-423d-8cf6-d163da496891", "value": null}
+[2019-06-22 16:33:40,446][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:40,489][3680:7404][_request][DEBUG] DELETE http://127.0.0.1:4845/wd/hub/session/fc227abd-1efd-423d-8cf6-d163da496891 {"sessionId": "fc227abd-1efd-423d-8cf6-d163da496891"}
+[2019-06-22 16:33:42,016][3680:7404][_request][DEBUG] Finished Request
+[2019-06-22 16:33:42,375][3680:7404][quit][INFO] ----------------appium close---------------------
+[2019-06-22 16:33:42,375][3680:7404][run][INFO] 33fd33dftest over
+[2019-06-22 16:34:44,841][3732:7508][connect][DEBUG] http://127.0.0.1:4758/wd/hub
+[2019-06-22 16:34:44,842][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:34:52,634][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:52,634][3732:7508][connect][DEBUG] 启动接口为：4758,手机ID为：33fd33df
+[2019-06-22 16:34:52,635][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:52,664][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:53,164][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:53,180][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:53,680][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:53,696][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:54,197][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:54,210][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:54,711][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:54,726][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:55,226][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:55,246][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:55,746][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:55,752][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:56,252][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:56,263][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:56,765][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:56,779][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:57,279][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:57,301][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:57,802][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:57,816][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:58,316][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:58,335][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:58,835][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:58,849][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:59,351][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:59,365][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:34:59,865][3732:7508][_request][DEBUG] POST http://127.0.0.1:4758/wd/hub/session/f8742f90-ef20-4543-943d-bb10e6acbe28/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "f8742f90-ef20-4543-943d-bb10e6acbe28", "value": null}
+[2019-06-22 16:34:59,871][3732:7508][_request][DEBUG] Finished Request
+[2019-06-22 16:35:25,003][5060:5592][connect][DEBUG] http://127.0.0.1:4857/wd/hub
+[2019-06-22 16:35:25,006][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:35:32,901][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:32,901][5060:5592][connect][DEBUG] 启动接口为：4857,手机ID为：33fd33df
+[2019-06-22 16:35:32,903][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:32,931][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:33,434][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:33,460][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:33,961][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:33,980][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:34,480][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:34,503][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:35,005][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:35,012][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:35,512][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:35,535][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:36,036][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:36,056][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:36,558][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:36,566][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:37,068][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:37,086][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:37,588][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:37,605][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:38,107][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:38,121][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:38,622][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:38,640][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:39,141][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:39,158][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:39,660][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:39,676][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:40,177][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:40,194][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:40,696][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:40,714][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:41,217][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:41,236][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:41,737][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:41,756][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:42,259][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:42,279][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:35:42,780][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:35:42,813][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:36:07,653][5060:5592][_request][DEBUG] POST http://127.0.0.1:4857/wd/hub/session/78992c74-85d6-4d09-aa9b-38726c4ef3e1/element {"using": "id", "sessionId": "78992c74-85d6-4d09-aa9b-38726c4ef3e1", "value": null}
+[2019-06-22 16:36:07,727][5060:5592][_request][DEBUG] Finished Request
+[2019-06-22 16:37:26,147][7360:6828][connect][DEBUG] http://127.0.0.1:4839/wd/hub
+[2019-06-22 16:37:27,148][7360:6828][__init__][INFO] Could not get IP address for host: 127.0.0.1
+[2019-06-22 16:37:27,148][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:37:35,306][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:35,308][7360:6828][connect][DEBUG] 启动接口为：4839,手机ID为：33fd33df
+[2019-06-22 16:37:35,309][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:35,336][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:35,838][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:35,865][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:36,371][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:36,382][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:36,884][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:36,900][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:37,401][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:37,417][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:37,918][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:37,937][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:38,438][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:38,476][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:38,976][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:38,997][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:39,500][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:39,523][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:40,023][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:40,051][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:40,552][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:40,568][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:41,069][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:41,088][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:41,589][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:41,608][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:42,108][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:42,125][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:42,627][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:42,644][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:43,145][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:43,161][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:43,664][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:43,696][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:44,196][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:44,216][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:44,719][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:44,743][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:45,243][7360:6828][_request][DEBUG] POST http://127.0.0.1:4839/wd/hub/session/894f6f00-1aaf-4f84-b44a-16f5f253d023/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "894f6f00-1aaf-4f84-b44a-16f5f253d023", "value": null}
+[2019-06-22 16:37:45,267][7360:6828][_request][DEBUG] Finished Request
+[2019-06-22 16:37:46,153][7360:6828][init][DEBUG] Importing BmpImagePlugin
+[2019-06-22 16:37:46,160][7360:6828][init][DEBUG] Importing BufrStubImagePlugin
+[2019-06-22 16:37:46,161][7360:6828][init][DEBUG] Importing CurImagePlugin
+[2019-06-22 16:37:46,163][7360:6828][init][DEBUG] Importing DcxImagePlugin
+[2019-06-22 16:37:46,164][7360:6828][init][DEBUG] Importing DdsImagePlugin
+[2019-06-22 16:37:46,165][7360:6828][init][DEBUG] Importing EpsImagePlugin
+[2019-06-22 16:37:46,191][7360:6828][init][DEBUG] Importing FitsStubImagePlugin
+[2019-06-22 16:37:46,191][7360:6828][init][DEBUG] Importing FliImagePlugin
+[2019-06-22 16:37:46,194][7360:6828][init][DEBUG] Importing FpxImagePlugin
+[2019-06-22 16:37:46,201][7360:6828][init][DEBUG] Importing FtexImagePlugin
+[2019-06-22 16:37:46,203][7360:6828][init][DEBUG] Importing GbrImagePlugin
+[2019-06-22 16:37:46,203][7360:6828][init][DEBUG] Importing GifImagePlugin
+[2019-06-22 16:37:46,206][7360:6828][init][DEBUG] Importing GribStubImagePlugin
+[2019-06-22 16:37:46,207][7360:6828][init][DEBUG] Importing Hdf5StubImagePlugin
+[2019-06-22 16:37:46,207][7360:6828][init][DEBUG] Importing IcnsImagePlugin
+[2019-06-22 16:37:46,211][7360:6828][init][DEBUG] Importing IcoImagePlugin
+[2019-06-22 16:37:46,213][7360:6828][init][DEBUG] Importing ImImagePlugin
+[2019-06-22 16:37:46,213][7360:6828][init][DEBUG] Importing ImtImagePlugin
+[2019-06-22 16:37:46,214][7360:6828][init][DEBUG] Importing IptcImagePlugin
+[2019-06-22 16:37:46,216][7360:6828][init][DEBUG] Importing JpegImagePlugin
+[2019-06-22 16:37:46,226][7360:6828][init][DEBUG] Importing Jpeg2KImagePlugin
+[2019-06-22 16:37:46,226][7360:6828][init][DEBUG] Importing McIdasImagePlugin
+[2019-06-22 16:37:46,227][7360:6828][init][DEBUG] Importing MicImagePlugin
+[2019-06-22 16:37:46,227][7360:6828][init][DEBUG] Importing MpegImagePlugin
+[2019-06-22 16:37:46,229][7360:6828][init][DEBUG] Importing MpoImagePlugin
+[2019-06-22 16:37:46,230][7360:6828][init][DEBUG] Importing MspImagePlugin
+[2019-06-22 16:37:46,230][7360:6828][init][DEBUG] Importing PalmImagePlugin
+[2019-06-22 16:37:46,233][7360:6828][init][DEBUG] Importing PcdImagePlugin
+[2019-06-22 16:37:46,233][7360:6828][init][DEBUG] Importing PcxImagePlugin
+[2019-06-22 16:37:46,233][7360:6828][init][DEBUG] Importing PdfImagePlugin
+[2019-06-22 16:37:46,233][7360:6828][init][DEBUG] Importing PixarImagePlugin
+[2019-06-22 16:37:46,234][7360:6828][init][DEBUG] Importing PngImagePlugin
+[2019-06-22 16:37:46,234][7360:6828][init][DEBUG] Importing PpmImagePlugin
+[2019-06-22 16:37:46,236][7360:6828][init][DEBUG] Importing PsdImagePlugin
+[2019-06-22 16:37:46,236][7360:6828][init][DEBUG] Importing SgiImagePlugin
+[2019-06-22 16:37:46,237][7360:6828][init][DEBUG] Importing SpiderImagePlugin
+[2019-06-22 16:37:46,239][7360:6828][init][DEBUG] Importing SunImagePlugin
+[2019-06-22 16:37:46,240][7360:6828][init][DEBUG] Importing TgaImagePlugin
+[2019-06-22 16:37:46,240][7360:6828][init][DEBUG] Importing TiffImagePlugin
+[2019-06-22 16:37:46,240][7360:6828][init][DEBUG] Importing WebPImagePlugin
+[2019-06-22 16:37:46,242][7360:6828][init][DEBUG] Importing WmfImagePlugin
+[2019-06-22 16:37:46,243][7360:6828][init][DEBUG] Importing XbmImagePlugin
+[2019-06-22 16:37:46,244][7360:6828][init][DEBUG] Importing XpmImagePlugin
+[2019-06-22 16:37:46,246][7360:6828][init][DEBUG] Importing XVThumbImagePlugin
+[2019-06-22 16:39:07,513][7944:7500][connect][DEBUG] http://127.0.0.1:4891/wd/hub
+[2019-06-22 16:39:07,532][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:39:14,845][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:14,846][7944:7500][connect][DEBUG] 启动接口为：4891,手机ID为：33fd33df
+[2019-06-22 16:39:14,848][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:14,878][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:15,378][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:15,407][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:15,907][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:15,934][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:16,434][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:16,451][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:16,953][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:16,970][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:17,473][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:17,490][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:17,990][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:18,012][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:18,513][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:18,530][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:19,032][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:19,052][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:19,552][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:19,572][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:20,072][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:20,079][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:20,579][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:20,602][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:21,104][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:21,117][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:21,617][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:21,627][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:22,128][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:22,148][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:22,648][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:22,665][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:23,167][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:23,198][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:23,700][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:23,717][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:24,219][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:24,240][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:24,740][7944:7500][_request][DEBUG] POST http://127.0.0.1:4891/wd/hub/session/6992f0e4-a313-47e5-aaab-038321ca72bb/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "6992f0e4-a313-47e5-aaab-038321ca72bb", "value": null}
+[2019-06-22 16:39:24,750][7944:7500][_request][DEBUG] Finished Request
+[2019-06-22 16:39:25,650][7944:7500][init][DEBUG] Importing BmpImagePlugin
+[2019-06-22 16:39:25,657][7944:7500][init][DEBUG] Importing BufrStubImagePlugin
+[2019-06-22 16:39:25,657][7944:7500][init][DEBUG] Importing CurImagePlugin
+[2019-06-22 16:39:25,658][7944:7500][init][DEBUG] Importing DcxImagePlugin
+[2019-06-22 16:39:25,660][7944:7500][init][DEBUG] Importing DdsImagePlugin
+[2019-06-22 16:39:25,661][7944:7500][init][DEBUG] Importing EpsImagePlugin
+[2019-06-22 16:39:25,684][7944:7500][init][DEBUG] Importing FitsStubImagePlugin
+[2019-06-22 16:39:25,686][7944:7500][init][DEBUG] Importing FliImagePlugin
+[2019-06-22 16:39:25,687][7944:7500][init][DEBUG] Importing FpxImagePlugin
+[2019-06-22 16:39:25,697][7944:7500][init][DEBUG] Importing FtexImagePlugin
+[2019-06-22 16:39:25,698][7944:7500][init][DEBUG] Importing GbrImagePlugin
+[2019-06-22 16:39:25,700][7944:7500][init][DEBUG] Importing GifImagePlugin
+[2019-06-22 16:39:25,703][7944:7500][init][DEBUG] Importing GribStubImagePlugin
+[2019-06-22 16:39:25,703][7944:7500][init][DEBUG] Importing Hdf5StubImagePlugin
+[2019-06-22 16:39:25,703][7944:7500][init][DEBUG] Importing IcnsImagePlugin
+[2019-06-22 16:39:25,709][7944:7500][init][DEBUG] Importing IcoImagePlugin
+[2019-06-22 16:39:25,710][7944:7500][init][DEBUG] Importing ImImagePlugin
+[2019-06-22 16:39:25,710][7944:7500][init][DEBUG] Importing ImtImagePlugin
+[2019-06-22 16:39:25,711][7944:7500][init][DEBUG] Importing IptcImagePlugin
+[2019-06-22 16:39:25,713][7944:7500][init][DEBUG] Importing JpegImagePlugin
+[2019-06-22 16:39:25,724][7944:7500][init][DEBUG] Importing Jpeg2KImagePlugin
+[2019-06-22 16:39:25,724][7944:7500][init][DEBUG] Importing McIdasImagePlugin
+[2019-06-22 16:39:25,726][7944:7500][init][DEBUG] Importing MicImagePlugin
+[2019-06-22 16:39:25,726][7944:7500][init][DEBUG] Importing MpegImagePlugin
+[2019-06-22 16:39:25,727][7944:7500][init][DEBUG] Importing MpoImagePlugin
+[2019-06-22 16:39:25,727][7944:7500][init][DEBUG] Importing MspImagePlugin
+[2019-06-22 16:39:25,730][7944:7500][init][DEBUG] Importing PalmImagePlugin
+[2019-06-22 16:39:25,732][7944:7500][init][DEBUG] Importing PcdImagePlugin
+[2019-06-22 16:39:25,733][7944:7500][init][DEBUG] Importing PcxImagePlugin
+[2019-06-22 16:39:25,733][7944:7500][init][DEBUG] Importing PdfImagePlugin
+[2019-06-22 16:39:25,733][7944:7500][init][DEBUG] Importing PixarImagePlugin
+[2019-06-22 16:39:25,734][7944:7500][init][DEBUG] Importing PngImagePlugin
+[2019-06-22 16:39:25,734][7944:7500][init][DEBUG] Importing PpmImagePlugin
+[2019-06-22 16:39:25,736][7944:7500][init][DEBUG] Importing PsdImagePlugin
+[2019-06-22 16:39:25,736][7944:7500][init][DEBUG] Importing SgiImagePlugin
+[2019-06-22 16:39:25,737][7944:7500][init][DEBUG] Importing SpiderImagePlugin
+[2019-06-22 16:39:25,739][7944:7500][init][DEBUG] Importing SunImagePlugin
+[2019-06-22 16:39:25,740][7944:7500][init][DEBUG] Importing TgaImagePlugin
+[2019-06-22 16:39:25,740][7944:7500][init][DEBUG] Importing TiffImagePlugin
+[2019-06-22 16:39:25,740][7944:7500][init][DEBUG] Importing WebPImagePlugin
+[2019-06-22 16:39:25,743][7944:7500][init][DEBUG] Importing WmfImagePlugin
+[2019-06-22 16:39:25,743][7944:7500][init][DEBUG] Importing XbmImagePlugin
+[2019-06-22 16:39:25,746][7944:7500][init][DEBUG] Importing XpmImagePlugin
+[2019-06-22 16:39:25,747][7944:7500][init][DEBUG] Importing XVThumbImagePlugin
+[2019-06-22 16:42:15,845][7356:4612][connect][DEBUG] http://127.0.0.1:4859/wd/hub
+[2019-06-22 16:42:15,848][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:42:22,884][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:22,884][7356:4612][connect][DEBUG] 启动接口为：4859,手机ID为：33fd33df
+[2019-06-22 16:42:22,884][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:22,911][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:23,411][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:23,433][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:23,934][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:23,953][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:24,453][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:24,467][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:24,967][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:25,032][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:25,532][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:25,546][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:26,046][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:26,065][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:26,565][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:26,579][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:27,081][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:27,096][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:27,596][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:27,612][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:28,114][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:28,128][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:28,628][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:28,642][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:29,144][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:29,158][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:29,658][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:29,674][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:30,174][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:30,188][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:30,690][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:30,700][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:31,200][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:31,217][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:31,717][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:31,724][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:32,224][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:32,250][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:32,752][7356:4612][_request][DEBUG] POST http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2", "value": null}
+[2019-06-22 16:42:32,767][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:33,269][7356:4612][_request][DEBUG] DELETE http://127.0.0.1:4859/wd/hub/session/ea17c07d-d98b-49e2-8e3b-9401e9644ab2 {"sessionId": "ea17c07d-d98b-49e2-8e3b-9401e9644ab2"}
+[2019-06-22 16:42:34,729][7356:4612][_request][DEBUG] Finished Request
+[2019-06-22 16:42:35,075][7356:4612][quit][INFO] ----------------appium close---------------------
+[2019-06-22 16:42:35,075][7356:4612][run][INFO] 33fd33dftest over
+[2019-06-22 16:43:36,618][5932:3896][connect][DEBUG] http://127.0.0.1:4873/wd/hub
+[2019-06-22 16:43:36,618][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:43:43,704][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:43,704][5932:3896][connect][DEBUG] 启动接口为：4873,手机ID为：33fd33df
+[2019-06-22 16:43:43,706][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:43,730][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:44,232][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:44,253][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:44,753][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:44,773][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:45,275][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:45,292][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:45,793][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:45,819][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:46,322][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:46,342][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:46,844][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:46,869][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:47,371][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:47,388][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:47,888][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:47,907][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:48,408][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:48,427][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:48,928][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:48,948][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:49,450][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:49,470][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:49,971][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:49,987][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:50,490][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:50,512][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:51,013][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:51,032][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:51,536][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:51,555][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:52,055][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:52,062][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:52,562][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:52,578][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:53,079][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:53,092][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:53,594][5932:3896][_request][DEBUG] POST http://127.0.0.1:4873/wd/hub/session/52b9277f-6eb7-4864-b107-b9a369846153/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "52b9277f-6eb7-4864-b107-b9a369846153", "value": null}
+[2019-06-22 16:43:53,625][5932:3896][_request][DEBUG] Finished Request
+[2019-06-22 16:43:54,526][5932:3896][init][DEBUG] Importing BmpImagePlugin
+[2019-06-22 16:43:54,536][5932:3896][init][DEBUG] Importing BufrStubImagePlugin
+[2019-06-22 16:43:54,536][5932:3896][init][DEBUG] Importing CurImagePlugin
+[2019-06-22 16:43:54,539][5932:3896][init][DEBUG] Importing DcxImagePlugin
+[2019-06-22 16:43:54,539][5932:3896][init][DEBUG] Importing DdsImagePlugin
+[2019-06-22 16:43:54,540][5932:3896][init][DEBUG] Importing EpsImagePlugin
+[2019-06-22 16:43:54,565][5932:3896][init][DEBUG] Importing FitsStubImagePlugin
+[2019-06-22 16:43:54,566][5932:3896][init][DEBUG] Importing FliImagePlugin
+[2019-06-22 16:43:54,568][5932:3896][init][DEBUG] Importing FpxImagePlugin
+[2019-06-22 16:43:54,576][5932:3896][init][DEBUG] Importing FtexImagePlugin
+[2019-06-22 16:43:54,578][5932:3896][init][DEBUG] Importing GbrImagePlugin
+[2019-06-22 16:43:54,578][5932:3896][init][DEBUG] Importing GifImagePlugin
+[2019-06-22 16:43:54,582][5932:3896][init][DEBUG] Importing GribStubImagePlugin
+[2019-06-22 16:43:54,582][5932:3896][init][DEBUG] Importing Hdf5StubImagePlugin
+[2019-06-22 16:43:54,582][5932:3896][init][DEBUG] Importing IcnsImagePlugin
+[2019-06-22 16:43:54,586][5932:3896][init][DEBUG] Importing IcoImagePlugin
+[2019-06-22 16:43:54,588][5932:3896][init][DEBUG] Importing ImImagePlugin
+[2019-06-22 16:43:54,589][5932:3896][init][DEBUG] Importing ImtImagePlugin
+[2019-06-22 16:43:54,591][5932:3896][init][DEBUG] Importing IptcImagePlugin
+[2019-06-22 16:43:54,592][5932:3896][init][DEBUG] Importing JpegImagePlugin
+[2019-06-22 16:43:54,608][5932:3896][init][DEBUG] Importing Jpeg2KImagePlugin
+[2019-06-22 16:43:54,608][5932:3896][init][DEBUG] Importing McIdasImagePlugin
+[2019-06-22 16:43:54,609][5932:3896][init][DEBUG] Importing MicImagePlugin
+[2019-06-22 16:43:54,611][5932:3896][init][DEBUG] Importing MpegImagePlugin
+[2019-06-22 16:43:54,611][5932:3896][init][DEBUG] Importing MpoImagePlugin
+[2019-06-22 16:43:54,612][5932:3896][init][DEBUG] Importing MspImagePlugin
+[2019-06-22 16:43:54,614][5932:3896][init][DEBUG] Importing PalmImagePlugin
+[2019-06-22 16:43:54,615][5932:3896][init][DEBUG] Importing PcdImagePlugin
+[2019-06-22 16:43:54,617][5932:3896][init][DEBUG] Importing PcxImagePlugin
+[2019-06-22 16:43:54,617][5932:3896][init][DEBUG] Importing PdfImagePlugin
+[2019-06-22 16:43:54,618][5932:3896][init][DEBUG] Importing PixarImagePlugin
+[2019-06-22 16:43:54,618][5932:3896][init][DEBUG] Importing PngImagePlugin
+[2019-06-22 16:43:54,618][5932:3896][init][DEBUG] Importing PpmImagePlugin
+[2019-06-22 16:43:54,621][5932:3896][init][DEBUG] Importing PsdImagePlugin
+[2019-06-22 16:43:54,621][5932:3896][init][DEBUG] Importing SgiImagePlugin
+[2019-06-22 16:43:54,621][5932:3896][init][DEBUG] Importing SpiderImagePlugin
+[2019-06-22 16:43:54,622][5932:3896][init][DEBUG] Importing SunImagePlugin
+[2019-06-22 16:43:54,624][5932:3896][init][DEBUG] Importing TgaImagePlugin
+[2019-06-22 16:43:54,625][5932:3896][init][DEBUG] Importing TiffImagePlugin
+[2019-06-22 16:43:54,625][5932:3896][init][DEBUG] Importing WebPImagePlugin
+[2019-06-22 16:43:54,627][5932:3896][init][DEBUG] Importing WmfImagePlugin
+[2019-06-22 16:43:54,627][5932:3896][init][DEBUG] Importing XbmImagePlugin
+[2019-06-22 16:43:54,630][5932:3896][init][DEBUG] Importing XpmImagePlugin
+[2019-06-22 16:43:54,631][5932:3896][init][DEBUG] Importing XVThumbImagePlugin
+[2019-06-22 16:45:15,739][7912:2200][connect][DEBUG] http://127.0.0.1:4740/wd/hub
+[2019-06-22 16:45:16,243][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:45:23,453][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:23,453][7912:2200][connect][DEBUG] 启动接口为：4740,手机ID为：33fd33df
+[2019-06-22 16:45:23,453][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:23,482][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:23,982][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:24,003][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:24,503][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:24,526][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:25,026][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:25,042][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:25,543][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:25,562][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:26,062][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:26,082][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:26,584][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:26,601][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:27,101][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:27,118][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:27,618][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:27,640][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:28,141][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:28,160][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:28,661][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:28,690][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:29,190][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:29,210][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:29,710][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:29,727][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:30,230][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:30,246][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:30,746][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:30,765][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:31,266][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:31,286][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:31,788][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:31,819][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:32,319][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:32,336][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:32,838][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:32,851][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:33,351][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:45:33,372][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:34,250][7912:2200][init][DEBUG] Importing BmpImagePlugin
+[2019-06-22 16:45:34,259][7912:2200][init][DEBUG] Importing BufrStubImagePlugin
+[2019-06-22 16:45:34,259][7912:2200][init][DEBUG] Importing CurImagePlugin
+[2019-06-22 16:45:34,262][7912:2200][init][DEBUG] Importing DcxImagePlugin
+[2019-06-22 16:45:34,263][7912:2200][init][DEBUG] Importing DdsImagePlugin
+[2019-06-22 16:45:34,265][7912:2200][init][DEBUG] Importing EpsImagePlugin
+[2019-06-22 16:45:34,293][7912:2200][init][DEBUG] Importing FitsStubImagePlugin
+[2019-06-22 16:45:34,295][7912:2200][init][DEBUG] Importing FliImagePlugin
+[2019-06-22 16:45:34,296][7912:2200][init][DEBUG] Importing FpxImagePlugin
+[2019-06-22 16:45:34,305][7912:2200][init][DEBUG] Importing FtexImagePlugin
+[2019-06-22 16:45:34,305][7912:2200][init][DEBUG] Importing GbrImagePlugin
+[2019-06-22 16:45:34,306][7912:2200][init][DEBUG] Importing GifImagePlugin
+[2019-06-22 16:45:34,309][7912:2200][init][DEBUG] Importing GribStubImagePlugin
+[2019-06-22 16:45:34,309][7912:2200][init][DEBUG] Importing Hdf5StubImagePlugin
+[2019-06-22 16:45:34,311][7912:2200][init][DEBUG] Importing IcnsImagePlugin
+[2019-06-22 16:45:34,313][7912:2200][init][DEBUG] Importing IcoImagePlugin
+[2019-06-22 16:45:34,315][7912:2200][init][DEBUG] Importing ImImagePlugin
+[2019-06-22 16:45:34,316][7912:2200][init][DEBUG] Importing ImtImagePlugin
+[2019-06-22 16:45:34,318][7912:2200][init][DEBUG] Importing IptcImagePlugin
+[2019-06-22 16:45:34,319][7912:2200][init][DEBUG] Importing JpegImagePlugin
+[2019-06-22 16:45:34,329][7912:2200][init][DEBUG] Importing Jpeg2KImagePlugin
+[2019-06-22 16:45:34,329][7912:2200][init][DEBUG] Importing McIdasImagePlugin
+[2019-06-22 16:45:34,331][7912:2200][init][DEBUG] Importing MicImagePlugin
+[2019-06-22 16:45:34,332][7912:2200][init][DEBUG] Importing MpegImagePlugin
+[2019-06-22 16:45:34,332][7912:2200][init][DEBUG] Importing MpoImagePlugin
+[2019-06-22 16:45:34,332][7912:2200][init][DEBUG] Importing MspImagePlugin
+[2019-06-22 16:45:34,334][7912:2200][init][DEBUG] Importing PalmImagePlugin
+[2019-06-22 16:45:34,335][7912:2200][init][DEBUG] Importing PcdImagePlugin
+[2019-06-22 16:45:34,336][7912:2200][init][DEBUG] Importing PcxImagePlugin
+[2019-06-22 16:45:34,336][7912:2200][init][DEBUG] Importing PdfImagePlugin
+[2019-06-22 16:45:34,338][7912:2200][init][DEBUG] Importing PixarImagePlugin
+[2019-06-22 16:45:34,338][7912:2200][init][DEBUG] Importing PngImagePlugin
+[2019-06-22 16:45:34,338][7912:2200][init][DEBUG] Importing PpmImagePlugin
+[2019-06-22 16:45:34,339][7912:2200][init][DEBUG] Importing PsdImagePlugin
+[2019-06-22 16:45:34,341][7912:2200][init][DEBUG] Importing SgiImagePlugin
+[2019-06-22 16:45:34,342][7912:2200][init][DEBUG] Importing SpiderImagePlugin
+[2019-06-22 16:45:34,342][7912:2200][init][DEBUG] Importing SunImagePlugin
+[2019-06-22 16:45:34,342][7912:2200][init][DEBUG] Importing TgaImagePlugin
+[2019-06-22 16:45:34,344][7912:2200][init][DEBUG] Importing TiffImagePlugin
+[2019-06-22 16:45:34,344][7912:2200][init][DEBUG] Importing WebPImagePlugin
+[2019-06-22 16:45:34,345][7912:2200][init][DEBUG] Importing WmfImagePlugin
+[2019-06-22 16:45:34,345][7912:2200][init][DEBUG] Importing XbmImagePlugin
+[2019-06-22 16:45:34,348][7912:2200][init][DEBUG] Importing XpmImagePlugin
+[2019-06-22 16:45:34,349][7912:2200][init][DEBUG] Importing XVThumbImagePlugin
+[2019-06-22 16:45:45,698][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": "id", "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": "com.imo.android.imoim:id/phone"}
+[2019-06-22 16:45:45,782][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:45,785][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element/1/click {"sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "id": "1"}
+[2019-06-22 16:45:49,029][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:45:49,776][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/appium/device/hide_keyboard {"sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "strategy": "tapOutside"}
+[2019-06-22 16:45:50,108][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:00,727][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": "id", "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": "com.imo.android.imoim:id/phone"}
+[2019-06-22 16:46:00,778][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:00,779][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element/2/value {"sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "id": "2", "value": ["18819490408"]}
+[2019-06-22 16:46:06,122][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:11,499][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:11,506][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:12,007][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:12,063][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:12,563][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:12,584][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:13,086][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:13,108][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:13,611][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:13,631][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:14,134][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:14,151][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:14,654][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:14,676][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:15,177][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:15,197][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:15,698][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:15,719][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:16,220][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:16,240][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:16,743][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:16,763][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:17,265][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:17,328][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:17,829][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:17,855][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:18,355][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:18,385][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:18,888][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:18,910][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:19,411][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:19,440][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:19,944][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:19,950][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:20,451][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:20,474][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:20,976][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:20,983][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:21,484][7912:2200][_request][DEBUG] POST http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9", "value": null}
+[2019-06-22 16:46:21,506][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:35,953][7912:2200][_request][DEBUG] DELETE http://127.0.0.1:4740/wd/hub/session/67592ee2-64ee-4b08-ab4f-7fb3132019c9 {"sessionId": "67592ee2-64ee-4b08-ab4f-7fb3132019c9"}
+[2019-06-22 16:46:37,561][7912:2200][_request][DEBUG] Finished Request
+[2019-06-22 16:46:37,986][7912:2200][quit][INFO] ----------------appium close---------------------
+[2019-06-22 16:46:37,986][7912:2200][run][INFO] 33fd33dftest over
+[2019-06-22 16:49:31,941][3052:7604][connect][DEBUG] http://127.0.0.1:4708/wd/hub
+[2019-06-22 16:49:31,963][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:49:40,046][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:40,046][3052:7604][connect][DEBUG] 启动接口为：4708,手机ID为：33fd33df
+[2019-06-22 16:49:40,048][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:40,076][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:40,576][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:40,598][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:41,098][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:41,130][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:41,631][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:41,647][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:42,148][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:42,165][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:42,667][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:42,686][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:43,187][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:43,206][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:43,707][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:43,726][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:44,227][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:44,246][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:44,746][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:44,776][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:45,278][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:45,292][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:45,793][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:45,815][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:46,315][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:46,332][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:46,832][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:46,846][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:47,348][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:47,365][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:47,867][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:47,874][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:48,375][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:48,391][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:48,891][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:48,913][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:49,414][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:49,437][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:49,938][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:49:49,963][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:50,957][3052:7604][init][DEBUG] Importing BmpImagePlugin
+[2019-06-22 16:49:50,963][3052:7604][init][DEBUG] Importing BufrStubImagePlugin
+[2019-06-22 16:49:50,963][3052:7604][init][DEBUG] Importing CurImagePlugin
+[2019-06-22 16:49:50,964][3052:7604][init][DEBUG] Importing DcxImagePlugin
+[2019-06-22 16:49:50,967][3052:7604][init][DEBUG] Importing DdsImagePlugin
+[2019-06-22 16:49:50,967][3052:7604][init][DEBUG] Importing EpsImagePlugin
+[2019-06-22 16:49:51,000][3052:7604][init][DEBUG] Importing FitsStubImagePlugin
+[2019-06-22 16:49:51,002][3052:7604][init][DEBUG] Importing FliImagePlugin
+[2019-06-22 16:49:51,003][3052:7604][init][DEBUG] Importing FpxImagePlugin
+[2019-06-22 16:49:51,015][3052:7604][init][DEBUG] Importing FtexImagePlugin
+[2019-06-22 16:49:51,016][3052:7604][init][DEBUG] Importing GbrImagePlugin
+[2019-06-22 16:49:51,016][3052:7604][init][DEBUG] Importing GifImagePlugin
+[2019-06-22 16:49:51,019][3052:7604][init][DEBUG] Importing GribStubImagePlugin
+[2019-06-22 16:49:51,020][3052:7604][init][DEBUG] Importing Hdf5StubImagePlugin
+[2019-06-22 16:49:51,020][3052:7604][init][DEBUG] Importing IcnsImagePlugin
+[2019-06-22 16:49:51,025][3052:7604][init][DEBUG] Importing IcoImagePlugin
+[2019-06-22 16:49:51,026][3052:7604][init][DEBUG] Importing ImImagePlugin
+[2019-06-22 16:49:51,026][3052:7604][init][DEBUG] Importing ImtImagePlugin
+[2019-06-22 16:49:51,029][3052:7604][init][DEBUG] Importing IptcImagePlugin
+[2019-06-22 16:49:51,029][3052:7604][init][DEBUG] Importing JpegImagePlugin
+[2019-06-22 16:49:51,043][3052:7604][init][DEBUG] Importing Jpeg2KImagePlugin
+[2019-06-22 16:49:51,045][3052:7604][init][DEBUG] Importing McIdasImagePlugin
+[2019-06-22 16:49:51,046][3052:7604][init][DEBUG] Importing MicImagePlugin
+[2019-06-22 16:49:51,046][3052:7604][init][DEBUG] Importing MpegImagePlugin
+[2019-06-22 16:49:51,048][3052:7604][init][DEBUG] Importing MpoImagePlugin
+[2019-06-22 16:49:51,049][3052:7604][init][DEBUG] Importing MspImagePlugin
+[2019-06-22 16:49:51,049][3052:7604][init][DEBUG] Importing PalmImagePlugin
+[2019-06-22 16:49:51,052][3052:7604][init][DEBUG] Importing PcdImagePlugin
+[2019-06-22 16:49:51,052][3052:7604][init][DEBUG] Importing PcxImagePlugin
+[2019-06-22 16:49:51,052][3052:7604][init][DEBUG] Importing PdfImagePlugin
+[2019-06-22 16:49:51,053][3052:7604][init][DEBUG] Importing PixarImagePlugin
+[2019-06-22 16:49:51,055][3052:7604][init][DEBUG] Importing PngImagePlugin
+[2019-06-22 16:49:51,055][3052:7604][init][DEBUG] Importing PpmImagePlugin
+[2019-06-22 16:49:51,055][3052:7604][init][DEBUG] Importing PsdImagePlugin
+[2019-06-22 16:49:51,056][3052:7604][init][DEBUG] Importing SgiImagePlugin
+[2019-06-22 16:49:51,058][3052:7604][init][DEBUG] Importing SpiderImagePlugin
+[2019-06-22 16:49:51,059][3052:7604][init][DEBUG] Importing SunImagePlugin
+[2019-06-22 16:49:51,059][3052:7604][init][DEBUG] Importing TgaImagePlugin
+[2019-06-22 16:49:51,061][3052:7604][init][DEBUG] Importing TiffImagePlugin
+[2019-06-22 16:49:51,061][3052:7604][init][DEBUG] Importing WebPImagePlugin
+[2019-06-22 16:49:51,062][3052:7604][init][DEBUG] Importing WmfImagePlugin
+[2019-06-22 16:49:51,062][3052:7604][init][DEBUG] Importing XbmImagePlugin
+[2019-06-22 16:49:51,065][3052:7604][init][DEBUG] Importing XpmImagePlugin
+[2019-06-22 16:49:51,066][3052:7604][init][DEBUG] Importing XVThumbImagePlugin
+[2019-06-22 16:49:53,667][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": "id", "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": "com.imo.android.imoim:id/phone"}
+[2019-06-22 16:49:53,732][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:53,732][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element/1/click {"sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "id": "1"}
+[2019-06-22 16:49:56,927][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:56,928][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/appium/device/hide_keyboard {"sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "strategy": "tapOutside"}
+[2019-06-22 16:49:57,220][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:57,223][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": "id", "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": "com.imo.android.imoim:id/phone"}
+[2019-06-22 16:49:57,825][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:49:57,828][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element/2/value {"sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "id": "2", "value": ["18819490408"]}
+[2019-06-22 16:50:02,979][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:12,950][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:12,970][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:13,470][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:13,493][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:13,996][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:14,016][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:14,517][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:14,523][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:15,026][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:15,063][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:15,565][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:15,584][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:16,085][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:16,115][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:16,617][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:16,624][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:17,125][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:17,142][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:17,644][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:17,664][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:18,165][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:18,184][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:18,686][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:18,714][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:19,217][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:19,236][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:19,740][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:19,773][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:20,276][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:20,293][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:20,795][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:20,802][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:21,302][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:21,322][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:21,823][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:21,848][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:22,349][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:22,368][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:50:22,869][3052:7604][_request][DEBUG] POST http://127.0.0.1:4708/wd/hub/session/fe073c10-f72e-4047-8ad8-a19530bb9f76/element {"using": ["id", "com.imo.android.imoim:id/get_started_button"], "sessionId": "fe073c10-f72e-4047-8ad8-a19530bb9f76", "value": null}
+[2019-06-22 16:50:22,881][3052:7604][_request][DEBUG] Finished Request
+[2019-06-22 16:52:10,384][6252:6376][connect][DEBUG] http://127.0.0.1:4809/wd/hub
+[2019-06-22 16:52:10,400][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"deviceName": "hermes", "udid": "33fd33df", "noReset": true, "platformVersion": "8.0.0", "appPackage": "com.imo.android.imoim", "platformName": "Android", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-22 16:52:22,371][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:22,371][6252:6376][connect][DEBUG] 启动接口为：4809,手机ID为：33fd33df
+[2019-06-22 16:52:22,371][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:22,391][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:22,891][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:22,897][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:23,397][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:23,415][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:23,915][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:23,928][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:24,430][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:24,446][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:24,947][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:24,963][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:25,463][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:25,477][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:25,979][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:25,992][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:26,493][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:26,506][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:27,006][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:27,023][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:27,523][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:27,538][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:28,039][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:28,053][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:28,555][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:28,569][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:29,069][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:29,082][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:29,582][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:29,596][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:30,098][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:30,115][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:30,615][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:30,630][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:31,130][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:31,144][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:31,644][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:31,667][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:32,167][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": ["xpath", "//*[@text='\u5141\u8bb8']"], "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": null}
+[2019-06-22 16:52:32,200][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:32,701][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": "id", "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": "com.imo.android.imoim:id/phone"}
+[2019-06-22 16:52:32,766][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:32,766][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element/1/click {"sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "id": "1"}
+[2019-06-22 16:52:35,950][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:35,950][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/appium/device/hide_keyboard {"sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "strategy": "tapOutside"}
+[2019-06-22 16:52:36,240][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:36,240][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": "id", "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": "com.imo.android.imoim:id/phone"}
+[2019-06-22 16:52:36,911][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:36,911][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element/2/value {"sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "id": "2", "value": ["18819490408"]}
+[2019-06-22 16:52:42,415][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:42,415][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element {"using": "id", "sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "value": "com.imo.android.imoim:id/get_started_button"}
+[2019-06-22 16:52:42,937][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:42,937][6252:6376][_request][DEBUG] POST http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e/element/3/click {"sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e", "id": "3"}
+[2019-06-22 16:52:43,448][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:43,450][6252:6376][_request][DEBUG] DELETE http://127.0.0.1:4809/wd/hub/session/8945effe-8b48-4c6e-aca1-3c231ace6f3e {"sessionId": "8945effe-8b48-4c6e-aca1-3c231ace6f3e"}
+[2019-06-22 16:52:44,930][6252:6376][_request][DEBUG] Finished Request
+[2019-06-22 16:52:45,290][6252:6376][quit][INFO] ----------------appium close---------------------
+[2019-06-22 16:52:45,290][6252:6376][run][INFO] 33fd33dftest over

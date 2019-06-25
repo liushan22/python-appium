@@ -1,0 +1,102 @@
+[2019-06-15 12:29:13,636][1904:14528][connect][DEBUG] http://localhost:4700/wd/hub
+[2019-06-15 12:29:19,110][1904:14528][__init__][INFO] Could not connect to port 4700 on host localhost
+[2019-06-15 12:29:19,111][1904:14528][__init__][INFO] Could not get IP address for host: localhost
+[2019-06-15 12:29:19,113][1904:14528][_request][DEBUG] POST http://localhost:4700/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.0.2", "appium:udid": "1c66d0647d54", "appium:deviceName": "hermes", "appium:noReset": true, "appium:appPackage": "com.imo.android.imoimalpha", "appium:appActivity": "com.imo.android.imoim.activities.Home"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "1c66d0647d54", "deviceName": "hermes", "noReset": true, "appPackage": "com.imo.android.imoimalpha", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-15 12:29:19,118][1904:14528][_new_conn][DEBUG] Starting new HTTP connection (1): localhost:4700
+[2019-06-15 12:29:21,130][1904:14528][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 12:29:21,131][1904:14528][urlopen][WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04969D50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 12:29:21,132][1904:14528][_new_conn][DEBUG] Starting new HTTP connection (2): localhost:4700
+[2019-06-15 12:29:23,143][1904:14528][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 12:29:23,143][1904:14528][urlopen][WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x044F6670>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 12:29:23,143][1904:14528][_new_conn][DEBUG] Starting new HTTP connection (3): localhost:4700
+[2019-06-15 12:29:25,156][1904:14528][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 12:29:25,156][1904:14528][urlopen][WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x044F6130>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 12:29:25,157][1904:14528][_new_conn][DEBUG] Starting new HTTP connection (4): localhost:4700
+[2019-06-15 12:29:32,299][1904:14528][connect][INFO] appium 启动失败
+[2019-06-15 12:29:40,074][1904:14528][quit][INFO] ----------------appium close---------------------
+[2019-06-15 12:29:40,075][1904:14528][run][INFO] 1c66d0647d54test over
+[2019-06-15 14:12:49,187][14836:21048][connect][DEBUG] http://localhost:4866/wd/hub
+[2019-06-15 14:12:52,375][14836:21048][__init__][INFO] Could not connect to port 4866 on host localhost
+[2019-06-15 14:12:52,375][14836:21048][__init__][INFO] Could not get IP address for host: localhost
+[2019-06-15 14:12:52,378][14836:21048][_request][DEBUG] POST http://localhost:4866/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.0.2", "appium:udid": "1c66d0647d54", "appium:deviceName": "hermes", "appium:noReset": true, "appium:appPackage": "com.imo.android.imoimalpha", "appium:appActivity": "com.imo.android.imoim.activities.Home"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "1c66d0647d54", "deviceName": "hermes", "noReset": true, "appPackage": "com.imo.android.imoimalpha", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-15 14:12:52,383][14836:21048][_new_conn][DEBUG] Starting new HTTP connection (1): localhost:4866
+[2019-06-15 14:12:54,395][14836:21048][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 14:12:54,396][14836:21048][urlopen][WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04A33950>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 14:12:54,396][14836:21048][_new_conn][DEBUG] Starting new HTTP connection (2): localhost:4866
+[2019-06-15 14:12:56,411][14836:21048][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 14:12:56,411][14836:21048][urlopen][WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04A33A10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 14:12:56,412][14836:21048][_new_conn][DEBUG] Starting new HTTP connection (3): localhost:4866
+[2019-06-15 14:12:58,423][14836:21048][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 14:12:58,424][14836:21048][urlopen][WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04A339F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 14:12:58,424][14836:21048][_new_conn][DEBUG] Starting new HTTP connection (4): localhost:4866
+[2019-06-15 14:13:10,430][14836:21048][connect][INFO] appium 启动失败
+[2019-06-15 14:13:17,362][14836:21048][quit][INFO] ----------------appium close---------------------
+[2019-06-15 14:13:17,363][14836:21048][run][INFO] 1c66d0647d54test over
+[2019-06-15 17:14:06,149][20396:3808][connect][DEBUG] http://127.0.0.1:4849/wd/hub
+[2019-06-15 17:14:07,155][20396:3808][__init__][INFO] Could not connect to port 4849 on host 127.0.0.1
+[2019-06-15 17:14:07,155][20396:3808][__init__][INFO] Could not get IP address for host: 127.0.0.1
+[2019-06-15 17:14:07,155][20396:3808][_request][DEBUG] POST http://127.0.0.1:4849/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.0.2", "appium:udid": "1c66d0647d54", "appium:deviceName": "hermes", "appium:noReset": true, "appium:appPackage": "com.imo.android.imoimalpha", "appium:appActivity": "com.imo.android.imoim.activities.Home"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "1c66d0647d54", "deviceName": "hermes", "noReset": true, "appPackage": "com.imo.android.imoimalpha", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-15 17:14:07,156][20396:3808][_new_conn][DEBUG] Starting new HTTP connection (1): 127.0.0.1:4849
+[2019-06-15 17:14:08,159][20396:3808][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:14:08,159][20396:3808][urlopen][WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03DB0D50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:14:08,159][20396:3808][_new_conn][DEBUG] Starting new HTTP connection (2): 127.0.0.1:4849
+[2019-06-15 17:14:09,162][20396:3808][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:14:09,162][20396:3808][urlopen][WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03DB0E90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:14:09,163][20396:3808][_new_conn][DEBUG] Starting new HTTP connection (3): 127.0.0.1:4849
+[2019-06-15 17:14:10,166][20396:3808][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:14:10,166][20396:3808][urlopen][WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03DB0F50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:14:10,166][20396:3808][_new_conn][DEBUG] Starting new HTTP connection (4): 127.0.0.1:4849
+[2019-06-15 17:14:11,170][20396:3808][connect][INFO] appium 启动失败
+[2019-06-15 17:14:11,659][20396:3808][quit][INFO] ----------------appium close---------------------
+[2019-06-15 17:14:11,660][20396:3808][run][INFO] 1c66d0647d54test over
+[2019-06-15 17:18:36,296][21008:18000][connect][DEBUG] http://127.0.0.1:4749/wd/hub
+[2019-06-15 17:18:37,303][21008:18000][__init__][INFO] Could not connect to port 4749 on host 127.0.0.1
+[2019-06-15 17:18:37,303][21008:18000][__init__][INFO] Could not get IP address for host: 127.0.0.1
+[2019-06-15 17:18:37,304][21008:18000][_request][DEBUG] POST http://127.0.0.1:4749/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.0.2", "appium:udid": "1c66d0647d54", "appium:deviceName": "hermes", "appium:noReset": true, "appium:appPackage": "com.imo.android.imoimalpha", "appium:appActivity": "com.imo.android.imoim.activities.Home"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "1c66d0647d54", "deviceName": "hermes", "noReset": true, "appPackage": "com.imo.android.imoimalpha", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-15 17:18:37,305][21008:18000][_new_conn][DEBUG] Starting new HTTP connection (1): 127.0.0.1:4749
+[2019-06-15 17:18:38,310][21008:18000][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:18:38,310][21008:18000][urlopen][WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03B22BB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:18:38,310][21008:18000][_new_conn][DEBUG] Starting new HTTP connection (2): 127.0.0.1:4749
+[2019-06-15 17:18:39,314][21008:18000][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:18:39,314][21008:18000][urlopen][WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03B22E90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:18:39,314][21008:18000][_new_conn][DEBUG] Starting new HTTP connection (3): 127.0.0.1:4749
+[2019-06-15 17:18:40,317][21008:18000][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:18:40,317][21008:18000][urlopen][WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03B22EF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:18:40,318][21008:18000][_new_conn][DEBUG] Starting new HTTP connection (4): 127.0.0.1:4749
+[2019-06-15 17:18:41,321][21008:18000][connect][INFO] appium 启动失败
+[2019-06-15 17:18:41,685][21008:18000][quit][INFO] ----------------appium close---------------------
+[2019-06-15 17:18:41,685][21008:18000][run][INFO] 1c66d0647d54test over
+[2019-06-15 17:22:19,514][11060:8252][connect][DEBUG] http://127.0.0.1:4858/wd/hub
+[2019-06-15 17:22:20,521][11060:8252][__init__][INFO] Could not connect to port 4858 on host 127.0.0.1
+[2019-06-15 17:22:20,521][11060:8252][__init__][INFO] Could not get IP address for host: 127.0.0.1
+[2019-06-15 17:22:20,522][11060:8252][_request][DEBUG] POST http://127.0.0.1:4858/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.0.2", "appium:udid": "1c66d0647d54", "appium:deviceName": "hermes", "appium:noReset": true, "appium:appPackage": "com.imo.android.imoimalpha", "appium:appActivity": "com.imo.android.imoim.activities.Home"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "1c66d0647d54", "deviceName": "hermes", "noReset": true, "appPackage": "com.imo.android.imoimalpha", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-15 17:22:20,523][11060:8252][_new_conn][DEBUG] Starting new HTTP connection (1): 127.0.0.1:4858
+[2019-06-15 17:22:21,526][11060:8252][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:22:21,526][11060:8252][urlopen][WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x038F2D50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:22:21,526][11060:8252][_new_conn][DEBUG] Starting new HTTP connection (2): 127.0.0.1:4858
+[2019-06-15 17:22:22,530][11060:8252][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:22:22,530][11060:8252][urlopen][WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x038F2EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:22:22,531][11060:8252][_new_conn][DEBUG] Starting new HTTP connection (3): 127.0.0.1:4858
+[2019-06-15 17:22:23,534][11060:8252][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:22:23,535][11060:8252][urlopen][WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x038F2F10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:22:23,535][11060:8252][_new_conn][DEBUG] Starting new HTTP connection (4): 127.0.0.1:4858
+[2019-06-15 17:22:24,550][11060:8252][connect][INFO] appium 启动失败
+[2019-06-15 17:22:24,903][11060:8252][quit][INFO] ----------------appium close---------------------
+[2019-06-15 17:22:24,904][11060:8252][run][INFO] 1c66d0647d54test over
+[2019-06-15 17:26:37,444][10080:18656][connect][DEBUG] http://127.0.0.1:4766/wd/hub
+[2019-06-15 17:26:38,451][10080:18656][__init__][INFO] Could not connect to port 4766 on host 127.0.0.1
+[2019-06-15 17:26:38,451][10080:18656][__init__][INFO] Could not get IP address for host: 127.0.0.1
+[2019-06-15 17:26:38,452][10080:18656][_request][DEBUG] POST http://127.0.0.1:4766/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.0.2", "appium:udid": "1c66d0647d54", "appium:deviceName": "hermes", "appium:noReset": true, "appium:appPackage": "com.imo.android.imoimalpha", "appium:appActivity": "com.imo.android.imoim.activities.Home"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "1c66d0647d54", "deviceName": "hermes", "noReset": true, "appPackage": "com.imo.android.imoimalpha", "appActivity": "com.imo.android.imoim.activities.Home"}}
+[2019-06-15 17:26:38,453][10080:18656][_new_conn][DEBUG] Starting new HTTP connection (1): 127.0.0.1:4766
+[2019-06-15 17:26:39,455][10080:18656][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:26:39,456][10080:18656][urlopen][WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03F42E10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:26:39,456][10080:18656][_new_conn][DEBUG] Starting new HTTP connection (2): 127.0.0.1:4766
+[2019-06-15 17:26:40,459][10080:18656][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:26:40,459][10080:18656][urlopen][WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03F42F50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:26:40,460][10080:18656][_new_conn][DEBUG] Starting new HTTP connection (3): 127.0.0.1:4766
+[2019-06-15 17:26:41,463][10080:18656][increment][DEBUG] Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-06-15 17:26:41,463][10080:18656][urlopen][WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03F5E030>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[2019-06-15 17:26:41,463][10080:18656][_new_conn][DEBUG] Starting new HTTP connection (4): 127.0.0.1:4766
+[2019-06-15 17:26:42,467][10080:18656][connect][INFO] appium 启动失败
+[2019-06-15 17:26:42,852][10080:18656][quit][INFO] ----------------appium close---------------------
+[2019-06-15 17:26:42,852][10080:18656][run][INFO] 1c66d0647d54test over

@@ -23,19 +23,17 @@ class driver(object):
         self.device = device
         self.desired_caps ={}
         self.desired_caps['platformName'] = 'Android'
-        self.desired_caps['platformVersion'] = '5.0.2'
+        self.desired_caps['platformVersion'] = '8.0.0'
         self.desired_caps['udid'] = self.device
         self.desired_caps['deviceName'] = 'hermes'
         self.desired_caps['noReset'] = True
-        self.desired_caps['appPackage'] = 'com.igola.travel'
-        # self.desired_caps['appPackage'] = 'com.igola.travel.young'
-        self.desired_caps['appActivity'] = 'com.igola.travel.ui.LaunchActivity'
-        # self.desired_caps['appActivity'] = 'com.igola.travel.young.ui.MainActivity'
+        self.desired_caps['appPackage'] = 'com.imo.android.imoim' # com.imo.android.imoimalpha; com.imo.android.imoimlite
+        self.desired_caps['appActivity'] = 'com.imo.android.imoim.activities.Home'
         # self.desired_caps['nativeWebTap'] = True
         self.log = logger(date.today_report_path).getlog()
 
     def connect(self, port):
-        url = 'http://localhost:%s/wd/hub' % str(port)
+        url = 'http://127.0.0.1:%s/wd/hub' % str(port)
         self.log.debug(url)
         try:
             global dr

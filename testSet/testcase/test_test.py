@@ -1,19 +1,18 @@
-import unittest
-from testSet.page.homePage import homePage
-import testSet.util.date as date
-from testSet.common.log import logger
-from . import testcase
-isinit = False
+from appium import webdriver
+import subprocess
+import os
+import time
 
+desired_caps ={
+    'platformName':'Android',
+    'deviceName':'33fd33df',
+    'platformVersion':'8.0.0',
+    'appPackage':'com.imo.android.imoim',
+    'appActivity':'com.imo.android.imoim.activities.Home'
+}
 
-class test(testcase.Testcase):
-
-    def test_1(self):
-        self.log.info("你好")
-        self.step1()
-
-    def step1(self):
-        self.log.info("hello step")
-
-if __name__ == '__main__':
-    unittest.main(verbosity=2)
+cmd = 'appium' + ' -p ' + '4723' + ' --bootstrap-port ' + '4759' + ' -U ' + '33fd33df' + " --session-override"
+subprocess.Popen(cmd.decode('gbk'), shell=True)
+# os.system(cmd)
+time.sleep(10)
+webdriver.Remote('http://127.0.0.1:4723/wd/hub',desired_caps)

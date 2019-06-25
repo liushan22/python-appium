@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 import threading
 import unittest
-from testSet.testcase.test_flight import Test_flight as testcase1
-from testSet.testcase.test_test import test as testcase
+from testSet.testcase.imo_test import IMOTEST as testcase1
 import testSet.common.report as report
 import testSet.page.basePage as basePage
 from testSet.common.myServer import myServer
@@ -21,8 +20,6 @@ class runTest():
         time.sleep(8)
         basePage.setconfig(config, device)
         # suite = unittest.TestSuite()
-        # suite.addTest(testcase1("test_go_flightpage"))
-        # suite.addTest(testcase1("test_search"))
         suite = unittest.TestLoader().loadTestsFromTestCase(testcase1)
         runner = createReport.getReportConfig()
         runner.run(suite)
@@ -49,7 +46,7 @@ class myThread(threading.Thread):
 
 if __name__ == '__main__':
     try:
-        devices = ["192.168.20.254:5555"]
+        devices = ["33fd33df"]
         theading_pool = []
         for device in devices:
             ms = myServer(device)

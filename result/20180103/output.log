@@ -1,9 +1,0 @@
-[2018-01-03 16:54:37,308][12520:12456][connect][DEBUG] http://localhost:4722/wd/hub
-[2018-01-03 16:54:38,368][12520:12456][_request][DEBUG] POST http://127.0.0.1:4722/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "8885dc17", "deviceName": "hermes", "noReset": true, "appPackage": "com.igola.travel", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
-[2018-01-03 16:54:42,844][12520:12456][_request][DEBUG] Finished Request
-[2018-01-03 16:54:42,844][12520:12456][connect][DEBUG] 启动接口为：4722,手机ID为：8885dc17
-[2018-01-03 16:56:13,795][16764:13572][connect][DEBUG] http://localhost:4849/wd/hub
-[2018-01-03 16:56:14,809][16764:13572][_request][DEBUG] POST http://127.0.0.1:4849/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.0.2", "udid": "8885dc17", "deviceName": "hermes", "noReset": true, "appPackage": "com.igola.travel", "appActivity": "com.igola.travel.ui.LaunchActivity"}}
-[2018-01-03 16:56:17,719][16764:13572][_request][DEBUG] Finished Request
-[2018-01-03 16:56:17,719][16764:13572][connect][DEBUG] 启动接口为：4849,手机ID为：8885dc17
-[2018-01-03 16:56:17,719][16764:13572][setUp][INFO] 搜索跳转

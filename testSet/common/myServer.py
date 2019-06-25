@@ -7,7 +7,7 @@ from .driver import driver
 from selenium.common.exceptions import WebDriverException
 import subprocess
 import time
-import urllib.request, urllib.error, urllib.parse
+# import urllib.request, urllib.error, urllib.parse
 import random
 import socket
 from .log import logger
@@ -17,8 +17,8 @@ import testSet.util.date as date
 # 启动appium
 class myServer(object):
     def __init__(self, device):
-        # self.appiumPath = "D:\Appium"
-        self.appiumPath = "F:\\Appium"
+        self.appiumPath = "D:\Appium"
+        #self.appiumPath = "C:\\Users\\admin\\AppData\\Local\\Programs\\Appium"
         self.device = device
         self.log = logger(date.today_report_path).getlog()
 
@@ -54,7 +54,7 @@ class myServer(object):
         # 启动appium
         # os.system(rootDirection + "&" + "cd" + self.appiumPath + "&" + startCMD)
         try:
-            subprocess.Popen(rootDirection + "&" + "cd" + self.appiumPath + "&" + cmd, shell=True)
+            subprocess.Popen(cmd.decode('gbk'), shell=True)
             return aport
         except Exception as msg:
             self.log.error(msg)
